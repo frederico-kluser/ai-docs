@@ -101,6 +101,12 @@ Este repositório é uma coleção de documentação e pesquisas técnicas sobre
 
 - [🔄 Redes Sociais Descentralizadas](./Redes_Sociais_Descentralizadas_Comparativo.md) - Comparativo detalhado de plataformas sociais descentralizadas, incluindo Mastodon, Nostr, Bluesky e outras alternativas com foco em privacidade.
 
+### Desenvolvimento Web e Interfaces
+
+- [🗣️ Frameworks React para IA e Interfaces de Voz](./Frameworks_React_IA_Voz_Interfaces.md) - Análise comparativa de frameworks React para criação de interfaces conversacionais e de voz.
+- [🧠 XMind: Guia de Engenharia de Prompts para LLMs](./xmind-llm-prompt-guide.md) - Técnicas avançadas para LLMs gerarem estruturas de mapas mentais XMind otimizadas.
+- [📦 XMind: Implementação de Pacote npm](./xmind-npm-implementation.md) - Guia passo a passo para criar um pacote npm que gera mapas XMind a partir de dados estruturados por LLMs.
+
 ### Fundamentos de Tecnologia
 
 ### 📚 Ciência da Computação Teórica e Algoritmos Avançados
