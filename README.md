@@ -50,6 +50,8 @@ Este repositório é uma coleção de documentação e pesquisas técnicas sobre
 
 - [🌐 Graduações em TI Online Acessíveis](./Graduacoes_TI_Online_Internacionais_Brasileiras.md) - Guia completo de graduações em Ciências da Computação com processos de admissão facilitados, comparando opções internacionais e brasileiras.
 
+- [🧠 Educação em IA no Brasil: Cursos EAD](./Educacao_IA_Brasil_Cursos_EAD_Comparativo.md) - Mapeamento completo de graduações, pós-graduações e cursos livres em Inteligência Artificial disponíveis no formato EAD no Brasil.
+
 
 
 ### Automação e Desenvolvimento
