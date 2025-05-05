@@ -2,6 +2,11 @@
 
 Este repositório é uma coleção de documentação e pesquisas técnicas sobre diversos temas em tecnologia, desenvolvimento, finanças e hardware. Cada documento contém informações detalhadas, guias, comparativos e análises técnicas para referência.
 
+## 📄 Arquivos de Configuração
+
+- [🔧 CLAUDE.md para Novos Projetos VIBE](./claude-md-new-vibe.md) - Template para guiar o Claude Code quando trabalhando com novos projetos usando a arquitetura VIBE.
+- [🔧 CLAUDE.md para Projetos Existentes](./claude-md-existing.md) - Template para guiar o Claude Code quando trabalhando com bases de código existentes.
+
 ## 📑 Documentos Disponíveis
 
 ### Wearables e Dispositivos Inteligentes
@@ -21,6 +26,8 @@ Este repositório é uma coleção de documentação e pesquisas técnicas sobre
 - [📉 Indicadores Relevantes para Ações](./Relevant_Stock_Market_Technical_Indicators.md) - Descrição e implementação de indicadores técnicos para análise de ações.
 
 - [🧠 Análise Gráfica com TensorFlow](./Stock_Technical_Analysis_with_TensorFlow.md) - Algoritmos e modelos de IA para análise de gráficos de ações.
+
+- [💹 Automatizando Investimentos na B3](./Automatizando_Investimentos_B3_Guia_Desenvolvedores_React.md) - Guia completo para desenvolvedores React.js criarem soluções de automação de investimentos para o mercado brasileiro.
 
 ### Áudio e Processamento de Voz
 
