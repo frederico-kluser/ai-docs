@@ -2,119 +2,89 @@
 
 Este repositório é uma coleção de documentação e pesquisas técnicas sobre diversos temas em tecnologia, desenvolvimento, finanças e hardware. Cada documento contém informações detalhadas, guias, comparativos e análises técnicas para referência.
 
-## 📄 Arquivos de Configuração
-
-- [🔧 CLAUDE.md para Novos Projetos VIBE](./claude-md-new-vibe.md) - Template para guiar o Claude Code quando trabalhando com novos projetos usando a arquitetura VIBE.
-- [🔧 CLAUDE.md para Projetos Existentes](./claude-md-existing.md) - Template para guiar o Claude Code quando trabalhando com bases de código existentes.
-
 ## 📑 Documentos Disponíveis
 
-### Wearables e Dispositivos Inteligentes
+### 📄 Arquivos de Configuração e Guias VIBE
 
-- [🕶️ Ray-Ban | Meta Smart Glasses](./RayBan_Meta_Smart_Glasses_Technical_Guide.md) - Especificações técnicas, limitações e possibilidades de desenvolvimento com os óculos Meta Ray-Ban.
-  
-- [👓 Óculos Inteligentes Programáveis](./Programmable_Smart_Glasses_Comparison.md) - Comparativo de modelos de óculos inteligentes disponíveis no mercado.
+- [🔧 CLAUDE.md para Novos Projetos VIBE](./claude_md_new_vibe.md) - Template para guiar o Claude Code quando trabalhando com novos projetos usando a arquitetura VIBE.
+- [🔧 CLAUDE.md para Projetos Existentes](./claude_md_existing.md) - Template para guiar o Claude Code quando trabalhando com bases de código existentes.
+- [🏗️ Arquitetura TypeScript com LLM (VIBE)](./arquitetura_vibe.md) - Padrões de arquitetura e melhores práticas para desenvolvimento TypeScript orientado por LLM.
+- [🧩 Arquiteturas Multi-Agentes para TypeScript](./arquitetura_vibe_multi_agentes_typescript.md) - Guia definitivo sobre arquiteturas para sistemas multi-agente em projetos TypeScript usando LLMs.
 
-- [⚕️ Desenvolvimento de Aplicações Médicas para Smart Glasses](./Unofficial_Medical_Apps_for_RayBan_Meta_Glasses.md) - Guia para desenvolvimento de aplicações médicas usando óculos inteligentes.
+### 🤖 Inteligência Artificial e LLMs
 
-### Finanças e Mercado de Ações
+- ✨**NEW** [📊 LLMs Open Source com LangChain](./open_source_llm_performance.md) - Análise do desempenho de LLMs open-source (1B-70B parâmetros) em tarefas de decisão estruturada.
+- [🤖 Comparativo de Modelos de IA com Busca Web](./web_search_ais_benchmark.md) - Análise comparativa entre GPT-4-turbo, Claude e DeepSeek R1 com foco em pesquisa online.
+- [☁️ Rodando Modelos LLM no Google Cloud](./config_ollma_in_google_cloud.md) - Tutorial para configurar Ollama com Falcon-180B e LLaMA 4 em GPUs A100.
+- [📝 Engenharia de Prompts para Código](./engenharia_prompts_codigo_tecnicas.md) - Técnicas para construir prompts para LLMs que geram código robusto e preciso.
+- [🧠 XMind: Guia de Engenharia de Prompts](./xmind_llm_prompt_guide.md) - Técnicas avançadas para LLMs gerarem estruturas de mapas mentais XMind otimizadas.
+- ✨**NEW** [💻 Rodando LLMs Sem Servidor](./rodando_llms_sem_servidor.md) - Guia para executar modelos de linguagem localmente em diferentes plataformas.
 
-- [📊 Melhores Templates para Aplicações Financeiras](./Responsive_Templates_for_Stock_Market_Applications.md) - Compilação de templates UI/UX para aplicações de finanças.
+### 👨‍💻 Desenvolvimento e Programação Assistida por IA
 
-- [📈 APIs Oficiais da B3](./Official_B3_Stock_Exchange_APIs.md) - Documentação sobre APIs da bolsa brasileira e alternativas.
+- [💻 Domínio do Claude Code para Desenvolvimento](./claude_code_terminal_development_guide.md) - Técnicas para maximizar a eficácia do Claude 3.7 Sonnet como assistente de codificação.
+- [🖱️ Como usar DeepSeek no Cursor](./deekseek_on_cursor.md) - Guia para configurar e usar os modelos DeepSeek no editor Cursor.
+- [🖥️ Editores de Código com Suporte a LLM](./best_code_editors_for_vibe_coding.md) - Comparativo de editores de código com integração de agentes autônomos.
+- [🧠 Arquitetura Multi-Agentes para Extensões VS Code](./multi_agentes_vs_code_extension_arquitetura.md) - Guia para múltiplos agentes LLM em extensões do VS Code.
+- [🛠️ Customização e Automação do VS Code](./vscode_customizacao_automacao_guia.md) - Guia para personalizar e automatizar o VSCode.
+- [💻 Edição de Código TypeScript com LLM](./typescript_code_editing_system_with_llm_and_ts_morph.md) - Sistema para geração e edição de código usando LLMs.
+- [👨‍💻 Projetos Open-Source para VIBE Coding](./projetos_opensource_vibe_coding.md) - Ferramentas e projetos para programação assistida por IA.
+- [🤖 Agentes Open-Source para VIBE Coding](./agentes_vibe_code_open_source.md) - Comparativo de ferramentas para programação assistida por IA.
+- [🖥️ Controle do Terminal macOS via iPhone](./controle_terminal_macos_via_iphone.md) - Soluções para acessar o terminal do macOS através de um iPhone.
 
-- [📉 Indicadores Relevantes para Ações](./Relevant_Stock_Market_Technical_Indicators.md) - Descrição e implementação de indicadores técnicos para análise de ações.
+### 🔊 Áudio, Voz e Interfaces Conversacionais
 
-- [🧠 Análise Gráfica com TensorFlow](./Stock_Technical_Analysis_with_TensorFlow.md) - Algoritmos e modelos de IA para análise de gráficos de ações.
+- [🗣️ Nari Labs Dia: Modelo TTS para Diálogos](./nari_labs_dia_tts_model_integration_guide.md) - Modelo TTS Dia para geração de diálogos realistas.
+- [🎙️ APIs de Diarização e Reconhecimento de Falantes](./commercial_speaker_diarization_and_recognition_apis.md) - Comparativo de APIs para processamento de voz.
+- [📱 Roadmap: App Android de Streaming de Áudio](./android_audio_streaming_app_development_roadmap.md) - Desenvolvimento de aplicativo para captura de áudio no Android.
+- [📲 Roadmap: App iOS React Native para Áudio](./ios_react_native_app_development_roadmap_audio_processing.md) - Desenvolvimento de app de processamento de áudio.
+- [🍎 iOS: Viabilidade de Captura de Áudio Interno](./ios_internal_audio_capture_technical_feasibility.md) - Análise de viabilidade no iOS.
+- [🗣️ Frameworks React para IA e Interfaces de Voz](./frameworks_react_ia_voz_interfaces.md) - Frameworks React para interfaces conversacionais e de voz.
 
-- [💹 Automatizando Investimentos na B3](./Automatizando_Investimentos_B3_Guia_Desenvolvedores_React.md) - Guia completo para desenvolvedores React.js criarem soluções de automação de investimentos para o mercado brasileiro.
+### 🕶️ Wearables e Dispositivos Inteligentes
 
-### Áudio e Processamento de Voz
+- [🕶️ Ray-Ban | Meta Smart Glasses](./rayban_meta_smart_glasses_technical_guide.md) - Especificações e desenvolvimento com óculos Meta Ray-Ban.
+- [👓 Óculos Inteligentes Programáveis](./programmable_smart_glasses_comparison.md) - Comparativo de modelos de óculos inteligentes.
+- [⚕️ Aplicações Médicas para Smart Glasses](./unofficial_medical_apps_for_rayban_meta_glasses.md) - Desenvolvimento de aplicações médicas com óculos inteligentes.
 
-- [🗣️ Nari Labs Dia: Modelo TTS para Diálogos](./Nari_Labs_Dia_TTS_Model_Integration_Guide.md) - Documentação sobre o modelo TTS Dia para geração de diálogos realistas.
+### 💻 Hardware e Configuração
 
-- [🎙️ APIs de Diarização e Reconhecimento de Falantes](./Commercial_Speaker_Diarization_and_Recognition_APIs.md) - Comparativo de APIs para processamento de voz.
+- [🖥️ Workstation Linux para Projeto AGI](./vibe_coding_config_to_develop.md) - Configurações para workstations Linux focadas em IA/AGI.
+- [💻 Builds com GPU NVIDIA T1000](./computer_build_for_vibe_coding.md) - Configurações de PC com GPU T1000 para programação.
 
-- [📱 Roadmap: App Android de Streaming de Áudio](./Android_Audio_Streaming_App_Development_Roadmap.md) - Desenvolvimento de aplicativo para captura de áudio no Android.
+### 📈 Finanças e Mercado de Ações
 
-- [📲 Roadmap: App iOS React Native para Áudio](./iOS_React_Native_App_Development_Roadmap_Audio_Processing.md) - Guia completo para desenvolvimento de app de processamento de áudio.
+- [📊 Templates para Aplicações Financeiras](./responsive_templates_for_stock_market_applications.md) - Templates UI/UX para aplicações de finanças.
+- [📈 APIs Oficiais da B3](./official_b3_stock_exchange_apis.md) - APIs da bolsa brasileira e alternativas.
+- [📉 Indicadores Relevantes para Ações](./relevant_stock_market_technical_indicators.md) - Indicadores técnicos para análise de ações.
+- [🧠 Análise Gráfica com TensorFlow](./stock_technical_analysis_with_tensorflow.md) - Modelos de IA para análise de gráficos de ações.
+- [💹 Automatizando Investimentos na B3](./automatizando_investimentos_b3_guia_desenvolvedores_react.md) - Guia para desenvolvedores React.js criarem soluções de automação de investimentos.
+- [💰 Guia de Migração para Criptomoedas](./analise_assintotica_meta_heuristica_polimorfica.md) - Migração do banco tradicional para criptomoedas com privacidade.
 
-- [🍎 iOS: Viabilidade de Captura de Áudio Interno](./iOS_Internal_Audio_Capture_Technical_Feasibility.md) - Análise de viabilidade e limitações no iOS.
+### 🌐 Web, Internet e Comunicação
 
-### Desenvolvimento e Programação
+- [🔄 Redes Sociais Descentralizadas](./redes_sociais_descentralizadas_comparativo.md) - Comparativo de plataformas sociais descentralizadas.
+- [🔍 Anti-Detecção em Automação Web](./anti_detection_browser_automation_frameworks.md) - Ferramentas para automação web evitando detecção.
+- [⚡ Automação de Navegador com Electron e LLM](./browser_automation_with_electron_and_llm.md) - Aplicações de automação web.
+- [🔒 Guia de Anonimato na Internet](./arvores_avl_auto_balanceadas_tempo_logaritmico.md) - Técnicas de privacidade e anonimato online.
+- [📦 XMind: Implementação de Pacote npm](./xmind_npm_implementation.md) - Criar pacote npm para mapas XMind com dados de LLMs.
+- [📂 Armazenamento Web Descentralizado](./transformacoes_homologicas_sistemas_distribuidos.md) - Arquiteturas de armazenamento descentralizado para sites.
 
-- [👨‍💻 Projetos Open-Source para VIBE Coding](./Projetos_OpenSource_VIBE_Coding.md) - Ferramentas e projetos open-source para programação assistida por IA.
+### 🎓 Educação e Pesquisa Acadêmica
 
-- [🖥️ Controle do Terminal macOS via iPhone](./Controle_Terminal_macOS_via_iPhone.md) - Soluções open-source para acessar o terminal do macOS através de um iPhone.
+- [📚 Serviços de Acesso a Artigos Científicos](./servicos_acesso_artigos_cientificos.md) - Serviços para acesso a artigos acadêmicos.
+- [🧠 Ferramentas para Perguntas e Busca Web](./ferramentas_perguntas_busca_web.md) - Bibliotecas para decomposição de perguntas e busca web.
+- [🎓 Métodos Pedagógicos e "Professor Perfeito"](./metodos_pedagogicos_professor_perfeito.md) - Métodos pedagógicos e tutores inteligentes.
+- [🌐 Graduações em TI Online](./graduacoes_ti_online_internacionais_brasileiras.md) - Graduações em Ciências da Computação acessíveis.
+- [🧠 Educação em IA no Brasil](./educacao_ia_brasil_cursos_ead_comparativo.md) - Cursos de IA no formato EAD no Brasil.
 
-### Pesquisa e Educação
+### 🎬 Automação de Mídia
 
-- [📚 Serviços de Acesso a Artigos Científicos](./Servicos_Acesso_Artigos_Cientificos.md) - Comparativo de serviços para acesso a artigos acadêmicos.
+- [🎬 Editores de Vídeo com Controle Programático](./programmatically_controlled_opensource_video_editors.md) - Ferramentas para automação de edição de vídeo.
 
-- [🧠 Ferramentas para Perguntas e Busca Web](./Ferramentas_Perguntas_Busca_Web.md) - Bibliotecas e APIs para decomposição de perguntas e automação de busca web.
+### 🔒 Cibersegurança e Penetration Testing
 
-- [🎓 Métodos Pedagógicos e "Professor Perfeito"](./Metodos_Pedagogicos_Professor_Perfeito.md) - Análise de métodos pedagógicos históricos e desenvolvimento de tutores inteligentes.
-
-- [🌐 Graduações em TI Online Acessíveis](./Graduacoes_TI_Online_Internacionais_Brasileiras.md) - Guia completo de graduações em Ciências da Computação com processos de admissão facilitados, comparando opções internacionais e brasileiras.
-
-- [🧠 Educação em IA no Brasil: Cursos EAD](./Educacao_IA_Brasil_Cursos_EAD_Comparativo.md) - Mapeamento completo de graduações, pós-graduações e cursos livres em Inteligência Artificial disponíveis no formato EAD no Brasil.
-
-
-
-### Automação e Desenvolvimento
-
-- [🔍 Anti-Detecção em Automação Web](./Anti_Detection_Browser_Automation_Frameworks.md) - Ferramentas para automação web evitando detecção como bot.
-
-- [⚡ Automação de Navegador com Electron e LLM](./Browser_Automation_with_Electron_and_LLM.md) - Guia para criar aplicações de automação web.
-
-- [🎬 Editores de Vídeo com Controle Programático](./Programmatically_Controlled_OpenSource_Video_Editors.md) - Ferramentas para automação de edição de vídeo.
-
-- [💻 Edição de Código TypeScript com LLM](./TypeScript_Code_Editing_System_with_LLM_and_ts-morph.md) - Sistema para geração e edição de código usando LLMs.
-
-- [🏗️ Arquitetura TypeScript com LLM](./Arquitetura_Vibe.md) - Padrões de arquitetura e melhores práticas para desenvolvimento TypeScript orientado por LLM.
-
-- [🧩 Arquiteturas Multi-Agentes para TypeScript](./Arquitetura_Vibe_Multi_Agentes_TypeScript.md) - Guia definitivo sobre arquiteturas de software para sistemas multi-agente em projetos TypeScript usando LLMs.
-
-- [🤖 Agentes Open-Source para VIBE Coding](./Agentes_Vibe_Code_Open_Source.md) - Comparativo de ferramentas open-source para programação assistida por IA, incluindo Aider, Plandex, Continue e outros projetos com integração LLM.
-
-- [🖥️ Editores de Código com Suporte a LLM](./Best_Code_Editors_For_Vibe_Coding.md) - Comparativo de editores de código com integração de agentes autônomos e LLMs.
-
-- [🧠 Arquitetura Multi-Agentes para Extensões VS Code](./Multi_Agentes_VS_Code_Extension_Arquitetura.md) - Guia de refatoração para suportar múltiplos agentes LLM em extensões do VS Code com orquestração em Node.js.
-
-- [🛠️ Customização e Automação do VS Code](./VSCode_Customizacao_Automacao_Guia.md) - Guia abrangente para personalizar e automatizar todos os aspectos do VSCode.
-
-- [📝 Engenharia de Prompts para Código](./Engenharia_Prompts_Codigo_Tecnicas.md) - Técnicas eficazes para construir prompts para LLMs que geram código mais robusto, preciso e conciso.
-
-### Hardware e Configuração
-
-- [🖥️ Configuração de Workstation Linux para Projeto AGI (até R$ 10.000)](./Vibe_Coding_config_to_develop.md) - Configurações sugeridas para workstations Linux focadas em desenvolvimento de IA/AGI.
-- [💻 Builds com GPU NVIDIA T1000 para Programação](./Computer_Build_For_Vibe_Coding.md) - Configurações de PC com GPU T1000 focadas em produtividade e programação.
-
-### Inteligência Artificial e LLMs
-
-- [🤖 Comparativo de Modelos de IA com Busca Web](./Web_Search_AIs_Benchmark.md) - Análise comparativa entre GPT-4-turbo, Claude e DeepSeek R1 com foco em pesquisa online.
-- [🖱️ Como usar DeepSeek no Cursor para Vibe Coding](./Deekseek_On_Cursor.md) - Guia para configurar e usar os modelos DeepSeek no editor Cursor.
-- [☁️ Rodando Modelos LLM no Google Cloud](./Config_Ollma_In_Google_Cloud.md) - Tutorial para configurar Ollama com Falcon-180B e LLaMA 4 em GPUs A100 no Google Cloud.
-- [💻 Domínio do Claude Code para Desenvolvimento](./Claude_Code_Terminal_Development_Guide.md) - Técnicas avançadas para maximizar a eficácia do Claude 3.7 Sonnet como assistente de codificação baseado em terminal.
-
-### Internet e Comunicação
-
-- [🔄 Redes Sociais Descentralizadas](./Redes_Sociais_Descentralizadas_Comparativo.md) - Comparativo detalhado de plataformas sociais descentralizadas, incluindo Mastodon, Nostr, Bluesky e outras alternativas com foco em privacidade.
-
-### Desenvolvimento Web e Interfaces
-
-- [🗣️ Frameworks React para IA e Interfaces de Voz](./Frameworks_React_IA_Voz_Interfaces.md) - Análise comparativa de frameworks React para criação de interfaces conversacionais e de voz.
-- [🧠 XMind: Guia de Engenharia de Prompts para LLMs](./xmind-llm-prompt-guide.md) - Técnicas avançadas para LLMs gerarem estruturas de mapas mentais XMind otimizadas.
-- [📦 XMind: Implementação de Pacote npm](./xmind-npm-implementation.md) - Guia passo a passo para criar um pacote npm que gera mapas XMind a partir de dados estruturados por LLMs.
-
-### Fundamentos de Tecnologia
-
-### 📚 Ciência da Computação Teórica e Algoritmos Avançados
-
-- [🧮 Implementação de Árvores AVL Auto-balanceadas em Tempo Logarítmico](./Arvores_AVL_Auto_Balanceadas_Tempo_Logaritmico.md) - Análise teórica e implementação de otimizações para árvores binárias AVL com reequilíbrio em tempo O(log n).
-- [🔄 Transformações Homológicas em Sistemas Distribuídos Usando Teoria das Categorias](./Transformacoes_Homologicas_Sistemas_Distribuidos.md) - Modelo matemático para análise de sistemas distribuídos através de funtores adjuntos.
-- [📊 Análise Assintótica de Algoritmos Meta-heurísticos Polimórficos com Aproximação Epsilon-Delta](./Analise_Assintotica_Meta_Heuristica_Polimorfica.md) - Demonstrações formais e invariantes topológicos para complexidade amortizada de estruturas multi-indexadas em contextos não-determinísticos.
-- [🔍 Algoritmos Polinomiais para Verificação de Homomorfismos Estruturados](./Algoritmos_Polinomiais_Verificacao_Homomorfismo_Estruturado.md) - Framework matemático para análise de isomorfismos em grafos complexos utilizando teoria de Galois e redução em tempo polinomial de problemas NP-completos em casos específicos de estruturas algébricas.
+- [🛡️ Guia de Penetration Testing](./algoritmos_polinomiais_verificacao_homomorfismo_estruturado.md) - Guia completo de técnicas de penetration testing.
 
 ## 🔄 Atualização
 
