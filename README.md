@@ -37,7 +37,7 @@ Este repositório é uma coleção de documentação e pesquisas técnicas sobre
 - [🗣️ Nari Labs Dia: Modelo TTS para Diálogos](./nari_labs_dia_tts_model_integration_guide.md) - Modelo TTS Dia para geração de diálogos realistas.
 - [🎙️ APIs de Diarização e Reconhecimento de Falantes](./commercial_speaker_diarization_and_recognition_apis.md) - Comparativo de APIs para processamento de voz.
 - [📱 Roadmap: App Android de Streaming de Áudio](./android_audio_streaming_app_development_roadmap.md) - Desenvolvimento de aplicativo para captura de áudio no Android.
-- [📲 Roadmap: App iOS React Native para Áudio](./ios_react_native_app_development_roadmap_audio_processing.md) - Desenvolvimento de app de processamento de áudio.
+- [📲 Roadmap: App iOS React Native para Áudio](./roadmap%20de%20desenvolvimento_%20app%20ios%20react%20native%20(áudio%20em%20tempo%20real,%20diarização,%20transcrição%20e%20integração%20com%20llm).md) - Desenvolvimento de app de processamento de áudio.
 - [🍎 iOS: Viabilidade de Captura de Áudio Interno](./ios_internal_audio_capture_technical_feasibility.md) - Análise de viabilidade no iOS.
 - [🗣️ Frameworks React para IA e Interfaces de Voz](./frameworks_react_ia_voz_interfaces.md) - Frameworks React para interfaces conversacionais e de voz.
 
@@ -54,9 +54,9 @@ Este repositório é uma coleção de documentação e pesquisas técnicas sobre
 
 ### 📈 Finanças e Mercado de Ações
 
-- [📊 Templates para Aplicações Financeiras](./responsive_templates_for_stock_market_applications.md) - Templates UI/UX para aplicações de finanças.
-- [📈 APIs Oficiais da B3](./official_b3_stock_exchange_apis.md) - APIs da bolsa brasileira e alternativas.
-- [📉 Indicadores Relevantes para Ações](./relevant_stock_market_technical_indicators.md) - Indicadores técnicos para análise de ações.
+- [📊 Templates para Aplicações Financeiras](./melhores_templates_responsivos_para_aplica%c3%a7%c3%b5es_de_bolsa_e_finan%c3%a7as.md) - Templates UI/UX para aplicações de finanças.
+- [📈 APIs Oficiais da B3](./apis_oficiais_da_b3_.md) - APIs da bolsa brasileira e alternativas.
+- [📉 Indicadores Relevantes para Ações](./indicadores_relevantes_stock.md) - Indicadores técnicos para análise de ações.
 - [🧠 Análise Gráfica com TensorFlow](./stock_technical_analysis_with_tensorflow.md) - Modelos de IA para análise de gráficos de ações.
 - [💹 Automatizando Investimentos na B3](./automatizando_investimentos_b3_guia_desenvolvedores_react.md) - Guia para desenvolvedores React.js criarem soluções de automação de investimentos.
 - [💰 Guia de Migração para Criptomoedas](./analise_assintotica_meta_heuristica_polimorfica.md) - Migração do banco tradicional para criptomoedas com privacidade.
