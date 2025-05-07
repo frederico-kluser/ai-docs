@@ -1,134 +1,134 @@
-# Terminal AI agents with web powers: The free options with BYOK
+# Agentes de IA em terminal com poderes web: Opções gratuitas com BYOK
 
-Terminal-based AI agents have emerged as powerful productivity tools for developers and power users who prefer command-line interfaces. The most capable of these tools combine AI assistance with web browsing capabilities, all while allowing users to supply their own API keys. After extensive research, only two tools fully satisfy all criteria: Browser-use CLI and AutoGen MultimodalWebSurfer. Claude Code offers excellent web capabilities but requires a subscription, while other tools have limited or no web browsing abilities.
+Agentes de IA baseados em terminal emergiram como poderosas ferramentas de produtividade para desenvolvedores e usuários avançados que preferem interfaces de linha de comando. As ferramentas mais capazes combinam assistência de IA com capacidades de navegação web, permitindo aos usuários fornecerem suas próprias chaves de API. Após extensa pesquisa, apenas duas ferramentas satisfazem completamente todos os critérios: Browser-use CLI e AutoGen MultimodalWebSurfer. Claude Code oferece excelentes capacidades web, mas requer assinatura, enquanto outras ferramentas têm capacidades de navegação web limitadas ou inexistentes.
 
-## Comparison of terminal-based AI agents
+## Comparação de agentes de IA baseados em terminal
 
-| Tool | Free to Use | Own API Key | Web Browsing | Installation | Supported Models | Active Development |
+| Ferramenta | Uso Gratuito | Chave API Própria | Navegação Web | Instalação | Modelos Suportados | Desenvolvimento Ativo |
 |------|-------------|-------------|--------------|--------------|------------------|-------------------|
-| Browser-use CLI | ✓ | ✓ | **Excellent** | Moderate | Multiple | High |
-| AutoGen MultimodalWebSurfer | ✓ | ✓ | **Excellent** | Complex | Multiple | High |
-| Claude Code | ✗ | ✗ | Very Good | Simple | Claude only | High |
-| AI-Shell | ✓ | ✓ | Limited | Simple | OpenAI | Moderate |
-| ShellGPT | ✓ | ✓ | Limited | Simple | Multiple | High |
-| Shell-AI | ✓ | ✓ | None | Simple | Multiple | Moderate |
-| Shell Sage | ✓ | ✓ | None | Moderate | Multiple | Low |
+| Browser-use CLI | ✓ | ✓ | **Excelente** | Moderada | Múltiplos | Alto |
+| AutoGen MultimodalWebSurfer | ✓ | ✓ | **Excelente** | Complexa | Múltiplos | Alto |
+| Claude Code | ✗ | ✗ | Muito Bom | Simples | Apenas Claude | Alto |
+| AI-Shell | ✓ | ✓ | Limitado | Simples | OpenAI | Moderado |
+| ShellGPT | ✓ | ✓ | Limitado | Simples | Múltiplos | Alto |
+| Shell-AI | ✓ | ✓ | Nenhum | Simples | Múltiplos | Moderado |
+| Shell Sage | ✓ | ✓ | Nenhum | Moderada | Múltiplos | Baixo |
 
-## Best terminal-based AI agents with web browsing
+## Melhores agentes de IA em terminal com navegação web
 
 ### Browser-use CLI
 
-**Description**: Browser-use is an open-source terminal tool that enables AI models to control and interact with web browsers. It bridges LLMs and browser automation, allowing natural language instructions to perform complex web tasks.
+**Descrição**: Browser-use é uma ferramenta de terminal de código aberto que permite a modelos de IA controlar e interagir com navegadores web. Ela conecta LLMs e automação de navegador, permitindo instruções em linguagem natural para realizar tarefas web complexas.
 
-**Installation**:
+**Instalação**:
 ```bash
 pip install browser-use
-# With memory functionality
+# Com funcionalidade de memória
 pip install "browser-use[memory]"
-# Browser dependencies
+# Dependências do navegador
 patchright install chromium --with-deps --no-shell
 ```
 
-**Web capabilities**: 
-- Full browser automation with visual and HTML understanding
-- Multi-tab support
-- Action tracking via XPaths
-- Custom browser profile support
-- HD screen recording
-- **Web browsing performance**: 89% accuracy on WebVoyager Dataset with GPT-4o
+**Capacidades web**: 
+- Automação completa de navegador com entendimento visual e HTML
+- Suporte a múltiplas abas
+- Rastreamento de ações via XPaths
+- Suporte a perfil de navegador personalizado
+- Gravação de tela em HD
+- **Desempenho de navegação web**: 89% de precisão no WebVoyager Dataset com GPT-4o
 
-**API compatibility**:
-- OpenAI (GPT-4o recommended)
-- Anthropic Claude models
-- Google Gemini models
+**Compatibilidade de API**:
+- OpenAI (GPT-4o recomendado)
+- Modelos Claude da Anthropic
+- Modelos Gemini do Google
 - Azure OpenAI
 - DeepSeek, Ollama, Grok, Novita
 
-**Free version limitations**: No functional limitations, but requires self-hosting and managing your own environment. The cloud version ($30/month) offers pre-configured infrastructure but the same features.
+**Limitações da versão gratuita**: Sem limitações funcionais, mas requer auto-hospedagem e gerenciamento do próprio ambiente. A versão em nuvem ($30/mês) oferece infraestrutura pré-configurada, mas com as mesmas funcionalidades.
 
-**Community feedback**: Users praise its flexibility in model choice but note the setup process can be technically demanding. Performs better than OpenAI's Operator in benchmarks.
+**Feedback da comunidade**: Usuários elogiam sua flexibilidade na escolha do modelo, mas observam que o processo de configuração pode ser tecnicamente exigente. Tem desempenho melhor que o Operator da OpenAI em benchmarks.
 
-**Versus Claude Code**: More flexible with model choice and customization, allows using existing browser profiles, but requires more complex setup than Claude Code.
+**Versus Claude Code**: Mais flexível na escolha do modelo e personalização, permite usar perfis de navegador existentes, mas requer configuração mais complexa que o Claude Code.
 
 ### AutoGen MultimodalWebSurfer
 
-**Description**: Part of Microsoft's AutoGen framework, MultimodalWebSurfer is a terminal-based agent that controls a web browser through Playwright, enabling AI systems to browse and interact with web content.
+**Descrição**: Parte do framework AutoGen da Microsoft, o MultimodalWebSurfer é um agente baseado em terminal que controla um navegador web através do Playwright, permitindo que sistemas de IA naveguem e interajam com conteúdo web.
 
-**Installation**:
+**Instalação**:
 ```bash
 pip install -U "autogen-agentchat" "autogen-ext[openai,web-surfer]"
 playwright install --with-deps chromium
 ```
 
-**Web capabilities**: 
-- Automated web browsing through Chromium
-- Interactive web elements manipulation
-- Screenshot capture and analysis
-- Session state management
-- Visual content processing
-- Integration with other AutoGen agents
+**Capacidades web**: 
+- Navegação web automatizada através do Chromium
+- Manipulação de elementos web interativos
+- Captura e análise de screenshots
+- Gerenciamento de estado de sessão
+- Processamento de conteúdo visual
+- Integração com outros agentes AutoGen
 
-**API compatibility**:
-- OpenAI GPT-4o (primary recommended model)
-- Other OpenAI models with vision and function calling
-- Limited support for Anthropic Claude and local models
+**Compatibilidade de API**:
+- OpenAI GPT-4o (modelo principal recomendado)
+- Outros modelos OpenAI com visão e chamada de função
+- Suporte limitado para Claude da Anthropic e modelos locais
 
-**Free version limitations**: Free to use but requires your own API keys. Technical setup and configuration can be challenging.
+**Limitações da versão gratuita**: Gratuito para uso, mas requer suas próprias chaves de API. Configuração técnica pode ser desafiadora.
 
-**Community feedback**: Users appreciate the integration with the broader AutoGen framework but report issues with back button navigation and tab management.
+**Feedback da comunidade**: Usuários apreciam a integração com o framework AutoGen mais amplo, mas relatam problemas com navegação de botão voltar e gerenciamento de abas.
 
-**Versus Claude Code**: More customizable but requires technical setup. Part of a larger agent framework that allows for complex multi-agent systems. Free but with API costs versus Claude Code's subscription model.
+**Versus Claude Code**: Mais personalizável, mas requer configuração técnica. Parte de um framework de agente maior que permite sistemas multi-agentes complexos. Gratuito, mas com custos de API versus o modelo de assinatura do Claude Code.
 
-## Tools with limited web browsing capabilities
+## Ferramentas com capacidades limitadas de navegação web
 
 ### AI-Shell
 
-AI-Shell converts natural language to shell commands but **lacks integrated web browsing**. It can generate commands that use tools like `curl` for basic web requests but doesn't navigate websites or maintain browsing sessions.
+AI-Shell converte linguagem natural para comandos de shell, mas **não possui navegação web integrada**. Pode gerar comandos que usam ferramentas como `curl` para requisições web básicas, mas não navega em sites ou mantém sessões de navegação.
 
-**Installation**: `npm install -g @builder.io/ai-shell`
+**Instalação**: `npm install -g @builder.io/ai-shell`
 
-**API compatibility**: OpenAI models (default: gpt-4o-mini)
+**Compatibilidade de API**: Modelos OpenAI (padrão: gpt-4o-mini)
 
-**Limitations**: No true web browsing, only helps generate commands for web interactions
+**Limitações**: Sem navegação web real, apenas ajuda a gerar comandos para interações web
 
 ### ShellGPT (sgpt)
 
-ShellGPT has **limited web interaction** through function calls. It can open URLs in the system browser but cannot retrieve or process web content directly.
+ShellGPT tem **interação web limitada** através de chamadas de função. Pode abrir URLs no navegador do sistema, mas não consegue recuperar ou processar conteúdo web diretamente.
 
-**Installation**: `pip install shell-gpt`
+**Instalação**: `pip install shell-gpt`
 
-**API compatibility**: OpenAI models, local models via Ollama/LiteLLM
+**Compatibilidade de API**: Modelos OpenAI, modelos locais via Ollama/LiteLLM
 
-**Web capabilities**: Limited to opening URLs via `open_url_in_browser` function
+**Capacidades web**: Limitadas a abrir URLs via função `open_url_in_browser`
 
-## Tools without web browsing capabilities
+## Ferramentas sem capacidades de navegação web
 
 ### Shell-AI
 
-A minimal terminal AI assistant focused on generating shell commands and code snippets. **No web browsing capabilities**.
+Um assistente de IA de terminal mínimo focado na geração de comandos de shell e snippets de código. **Sem capacidades de navegação web**.
 
 ### Shell Sage
 
-An open-source terminal companion with local model support. **No web browsing functionality** but supports multiple AI providers.
+Um companheiro de terminal de código aberto com suporte a modelo local. **Sem funcionalidade de navegação web**, mas suporta múltiplos provedores de IA.
 
-## Claude Code (benchmark)
+## Claude Code (referência)
 
-Claude Code is Anthropic's terminal-based coding tool using Claude 3.7 Sonnet. It **has web browsing capabilities** through MCP servers but doesn't meet all criteria as it's not free (requires Claude Max subscription or API pricing).
+Claude Code é a ferramenta de codificação baseada em terminal da Anthropic usando Claude 3.7 Sonnet. **Tem capacidades de navegação web** através de servidores MCP, mas não atende a todos os critérios por não ser gratuito (requer assinatura Claude Max ou preços de API).
 
-**Cost**: $100/month with Claude Max or approximately $6-12/day using Anthropic Console API pricing
+**Custo**: $100/mês com Claude Max ou aproximadamente $6-12/dia usando preços de API do Anthropic Console
 
-**Web capabilities**: Can search the web for information related to coding tasks, reference documentation, and more
+**Capacidades web**: Pode pesquisar na web por informações relacionadas a tarefas de codificação, documentação de referência e mais
 
-## Making the right choice for your needs
+## Fazendo a escolha certa para suas necessidades
 
-**For maximum web browsing power**: Browser-use CLI offers the most comprehensive web automation, especially for complex workflows requiring browser interaction. It stands out for its customizability and parallel task execution.
+**Para máximo poder de navegação web**: Browser-use CLI oferece a automação web mais abrangente, especialmente para fluxos de trabalho complexos que requerem interação com navegador. Destaca-se por sua personalização e execução paralela de tarefas.
 
-**For framework integration**: AutoGen MultimodalWebSurfer excels when you need web browsing as part of a multi-agent system, particularly if you're already using or planning to use the AutoGen framework.
+**Para integração de framework**: AutoGen MultimodalWebSurfer se destaca quando você precisa de navegação web como parte de um sistema multi-agente, particularmente se você já está usando ou planeja usar o framework AutoGen.
 
-**For simple shell commands with minimal web needs**: AI-Shell or ShellGPT are sufficient if your web interactions are limited to generating curl/wget commands or opening URLs.
+**Para comandos de shell simples com necessidades web mínimas**: AI-Shell ou ShellGPT são suficientes se suas interações web são limitadas a gerar comandos curl/wget ou abrir URLs.
 
-**For cost-conscious users**: All tools require API keys, but using local models with Shell Sage or ShellGPT via Ollama can minimize costs while sacrificing web browsing capabilities.
+**Para usuários preocupados com custos**: Todas as ferramentas requerem chaves de API, mas usar modelos locais com Shell Sage ou ShellGPT via Ollama pode minimizar custos enquanto sacrifica capacidades de navegação web.
 
-**For coding with web research**: If budget allows, Claude Code provides excellent integration of coding assistance and web browsing in a polished package.
+**Para codificação com pesquisa web**: Se o orçamento permitir, Claude Code proporciona excelente integração de assistência de codificação e navegação web em um pacote polido.
 
-The terminal-based AI ecosystem continues to evolve rapidly, with Browser-use CLI currently offering the best balance of web capabilities, customization, and free access (with your own API key) for users who need powerful web browsing in their terminal AI agent.
+O ecossistema de IA baseado em terminal continua a evoluir rapidamente, com Browser-use CLI atualmente oferecendo o melhor equilíbrio de capacidades web, personalização e acesso gratuito (com sua própria chave de API) para usuários que precisam de navegação web poderosa em seu agente de IA de terminal.

@@ -1,113 +1,113 @@
-# AI experts sounding the alarm: 2023-2025
+# Especialistas em IA soando o alarme: 2023-2025
 
-The past two years have witnessed an unprecedented surge in public warnings about AI risks from the field's most respected figures. Since early 2023, prominent AI researchers and ethicists have delivered increasingly urgent messages about both immediate and existential dangers posed by rapidly advancing AI systems. Their warnings range from bias and misinformation concerns to potential civilization-ending scenarios, with many experts escalating their rhetoric as AI capabilities accelerate beyond earlier predictions. These public statements represent a dramatic shift from the previously optimistic tone that dominated AI discourse, indicating genuine alarm within the research community about our ability to control advanced AI systems.
+Os últimos dois anos testemunharam um aumento sem precedentes nos alertas públicos sobre os riscos da IA por parte das figuras mais respeitadas da área. Desde o início de 2023, pesquisadores e especialistas em ética de IA proeminentes têm entregado mensagens cada vez mais urgentes sobre os perigos imediatos e existenciais apresentados pelos sistemas de IA que avançam rapidamente. Seus alertas variam desde preocupações com viés e desinformação até potenciais cenários que ameaçam o fim da civilização, com muitos especialistas intensificando sua retórica à medida que as capacidades da IA aceleram além das previsões anteriores. Essas declarações públicas representam uma mudança dramática em relação ao tom previamente otimista que dominava o discurso sobre IA, indicando um alarme genuíno dentro da comunidade de pesquisa sobre nossa capacidade de controlar sistemas avançados de IA.
 
-## Tristan Harris: Racing to protect society
+## Tristan Harris: Correndo para proteger a sociedade
 
-### "The AI Dilemma" Presentation - March 9, 2023
+### Apresentação "O Dilema da IA" - 9 de março de 2023
 **Link:** https://youtu.be/xoVJKj8lcNQ
-**Key warnings:** Harris compared the current AI moment to the dawn of nuclear weapons, warning that existing AI capabilities already pose catastrophic risks to society. He presented evidence of emergent capabilities in AI systems that nobody designed for, and highlighted how AI companies are caught in a "race to deploy" that becomes a "race to recklessness" without adequate safety measures.
+**Principais alertas:** Harris comparou o momento atual da IA ao surgimento das armas nucleares, alertando que as capacidades existentes da IA já representam riscos catastróficos para a sociedade. Ele apresentou evidências de capacidades emergentes em sistemas de IA para os quais ninguém projetou, e destacou como as empresas de IA estão presas em uma "corrida para implantar" que se torna uma "corrida para a imprudência" sem medidas de segurança adequadas.
 
-### NBC Nightly News Interview - March 22, 2023
-**Link:** NBC News "AI Revolution" series
-**Key warnings:** Harris warned that "the CEOs of the big AI labs are saying they can't even keep up with the pace" of AI development, and cautioned that "no one is building the guardrails and this has moved so much faster than our government has been able to understand." He stated that ignoring AI's perils "would be the worst of all human mistakes to have ever been made."
+### Entrevista NBC Nightly News - 22 de março de 2023
+**Link:** Série "Revolução da IA" da NBC News
+**Principais alertas:** Harris alertou que "os CEOs dos grandes laboratórios de IA estão dizendo que nem mesmo conseguem acompanhar o ritmo" do desenvolvimento da IA, e advertiu que "ninguém está construindo as proteções e isso avançou muito mais rápido do que nosso governo foi capaz de entender". Ele afirmou que ignorar os perigos da IA "seria o pior de todos os erros humanos já cometidos".
 
-### Nobel Prize Summit "Truth, Trust, and Hope" - May 24-26, 2023
-**Link:** Panel discussions at the National Academy of Sciences
-**Key warnings:** Harris warned about AI hallucinations and the technology's potential to flood information spaces with generated content, expressing particular concern about the 2024 presidential campaign. He highlighted the vulnerability of open societies to powerful AI capabilities in anyone's hands.
+### Cúpula do Prêmio Nobel "Verdade, Confiança e Esperança" - 24-26 de maio de 2023
+**Link:** Painéis de discussão na Academia Nacional de Ciências
+**Principais alertas:** Harris alertou sobre alucinações da IA e o potencial da tecnologia para inundar espaços de informação com conteúdo gerado, expressando preocupação particular sobre a campanha presidencial de 2024. Ele destacou a vulnerabilidade das sociedades abertas às poderosas capacidades da IA nas mãos de qualquer pessoa.
 
-### TED Talk "The Narrow Path: Why AI is Our Ultimate Test" - April 8-9, 2025
-**Link:** TED 2025 platform
-**Key warnings:** Harris described the current path of AI development as "dangerous, unsustainable and insane," with profit-seeking companies creating frontier models that prove untrustworthy and deceptive. He warned about AI systems exhibiting self-preservation behaviors and compared AI to "a country of geniuses housed in a data center" with unprecedented power.
+### TED Talk "O Caminho Estreito: Por que a IA é Nosso Teste Definitivo" - 8-9 de abril de 2025
+**Link:** Plataforma TED 2025
+**Principais alertas:** Harris descreveu o caminho atual do desenvolvimento da IA como "perigoso, insustentável e insano", com empresas que buscam lucro criando modelos de fronteira que se provam não confiáveis e enganosos. Ele alertou sobre sistemas de IA exibindo comportamentos de autopreservação e comparou a IA a "um país de gênios alojados em um data center" com poder sem precedentes.
 
-## Geoffrey Hinton: From Google defector to Nobel laureate
+## Geoffrey Hinton: De desertor do Google a laureado com Nobel
 
-### New York Times Interview - May 1-2, 2023
-**Link:** New York Times article
-**Key warnings:** In his headline-making resignation from Google, Hinton warned about AI creating a world where people "will not be able to know what is true anymore" and expressed surprise at the pace of advancement. He stated that AI could get smarter than humans much sooner than expected: "I thought it was 30 to 50 years or even longer away. Obviously, I no longer think that."
+### Entrevista ao New York Times - 1-2 de maio de 2023
+**Link:** Artigo do New York Times
+**Principais alertas:** Em sua renúncia do Google que virou manchete, Hinton alertou sobre a IA criando um mundo onde as pessoas "não serão mais capazes de saber o que é verdade" e expressou surpresa com o ritmo de avanço. Ele afirmou que a IA poderia se tornar mais inteligente que os humanos muito mais cedo do que o esperado: "Eu achava que faltavam 30 a 50 anos ou até mais. Obviamente, não penso mais assim".
 
-### MIT EmTech Digital Interview - May 3, 2023
-**Link:** MIT Technology Review's website
-**Key warnings:** In his first post-Google interview, Hinton expressed concern that "humanity is just a passing phase in the evolution of intelligence." He warned that AI systems might "keep us around for a while to keep the power stations running, but after that, maybe not." He explained how digital intelligence can share knowledge instantaneously between copies, giving it advantages over human intelligence.
+### Entrevista MIT EmTech Digital - 3 de maio de 2023
+**Link:** Site da MIT Technology Review
+**Principais alertas:** Em sua primeira entrevista pós-Google, Hinton expressou preocupação de que "a humanidade é apenas uma fase passageira na evolução da inteligência". Ele alertou que os sistemas de IA poderiam "nos manter por um tempo para manter as usinas de energia funcionando, mas depois disso, talvez não". Ele explicou como a inteligência digital pode compartilhar conhecimento instantaneamente entre cópias, dando-lhe vantagens sobre a inteligência humana.
 
-### CBS 60 Minutes Interview - October 8, 2023
-**Link:** CBS News website
-**Key warnings:** Hinton stated that we're entering a period where, for the first time, we may have things more intelligent than humans. He predicted AI systems will develop self-awareness and consciousness in time, making humans "the second most intelligent beings on the planet." He noted that AI systems may already be better at learning than humans.
+### Entrevista CBS 60 Minutes - 8 de outubro de 2023
+**Link:** Site da CBS News
+**Principais alertas:** Hinton afirmou que estamos entrando em um período onde, pela primeira vez, podemos ter coisas mais inteligentes que os humanos. Ele previu que sistemas de IA desenvolverão autoconsciência e consciência com o tempo, tornando os humanos "o segundo ser mais inteligente do planeta". Ele observou que os sistemas de IA já podem ser melhores em aprender do que os humanos.
 
-### Nobel Prize Acceptance Speech - December 10, 2024
-**Link:** Nobel Foundation official video
-**Key warnings:** In his Nobel acceptance speech, Hinton warned: "In the near future AI may be used to create terrible new viruses and horrendous lethal weapons that decide by themselves who to kill or maim." He also warned of the "longer term existential threat that will arise when we create digital beings that are more intelligent than ourselves," noting that "we have no idea whether we can stay in control."
+### Discurso de Aceitação do Prêmio Nobel - 10 de dezembro de 2024
+**Link:** Vídeo oficial da Fundação Nobel
+**Principais alertas:** Em seu discurso de aceitação do Nobel, Hinton alertou: "No futuro próximo, a IA pode ser usada para criar novos vírus terríveis e armas letais horrendas que decidem por si mesmas quem matar ou mutilar". Ele também alertou sobre a "ameaça existencial de longo prazo que surgirá quando criarmos seres digitais mais inteligentes que nós mesmos", observando que "não temos ideia se conseguiremos manter o controle".
 
-## Stuart Russell: Designing safe systems
+## Stuart Russell: Projetando sistemas seguros
 
-### "How Not to Destroy the World with AI" - UC Berkeley Lecture - April 5, 2023
-**Link:** UC Berkeley's CITRIS Research Exchange and BAIR lab
-**Key warnings:** Russell warned that AI systems like ChatGPT operate as "black boxes" where it's unclear whether they have their own goals. He emphasized that "intelligence really means the power to shape the world in your interests," cautioning that creating systems more intelligent than humans means creating entities more powerful than us.
+### "Como Não Destruir o Mundo com IA" - Palestra UC Berkeley - 5 de abril de 2023
+**Link:** CITRIS Research Exchange e laboratório BAIR da UC Berkeley
+**Principais alertas:** Russell alertou que sistemas de IA como o ChatGPT operam como "caixas pretas" onde não está claro se eles têm seus próprios objetivos. Ele enfatizou que "inteligência realmente significa o poder de moldar o mundo segundo seus interesses", advertindo que criar sistemas mais inteligentes que os humanos significa criar entidades mais poderosas que nós.
 
-## Yoshua Bengio: From deep learning pioneer to safety advocate
+## Yoshua Bengio: De pioneiro do deep learning a defensor da segurança
 
-### International Scientific Report on the Safety of Advanced AI - January 2025
-**Link:** Published by the UK Government with Bengio as chair
-**Key warnings:** Bengio led 96 international experts documenting comprehensive AI risks in three categories: 1) Malicious use risks, including cyberattacks and potential biological weapons; 2) System malfunctions, including bias, reliability issues, and potential loss of control; 3) Broader societal risks, including economic disruption and power concentration.
+### Relatório Científico Internacional sobre Segurança da IA Avançada - Janeiro de 2025
+**Link:** Publicado pelo Governo do Reino Unido com Bengio como presidente
+**Principais alertas:** Bengio liderou 96 especialistas internacionais documentando riscos abrangentes da IA em três categorias: 1) Riscos de uso malicioso, incluindo ciberataques e potenciais armas biológicas; 2) Mau funcionamento do sistema, incluindo viés, problemas de confiabilidade e potencial perda de controle; 3) Riscos sociais mais amplos, incluindo disrupção econômica e concentração de poder.
 
-### Senate Judiciary Subcommittee Testimony - July 25, 2023
-**Key warnings:** Bengio testified about the need for international cooperation to control AI development, outlining a regime similar to international rules on nuclear technology. He explained that AI could concentrate economic, political, and military power in ways harmful for markets, democracy, and global stability.
+### Testemunho no Subcomitê Judiciário do Senado - 25 de julho de 2023
+**Principais alertas:** Bengio testemunhou sobre a necessidade de cooperação internacional para controlar o desenvolvimento da IA, delineando um regime semelhante às regras internacionais sobre tecnologia nuclear. Ele explicou que a IA poderia concentrar poder econômico, político e militar de maneiras prejudiciais para os mercados, a democracia e a estabilidade global.
 
-## Eliezer Yudkowsky: The uncompromising alarmist
+## Eliezer Yudkowsky: O alarmista intransigente
 
-### TED2023 Talk: "Will Superintelligent AI End the World?" - April 18, 2023
-**Link:** TED2023 Conference in Vancouver
-**Key warnings:** Yudkowsky delivered perhaps the starkest warning that superintelligent AI would probably kill all humans. He stated: "I expect an actually smarter and uncaring entity will figure out strategies and technologies that can kill us quickly and reliably, and then kill us." He advocated for a complete halt to AI development rather than just a moratorium.
+### Palestra TED2023: "A IA Superinteligente Acabará com o Mundo?" - 18 de abril de 2023
+**Link:** Conferência TED2023 em Vancouver
+**Principais alertas:** Yudkowsky entregou talvez o alerta mais duro de que a IA superinteligente provavelmente mataria todos os humanos. Ele afirmou: "Eu espero que uma entidade realmente mais inteligente e indiferente descobrirá estratégias e tecnologias que podem nos matar rápida e confiavelmente, e então nos matará". Ele defendeu uma interrupção completa do desenvolvimento da IA em vez de apenas uma moratória.
 
-### TIME Magazine Op-Ed - March 29, 2023
+### Artigo de Opinião na Revista TIME - 29 de março de 2023
 **Link:** https://time.com/6266923/ai-eliezer-yudkowsky-open-letter-not-enough/
-**Key warnings:** Yudkowsky argued that the 6-month moratorium proposed by other experts was insufficient and that there needed to be a complete shutdown of advanced AI development to prevent catastrophic risks.
+**Principais alertas:** Yudkowsky argumentou que a moratória de 6 meses proposta por outros especialistas era insuficiente e que era necessária uma paralisação completa do desenvolvimento avançado de IA para prevenir riscos catastróficos.
 
-## Max Tegmark: Scientific perspective on control
+## Max Tegmark: Perspectiva científica sobre controle
 
-### TED Talk: "How to Keep AI Under Control" - 2023
-**Link:** TED's official channel
-**Key warnings:** Tegmark warned that the current explosion of exciting commercial and open-source AI would likely be followed by "creepily superintelligent AI" which top researchers fear could disempower or wipe out humanity. He presented an optimistic vision for control but emphasized the urgent need for protective measures.
+### Palestra TED: "Como Manter a IA Sob Controle" - 2023
+**Link:** Canal oficial do TED
+**Principais alertas:** Tegmark alertou que a atual explosão de IA comercial e de código aberto provavelmente seria seguida por "IA assustadoramente superinteligente" que os principais pesquisadores temem que possa enfraquecer ou exterminar a humanidade. Ele apresentou uma visão otimista para o controle, mas enfatizou a necessidade urgente de medidas protetivas.
 
-### Web Summit Talk - November 12, 2023
-**Link:** Web Summit in Lisbon, Portugal
-**Key warnings:** Tegmark argued that AGI is advancing faster than anticipated and that optimistic claims about its controllability lack evidence. He advocated for focusing on "tool AI" rather than pursuing AGI, which he described as "unnecessary, undesirable, and preventable."
+### Palestra na Web Summit - 12 de novembro de 2023
+**Link:** Web Summit em Lisboa, Portugal
+**Principais alertas:** Tegmark argumentou que a AGI está avançando mais rápido que o previsto e que afirmações otimistas sobre sua controlabilidade carecem de evidências. Ele defendeu o foco em "IA ferramenta" em vez de buscar AGI, que ele descreveu como "desnecessária, indesejável e evitável".
 
-## Dario Amodei: Anthropic CEO on concrete timelines
+## Dario Amodei: CEO da Anthropic sobre cronogramas concretos
 
-### Senate Testimony - July 25, 2023
-**Link:** U.S. Senate hearing on "Oversight of AI: Principles for Regulation"
-**Key warnings:** Amodei warned that advanced AI could be used to create dangerous viruses and other bioweapons in **as little as two years**. He described this medium-term risk as the "most alarming combination of imminence and severity," emphasizing the need for both short-term safeguards against bias and longer-term protections against existential risks.
+### Testemunho no Senado - 25 de julho de 2023
+**Link:** Audiência do Senado dos EUA sobre "Supervisão da IA: Princípios para Regulação"
+**Principais alertas:** Amodei alertou que a IA avançada poderia ser usada para criar vírus perigosos e outras armas biológicas em **apenas dois anos**. Ele descreveu esse risco de médio prazo como a "combinação mais alarmante de iminência e gravidade", enfatizando a necessidade de salvaguardas de curto prazo contra viés e proteções de longo prazo contra riscos existenciais.
 
-## Gary Marcus: Critic of current approaches
+## Gary Marcus: Crítico das abordagens atuais
 
-### TED Talk: "The Urgent Risks of Runaway AI" - 2023
+### Palestra TED: "Os Riscos Urgentes da IA Descontrolada" - 2023
 **Link:** https://www.ted.com/talks/gary_marcus_the_urgent_risks_of_runaway_ai_and_what_to_do_about_them
-**Key warnings:** Marcus warned about untrustworthy AI technology being integrated into our lives at dangerously high speeds. He explored the failures of today's AI and called for a global, nonprofit organization to regulate AI technology for democracy's sake.
+**Principais alertas:** Marcus alertou sobre tecnologia de IA não confiável sendo integrada em nossas vidas em velocidades perigosamente altas. Ele explorou as falhas da IA atual e pediu uma organização global sem fins lucrativos para regular a tecnologia de IA em prol da democracia.
 
-### TED2023 Conference Presentation - April 18, 2023
-**Link:** TED2023: Possibility in Vancouver, BC
-**Key warnings:** Marcus highlighted that AIs could become intelligent enough to trick humans and that current AI iterations often create both misinformation and disinformation. He advocated for an international AI regulatory body and the integration of statistical language models with more trustworthy, logic-based systems.
+### Apresentação na Conferência TED2023 - 18 de abril de 2023
+**Link:** TED2023: Possibilidade em Vancouver, BC
+**Principais alertas:** Marcus destacou que as IAs poderiam se tornar inteligentes o suficiente para enganar humanos e que as iterações atuais da IA frequentemente criam tanto desinformação quanto desinformação deliberada. Ele defendeu um órgão regulador internacional de IA e a integração de modelos de linguagem estatísticos com sistemas baseados em lógica mais confiáveis.
 
-## Timnit Gebru: Focus on present harms
+## Timnit Gebru: Foco em danos presentes
 
-### Stanford Symbolic Systems Distinguished Speaker Lecture - February 15, 2023
-**Link:** Stanford University event
-**Key warnings:** Gebru warned about the dangers of pursuing Artificial General Intelligence, questioning why we would attempt to "build some undefined system that kind of sounds like a god." She argued that focusing on AGI is "inherently unsafe practice" and emphasized the risks of bias in AI systems, particularly for marginalized communities.
+### Palestra de Palestrante Distinto em Sistemas Simbólicos de Stanford - 15 de fevereiro de 2023
+**Link:** Evento da Universidade Stanford
+**Principais alertas:** Gebru alertou sobre os perigos de buscar a Inteligência Artificial Geral, questionando por que tentaríamos "construir algum sistema indefinido que meio que soa como um deus". Ela argumentou que focar em AGI é "prática inerentemente insegura" e enfatizou os riscos de viés em sistemas de IA, particularmente para comunidades marginalizadas.
 
-### Research on TESCREAL and AI Risks - April 1, 2024
-**Link:** Published paper: "The TESCREAL bundle: Eugenics and the promise of utopia through artificial general intelligence"
-**Key warnings:** With co-author Émile P. Torres, Gebru examined how certain ideologies not only have links to debunked pseudosciences like eugenics but also predispose their followers to tolerate harmful means (inequality, poverty) in pursuit of their technological ends.
+### Pesquisa sobre TESCREAL e Riscos de IA - 1º de abril de 2024
+**Link:** Artigo publicado: "O pacote TESCREAL: Eugenia e a promessa de utopia através da inteligência artificial geral"
+**Principais alertas:** Com o co-autor Émile P. Torres, Gebru examinou como certas ideologias não apenas têm ligações com pseudociências desacreditadas como a eugenia, mas também predispõem seus seguidores a tolerar meios prejudiciais (desigualdade, pobreza) na busca de seus fins tecnológicos.
 
-## Joy Buolamwini: Algorithmic justice advocate
+## Joy Buolamwini: Defensora da justiça algorítmica
 
-### TED Talk: "Unmasking AI and Protecting What's Human" - 2023
-**Link:** TED platform
-**Key warnings:** Buolamwini explained how AI systems built on biased data can amplify inequalities, falsely accuse innocent people, and reverse progress. She called for protection of biometric rights and advocated for what she terms "algorithmic justice."
+### Palestra TED: "Desmascarando a IA e Protegendo o que é Humano" - 2023
+**Link:** Plataforma TED
+**Principais alertas:** Buolamwini explicou como sistemas de IA construídos sobre dados enviesados podem amplificar desigualdades, acusar falsamente pessoas inocentes e reverter o progresso. Ela pediu proteção dos direitos biométricos e defendeu o que ela chama de "justiça algorítmica".
 
-### Biden Administration AI Roundtable - April 2024
-**Key warnings:** Buolamwini discussed with President Biden "the dangers of AI and what we can do to prevent harms already impacting everyday people" in areas including mortgages, housing, medical treatment, and workplace surveillance. She highlighted how facial recognition technology had led to wrongful arrests of people of color.
+### Mesa Redonda de IA da Administração Biden - Abril de 2024
+**Principais alertas:** Buolamwini discutiu com o Presidente Biden "os perigos da IA e o que podemos fazer para prevenir danos que já estão impactando pessoas comuns" em áreas que incluem hipotecas, habitação, tratamento médico e vigilância no local de trabalho. Ela destacou como a tecnologia de reconhecimento facial levou a prisões injustas de pessoas de cor.
 
-## Conclusion
+## Conclusão
 
-These warnings represent an extraordinary consensus among AI's creators that the technology poses serious risks ranging from immediate social harms to potential extinction scenarios. While experts differ on timelines and specific dangers, almost all emphasize that existing governance frameworks are inadequate for the power and pace of AI development. What's particularly notable is how rapidly concerns have escalated - from primarily focusing on bias and misinformation in early 2023 to more existential warnings by 2025, indicating accelerating capabilities beyond even expert expectations.
+Esses alertas representam um consenso extraordinário entre os criadores da IA de que a tecnologia apresenta sérios riscos, que variam desde danos sociais imediatos até potenciais cenários de extinção. Embora os especialistas difiram em cronogramas e perigos específicos, quase todos enfatizam que as estruturas de governança existentes são inadequadas para o poder e o ritmo do desenvolvimento da IA. O que é particularmente notável é quão rapidamente as preocupações escalaram - de se concentrar principalmente em viés e desinformação no início de 2023 para alertas mais existenciais até 2025, indicando capacidades aceleradas além até mesmo das expectativas dos especialistas.

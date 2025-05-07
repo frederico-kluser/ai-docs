@@ -11,3 +11,4 @@
 - [Claude Code Terminal Development Guide](/Volumes/Extension/Projects/huu-docs/claude_code_terminal_development_guide.md)
 - [Open Source LLM Performance](/Volumes/Extension/Projects/huu-docs/open_source_llm_performance.md)
 - [Agentes Vibe Code - Open Source](/Volumes/Extension/Projects/huu-docs/agentes_vibe_code_open_source.md)
+- [Execução Paralela de Agentes de IA em um Mesmo Repositório](./execucao_paralela_agentes_ai_mesmo_repositorio.md)
