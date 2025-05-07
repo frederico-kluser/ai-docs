@@ -13,6 +13,12 @@ referência.
 - [🔧 CLAUDE.md para Projetos Existentes](./claude_md_existing.md) - Template para guiar o Claude Code quando
   trabalhando com bases de código existentes.
 
+### 🤖 Riscos e Segurança da IA
+
+- ✨**NEW** [⚠️ Uma Década de Advertências Sobre IA: 2014-2025](./uma_decada_de_advertencias_sobre_ia_especialistas.md) - Cronologia detalhada das advertências de especialistas como Hinton, Russell e Bengio sobre os riscos da IA.
+- ✨**NEW** [🚨 AI Experts Warnings: 2023-2025](./ai_experts_warnings_2023_2025.md) - Compilation of recent urgent warnings from leading AI researchers like Geoffrey Hinton, Yoshua Bengio and others.
+- ✨**NEW** [🕸️ Melhores Web Crawlers Node.js para Agentes de Código em 2025](./melhores_web_crawlers_nodejs_agentes_codigo_2025.md) - Comparativo detalhado entre Crawlee, Playwright, Node-Crawler e X-Ray para extração de dados.
+
 ### 🔒 Desenvolvimento Seguro e Privacidade
 
 - ✨**NEW** [🔐 Alternativas Blindadas ao GitHub: Privacidade Total](./alternativas_github_privacidade_criptografia.md) - Análise comparativa de plataformas Git com foco em privacidade e criptografia.
@@ -40,6 +46,8 @@ referência.
 
 ### 👨‍💻 Desenvolvimento e Programação Assistida por IA
 
+- ✨**NEW** [🧠 Técnicas de Memória e Contexto para Agentes LLM de Código](./tecnicas_memoria_contexto_agentes_llm_codigo.md) - Métodos avançados além da RAG para estender contexto em LLMs de programação, incluindo memória persistente, arquiteturas híbridas e refinamento iterativo.
+- ✨**NEW** [🔄 Schema Engineering: Prompts Avançados para TypeScript](./typescript_llm_prompting_techniques_schema_engineering.md) - Técnicas avançadas de engenharia de prompts específicas para código TypeScript, incluindo Schema Engineering e decomposição.
 - [💻 Domínio do Claude Code para Desenvolvimento](./claude_code_terminal_development_guide.md) - Técnicas para
   maximizar a eficácia do Claude 3.7 Sonnet como assistente de codificação.
 - [🖱️ Como usar DeepSeek no Cursor](./deekseek_on_cursor.md) - Guia para configurar e usar os modelos DeepSeek no editor
@@ -61,6 +69,8 @@ referência.
 
 ### 🔊 Áudio, Voz e Interfaces Conversacionais
 
+- ✨**NEW** [🎧 Ciência do Som: Áudio para Hiperfoco em Programadores com Bipolaridade](./ciencia_do_som_hiperfoco.md) - Análise científica para otimização de ambientes sonoros para programadores com bipolaridade e alto QI.
+- ✨**NEW** [🎧 Sound Science: Audio for Hyperfocus in Bipolar Programmers](./sound_science_audio_for_hyperfocus_bipolar_programmers.md) - Scientific analysis for optimizing audio environments for programmers with bipolar disorder and high IQ (English version).
 - [🗣️ Nari Labs Dia: Modelo TTS para Diálogos](./nari_labs_dia_tts_model_integration_guide.md) - Modelo TTS Dia para
   geração de diálogos realistas.
 - [🎙️ APIs de Diarização e Reconhecimento de Falantes](./commercial_speaker_diarization_and_recognition_apis.md) -
