@@ -46,6 +46,7 @@ referência.
 
 ### 👨‍💻 Desenvolvimento e Programação Assistida por IA
 
+- ✨**NEW** [🔄 Execução Paralela de Agentes de IA em um Mesmo Repositório](./execucao_paralela_agentes_ai_mesmo_repositorio.md) - Técnicas para isolar múltiplos agentes de IA trabalhando simultaneamente em um único repositório, incluindo Git Worktrees, OverlayFS e contêineres.
 - ✨**NEW** [🤖 Orquestração Multi-LLM para Codificação Paralela em Git](./orquestracao_multi_llm_codificacao_paralela_git.md) - Arquitetura completa para múltiplas LLMs trabalhando simultaneamente em branches Git isoladas com resolução automática de conflitos.
 - ✨**NEW** [📋 Checklist Essencial: Perguntas que IAs Devem Fazer Antes de Escrever Código](./essential_checklist_ai_coding_questions.md) - Conjunto abrangente de perguntas em 8 categorias fundamentais que modelos de IA devem considerar para gerar código robusto.
 - ✨**NEW** [🧠 Técnicas de Memória e Contexto para Agentes LLM de Código](./tecnicas_memoria_contexto_agentes_llm_codigo.md) - Métodos avançados além da RAG para estender contexto em LLMs de programação, incluindo memória persistente, arquiteturas híbridas e refinamento iterativo.
