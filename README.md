@@ -13,12 +13,16 @@ referência.
 - [🔧 CLAUDE.md para Projetos Existentes](./claude_md_existing.md) - Template para guiar o Claude Code quando
   trabalhando com bases de código existentes.
 
+### 🔒 Desenvolvimento Seguro e Privacidade
+
+- ✨**NEW** [🔐 Alternativas Blindadas ao GitHub: Privacidade Total](./alternativas_github_privacidade_criptografia.md) - Análise comparativa de plataformas Git com foco em privacidade e criptografia.
+
 ### 🤖 Inteligência Artificial e LLMs
 
+- ✨**NEW** [🧠 Arquitetura TypeScript para IA: Padrões para 2025](./typescript_ai_first_architecture_2025.md) - Padrões de arquitetura TypeScript otimizados para desenvolvimento assistido por IA.
+- ✨**NEW** [💰 Comparativo de APIs LLM: Limites e Preços em 2025](./llm_api_showdown_usage_limits_pricing_2025.md) - Análise detalhada dos custos e limites entre Anthropic, OpenAI, Google Gemini e outros.
 - ✨**NEW** [🖥️ Assistentes de Terminal com Poderes Web](./terminal_ai_agents_web_powers_free_byok.md) - Comparativo de
   CLIs com AI que permitem navegação web usando suas próprias chaves de API.
-- ✨**NEW** [💰 Limites de Uso e Preços de APIs LLM em 2025](./llm_api_showdown_usage_limits_pricing_2025.md) -
-  Comparativo detalhado dos custos e limites de uso entre Anthropic, OpenAI, Google Gemini, DeepSeek e outros.
 - ✨**NEW** [🚀 Falcon 180B: Guia para Soluções Offline e na Nuvem](./falcon_180b_guia_completo_offline_nuvem.md) - Como
   executar o Falcon 180B em hardware NVIDIA e Google Cloud com orçamento limitado.
 - ✨**NEW** [📊 LLMs Open Source com LangChain](./open_source_llm_performance.md) - Análise do desempenho de LLMs
