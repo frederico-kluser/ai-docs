@@ -13,6 +13,9 @@ Este repositório é uma coleção de documentação e pesquisas técnicas sobre
 
 ### 🤖 Inteligência Artificial e LLMs
 
+- ✨**NEW** [🖥️ Assistentes de Terminal com Poderes Web](./terminal_ai_agents_web_powers_free_byok.md) - Comparativo de CLIs com AI que permitem navegação web usando suas próprias chaves de API.
+- ✨**NEW** [💰 Limites de Uso e Preços de APIs LLM em 2025](./llm_api_showdown_usage_limits_pricing_2025.md) - Comparativo detalhado dos custos e limites de uso entre Anthropic, OpenAI, Google Gemini, DeepSeek e outros.
+- ✨**NEW** [🚀 Falcon 180B: Guia para Soluções Offline e na Nuvem](./falcon_180b_guia_completo_offline_nuvem.md) - Como executar o Falcon 180B em hardware NVIDIA e Google Cloud com orçamento limitado.
 - ✨**NEW** [📊 LLMs Open Source com LangChain](./open_source_llm_performance.md) - Análise do desempenho de LLMs open-source (1B-70B parâmetros) em tarefas de decisão estruturada.
 - [🤖 Comparativo de Modelos de IA com Busca Web](./web_search_ais_benchmark.md) - Análise comparativa entre GPT-4-turbo, Claude e DeepSeek R1 com foco em pesquisa online.
 - [☁️ Rodando Modelos LLM no Google Cloud](./config_ollma_in_google_cloud.md) - Tutorial para configurar Ollama com Falcon-180B e LLaMA 4 em GPUs A100.
