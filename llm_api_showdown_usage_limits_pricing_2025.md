@@ -1,72 +1,72 @@
-# LLM API showdown: Usage limits and pricing in 2025
+# Comparativo de APIs LLM: Limites de uso e preços em 2025
 
-The landscape of large language model APIs has evolved significantly through early 2025, with providers competing on both pricing and accessibility. This comparison examines the current usage constraints and pricing structures across major LLM API providers, highlighting key differences that impact developers' choices for production deployments.
+O panorama das APIs de grandes modelos de linguagem evoluiu significativamente até o início de 2025, com provedores competindo tanto em preços quanto em acessibilidade. Esta comparação examina as atuais restrições de uso e estruturas de preços entre os principais provedores de APIs LLM, destacando diferenças-chave que impactam as escolhas dos desenvolvedores para implantações em produção.
 
-## Free tier offerings: From generous to nonexistent
+## Ofertas de nível gratuito: De generosas a inexistentes
 
-Each provider takes a dramatically different approach to free usage, with some offering substantial free tokens while others provide no free tier at all:
+Cada provedor adota uma abordagem dramaticamente diferente para uso gratuito, com alguns oferecendo tokens gratuitos substanciais enquanto outros não fornecem nenhum nível gratuito:
 
-| Provider | Free Monthly Tokens | Rate Limits (Free Tier) | Models Available | Additional Notes |
+| Provedor | Tokens Mensais Gratuitos | Limites de Taxa (Nível Gratuito) | Modelos Disponíveis | Notas Adicionais |
 |----------|---------------------|-------------------------|------------------|-----------------|
-| Anthropic | $10 maximum usage | 5 RPM, 20K ITPM, 8K OTPM | Claude 3.5 Sonnet | 300K tokens daily limit |
-| DeepSeek | No official free tier | N/A | N/A | Available on Azure preview at $0 |
-| Google Gemini | Unlimited for free models | Gemini 2.5 Flash: 10 RPM, 250K TPM, 500 RPD | All models with limits | Pro models: 2 RPM, 32K TPM, 50 RPD |
-| OpenAI | $5 initial credit + Free Daily Tokens (1-10M) | Severely restricted | Limited access | Free tokens require data sharing |
-| Azure OpenAI | $200 credit (30 days) | 1K TPM for all models | Limited models | Free trial users have zero quota for advanced models |
-| Ollama | Unlimited (open source) | Hardware-dependent | All available models | Local deployment only |
+| Anthropic | Uso máximo de $10 | 5 RPM, 20K ITPM, 8K OTPM | Claude 3.5 Sonnet | Limite diário de 300K tokens |
+| DeepSeek | Sem nível gratuito oficial | N/A | N/A | Disponível na prévia do Azure a $0 |
+| Google Gemini | Ilimitado para modelos gratuitos | Gemini 2.5 Flash: 10 RPM, 250K TPM, 500 RPD | Todos os modelos com limites | Modelos Pro: 2 RPM, 32K TPM, 50 RPD |
+| OpenAI | Crédito inicial de $5 + Tokens Diários Gratuitos (1-10M) | Severamente restrito | Acesso limitado | Tokens gratuitos requerem compartilhamento de dados |
+| Azure OpenAI | Crédito de $200 (30 dias) | 1K TPM para todos os modelos | Modelos limitados | Usuários de teste gratuito têm cota zero para modelos avançados |
+| Ollama | Ilimitado (código aberto) | Dependente do hardware | Todos os modelos disponíveis | Apenas implantação local |
 
-## Paid tier limits: Balancing throughput and cost
+## Limites de nível pago: Equilibrando throughput e custo
 
-Significant variations exist in how providers structure their paid tiers and the maximum throughput allowed:
+Existem variações significativas na forma como os provedores estruturam seus níveis pagos e o throughput máximo permitido:
 
-| Provider | Tier Structure | Standard Tier RPM | Standard Tier TPM | Enterprise Level Maximum |
+| Provedor | Estrutura de Níveis | RPM do Nível Padrão | TPM do Nível Padrão | Máximo do Nível Empresarial |
 |----------|----------------|-------------------|-------------------|--------------------------|
-| Anthropic | Usage-based ($5-$400) | 50 RPM | Varies by model | Custom via sales |
-| DeepSeek | No explicit tiers | "No constraints" | Unlimited (claimed) | Custom arrangements available |
-| Google Gemini | 3 tiers based on usage | Gemini 2.5 Flash: 1K RPM | 1M TPM | Tier 3: 5K+ RPM, 10M+ TPM |
-| OpenAI | 5 tiers based on spending | Tier 1: Varies by model | Varies by model | Tier 5: ~10K RPM, 30M TPM |
-| Azure OpenAI | Default and Enterprise | GPT-4o: 2.7K RPM | 450K TPM | GPT-4o: 180K RPM, 30M TPM |
-| Ollama | N/A (self-hosted) | Configurable (default: 4) | Hardware-dependent | Hardware-dependent |
+| Anthropic | Baseado em uso ($5-$400) | 50 RPM | Varia por modelo | Personalizado via vendas |
+| DeepSeek | Sem níveis explícitos | "Sem restrições" | Ilimitado (alegado) | Arranjos personalizados disponíveis |
+| Google Gemini | 3 níveis baseados em uso | Gemini 2.5 Flash: 1K RPM | 1M TPM | Nível 3: 5K+ RPM, 10M+ TPM |
+| OpenAI | 5 níveis baseados em gastos | Nível 1: Varia por modelo | Varia por modelo | Nível 5: ~10K RPM, 30M TPM |
+| Azure OpenAI | Padrão e Empresarial | GPT-4o: 2,7K RPM | 450K TPM | GPT-4o: 180K RPM, 30M TPM |
+| Ollama | N/A (auto-hospedado) | Configurável (padrão: 4) | Dependente do hardware | Dependente do hardware |
 
-## Simultaneous requests: The concurrency challenge
+## Requisições simultâneas: O desafio da concorrência
 
-Rate limits significantly impact application architecture, with wide variations in allowed concurrent processing:
+Limites de taxa impactam significativamente a arquitetura da aplicação, com amplas variações no processamento concorrente permitido:
 
-| Provider | Concurrent Request Limit | Rate Limiting Method | Burst Capability | Queue System |
+| Provedor | Limite de Requisições Concorrentes | Método de Limitação de Taxa | Capacidade de Pico | Sistema de Fila |
 |----------|--------------------------|----------------------|------------------|--------------|
-| Anthropic | Free tier: 1, Paid: Based on RPM | Token bucket algorithm | Yes | Message Batches API: 100K max queue |
-| DeepSeek | No specific limit mentioned | No explicit rate limits | N/A | Connections remain open during high traffic |
-| Google Gemini | Free: 3 concurrent sessions | Per-project limits | Limited | TPM and RPM limits enforced |
-| OpenAI | Based on tier and model | Three-level (RPM, RPD, TPM) | Limited | GPT-4o Tier 5: 5B batch queue limit |
-| Azure OpenAI | Based on RPM/TPM ratio | Varies by model family | Limited | Batch API has separate queue limits |
-| Ollama | Default: 4 per model | Simple counter | No | Max queue: 512 requests |
+| Anthropic | Nível gratuito: 1, Pago: Baseado em RPM | Algoritmo de token bucket | Sim | API de Lotes de Mensagens: fila máx. 100K |
+| DeepSeek | Nenhum limite específico mencionado | Sem limites de taxa explícitos | N/A | Conexões permanecem abertas durante tráfego alto |
+| Google Gemini | Gratuito: 3 sessões concorrentes | Limites por projeto | Limitado | Limites TPM e RPM aplicados |
+| OpenAI | Baseado em nível e modelo | Três níveis (RPM, RPD, TPM) | Limitado | GPT-4o Nível 5: limite de fila em lote de 5B |
+| Azure OpenAI | Baseado na proporção RPM/TPM | Varia por família de modelo | Limitado | API em Lote tem limites de fila separados |
+| Ollama | Padrão: 4 por modelo | Contador simples | Não | Fila máxima: 512 requisições |
 
-## Pricing: The token economy
+## Preços: A economia de tokens
 
-**Model pricing varies dramatically across providers, with up to 30x differences for comparable capabilities:**
+**Os preços dos modelos variam dramaticamente entre provedores, com diferenças de até 30x para capacidades comparáveis:**
 
-| Provider | Input Token Price (per million) | Output Token Price (per million) | Context Window Size | Special Pricing Features |
+| Provedor | Preço de Token de Entrada (por milhão) | Preço de Token de Saída (por milhão) | Tamanho da Janela de Contexto | Características Especiais de Preço |
 |----------|--------------------------------|----------------------------------|---------------------|-------------------------|
-| Anthropic | Claude 3 Opus: $15<br>Claude 3 Sonnet: $3<br>Claude 3 Haiku: $0.25 | Claude 3 Opus: $75<br>Claude 3 Sonnet: $15<br>Claude 3 Haiku: $1.25 | 200K tokens all models | Prompt caching available |
-| DeepSeek | DeepSeek-V3: $0.27<br>DeepSeek-R1: $0.55 | DeepSeek-V3: $1.10<br>DeepSeek-R1: $2.19 | 64K tokens | Off-peak discounts<br>Cache hit discount: 74-75% |
-| Google Gemini | Gemini 2.5 Pro: $1.25-$2.50<br>Gemini 2.5 Flash: $0.15<br>Gemini 1.5 Flash-8B: $0.0375 | Gemini 2.5 Pro: $10-$15<br>Gemini 2.5 Flash: $0.60<br>Gemini 1.5 Flash-8B: $0.15-$0.30 | Gemini 2.5 Pro: 1M tokens<br>Gemini 2.0 Flash: 1M tokens | Tiered pricing for large contexts<br>Context storage fees |
-| OpenAI | GPT-4.1: $2<br>GPT-4o: $3<br>GPT-4o mini: $0.15 | GPT-4.1: $8<br>GPT-4o: $10<br>GPT-4o mini: $0.60 | GPT-4.1: 1M tokens<br>GPT-4o: 128K tokens | 75% discount for cached prompts<br>50% batch discount |
-| Azure OpenAI | Similar to OpenAI with variations by deployment type | Similar to OpenAI with variations by deployment type | Varies by model | Global/Data Zone/Regional deployments<br>Provisioned Throughput Units |
-| Ollama | $0 (local compute costs only) | $0 (local compute costs only) | Default: 4K (configurable) | Hardware costs only |
+| Anthropic | Claude 3 Opus: $15<br>Claude 3 Sonnet: $3<br>Claude 3 Haiku: $0,25 | Claude 3 Opus: $75<br>Claude 3 Sonnet: $15<br>Claude 3 Haiku: $1,25 | 200K tokens todos os modelos | Cache de prompt disponível |
+| DeepSeek | DeepSeek-V3: $0,27<br>DeepSeek-R1: $0,55 | DeepSeek-V3: $1,10<br>DeepSeek-R1: $2,19 | 64K tokens | Descontos fora de pico<br>Desconto de cache hit: 74-75% |
+| Google Gemini | Gemini 2.5 Pro: $1,25-$2,50<br>Gemini 2.5 Flash: $0,15<br>Gemini 1.5 Flash-8B: $0,0375 | Gemini 2.5 Pro: $10-$15<br>Gemini 2.5 Flash: $0,60<br>Gemini 1.5 Flash-8B: $0,15-$0,30 | Gemini 2.5 Pro: 1M tokens<br>Gemini 2.0 Flash: 1M tokens | Preços em níveis para contextos grandes<br>Taxas de armazenamento de contexto |
+| OpenAI | GPT-4.1: $2<br>GPT-4o: $3<br>GPT-4o mini: $0,15 | GPT-4.1: $8<br>GPT-4o: $10<br>GPT-4o mini: $0,60 | GPT-4.1: 1M tokens<br>GPT-4o: 128K tokens | 75% de desconto para prompts em cache<br>50% de desconto em lote |
+| Azure OpenAI | Similar à OpenAI com variações por tipo de implantação | Similar à OpenAI com variações por tipo de implantação | Varia por modelo | Implantações Globais/Zona de Dados/Regionais<br>Unidades de Throughput Provisionadas |
+| Ollama | $0 (apenas custos de computação local) | $0 (apenas custos de computação local) | Padrão: 4K (configurável) | Apenas custos de hardware |
 
-## Other usage constraints: The fine print
+## Outras restrições de uso: As letras miúdas
 
-Beyond core limits and pricing, providers implement additional constraints that significantly impact application design:
+Além dos limites principais e preços, os provedores implementam restrições adicionais que impactam significativamente o design da aplicação:
 
-| Provider | Special Limitations | Recent Changes | Key Advantages |
+| Provedor | Limitações Especiais | Mudanças Recentes | Vantagens Principais |
 |----------|---------------------|----------------|----------------|
-| Anthropic | Token counting varies for cached prompts | New Max Plan with higher rate limits<br>Claude 3.7 Sonnet with extended thinking | 128K output tokens in extended thinking mode<br>Custom spend limits per workspace |
-| DeepSeek | Minimum cache size: 64 tokens<br>30-minute connection timeout | Upgraded to DeepSeek-V3<br>Released under MIT License | No explicit rate limits<br>Significant cache discounts |
-| Google Gemini | Grounding with Search: 500 free/day then $35 per 1K<br>Image generation: $0.03/image | Gemini 2.5 Pro introduced May 2025<br>Tiered pricing for larger contexts | Multimodal capabilities included<br>Generous free tier |
-| OpenAI | Performance degrades with >10 concurrent requests<br>Audio processing has separate pricing | New GPT-4.1 models (April 2025)<br>83-90% price drop over 16 months | Batch API with 50% discount<br>75% cached prompt discount |
-| Azure OpenAI | 30 resource instances max per region<br>Performance tiers based on monthly usage | New deployment options (Global/Data Zone)<br>Removal of model deployment restrictions | Three deployment types for compliance needs<br>Spillover feature for traffic management |
-| Ollama | Hardware-dependent limitations<br>Model-specific licenses may apply | New context length configuration<br>Improved function calling support | Completely configurable<br>No usage-based costs |
+| Anthropic | Contagem de tokens varia para prompts em cache | Novo Plano Max com limites de taxa mais altos<br>Claude 3.7 Sonnet com pensamento estendido | 128K tokens de saída no modo de pensamento estendido<br>Limites de gasto personalizados por workspace |
+| DeepSeek | Tamanho mínimo de cache: 64 tokens<br>Timeout de conexão de 30 minutos | Atualizado para DeepSeek-V3<br>Lançado sob Licença MIT | Sem limites de taxa explícitos<br>Descontos significativos de cache |
+| Google Gemini | Grounding com Pesquisa: 500 gratuitos/dia depois $35 por 1K<br>Geração de imagem: $0,03/imagem | Gemini 2.5 Pro introduzido em maio de 2025<br>Preços em níveis para contextos maiores | Capacidades multimodais incluídas<br>Nível gratuito generoso |
+| OpenAI | Desempenho degrada com >10 requisições concorrentes<br>Processamento de áudio tem preços separados | Novos modelos GPT-4.1 (abril de 2025)<br>Queda de preço de 83-90% em 16 meses | API em Lote com 50% de desconto<br>75% de desconto em prompt em cache |
+| Azure OpenAI | Máximo de 30 instâncias de recurso por região<br>Níveis de desempenho baseados em uso mensal | Novas opções de implantação (Global/Zona de Dados)<br>Remoção de restrições de implantação de modelo | Três tipos de implantação para necessidades de conformidade<br>Recurso de spillover para gerenciamento de tráfego |
+| Ollama | Limitações dependentes de hardware<br>Licenças específicas do modelo podem ser aplicáveis | Nova configuração de tamanho de contexto<br>Suporte a chamada de função melhorado | Completamente configurável<br>Sem custos baseados em uso |
 
-## Conclusion
+## Conclusão
 
-Provider selection remains highly dependent on specific use cases. Google Gemini offers the most generous free tier for developers, while DeepSeek claims unlimited throughput for high-volume applications. Anthropic provides balance with moderate pricing and clear rate limits, while OpenAI continues aggressive price reductions. Azure adds compliance options through regional deployment types, and Ollama provides a cost-effective option for those willing to manage their own infrastructure. Consider your specific throughput, budget, and feature requirements when making your selection.
+A seleção de provedor permanece altamente dependente de casos de uso específicos. Google Gemini oferece o nível gratuito mais generoso para desenvolvedores, enquanto DeepSeek afirma throughput ilimitado para aplicações de alto volume. Anthropic proporciona equilíbrio com preços moderados e limites de taxa claros, enquanto OpenAI continua com reduções agressivas de preço. Azure adiciona opções de conformidade através de tipos de implantação regionais, e Ollama fornece uma opção de custo-benefício para aqueles dispostos a gerenciar sua própria infraestrutura. Considere seus requisitos específicos de throughput, orçamento e recursos ao fazer sua seleção.
