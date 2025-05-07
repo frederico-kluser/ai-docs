@@ -79,8 +79,8 @@ referência.
   Comparativo de APIs para processamento de voz.
 - [📱 Roadmap: App Android de Streaming de Áudio](./android_audio_streaming_app_development_roadmap.md) -
   Desenvolvimento de aplicativo para captura de áudio no Android.
-- [📲 Roadmap: App iOS React Native para Áudio](<./roadmap%20de%20desenvolvimento_%20app%20ios%20react%20native%20(áudio%20em%20tempo%20real,%20diarização,%20transcrição%20e%20integração%20com%20llm).md>) -
-  Desenvolvimento de app de processamento de áudio.
+- [📲 Roadmap: App iOS React Native para Áudio](./roadmap_de_desenvolvimento_\ app_ios_react_native.md) -
+  Desenvolvimento de app iOS para processamento de áudio em tempo real e integração com LLM.
 - [🍎 iOS: Viabilidade de Captura de Áudio Interno](./ios_internal_audio_capture_technical_feasibility.md) - Análise de
   viabilidade no iOS.
 - [🗣️ Frameworks React para IA e Interfaces de Voz](./frameworks_react_ia_voz_interfaces.md) - Frameworks React para
