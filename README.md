@@ -46,6 +46,8 @@ referência.
 
 ### 👨‍💻 Desenvolvimento e Programação Assistida por IA
 
+- ✨**NEW** [🤖 Orquestração Multi-LLM para Codificação Paralela em Git](./orquestracao_multi_llm_codificacao_paralela_git.md) - Arquitetura completa para múltiplas LLMs trabalhando simultaneamente em branches Git isoladas com resolução automática de conflitos.
+- ✨**NEW** [📋 Checklist Essencial: Perguntas que IAs Devem Fazer Antes de Escrever Código](./essential_checklist_ai_coding_questions.md) - Conjunto abrangente de perguntas em 8 categorias fundamentais que modelos de IA devem considerar para gerar código robusto.
 - ✨**NEW** [🧠 Técnicas de Memória e Contexto para Agentes LLM de Código](./tecnicas_memoria_contexto_agentes_llm_codigo.md) - Métodos avançados além da RAG para estender contexto em LLMs de programação, incluindo memória persistente, arquiteturas híbridas e refinamento iterativo.
 - ✨**NEW** [🔄 Schema Engineering: Prompts Avançados para TypeScript](./typescript_llm_prompting_techniques_schema_engineering.md) - Técnicas avançadas de engenharia de prompts específicas para código TypeScript, incluindo Schema Engineering e decomposição.
 - [💻 Domínio do Claude Code para Desenvolvimento](./claude_code_terminal_development_guide.md) - Técnicas para
