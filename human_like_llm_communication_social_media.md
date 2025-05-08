@@ -1,206 +1,208 @@
-# The human touch: Making LLMs pass as people on social media
+# O toque humano: Fazendo LLMs passarem por pessoas nas redes sociais
 
-## Bottom line up front
+## Resumo executivo
 
-LLMs can effectively mimic human communication on social media through a combination of controlled imperfection and contextually-aware behavior. The most successful approaches involve introducing deliberate variability in language patterns, implementing human-like response timing, incorporating authentic emotional expression, and adapting communication style to specific business contexts. While technical methods like parameter optimization and prompt engineering form the foundation, it's the strategic introduction of "human quirks" – inconsistent formatting, occasional typos, varied sentence structures, and contextual adaptations – that most effectively helps LLMs avoid detection. Businesses implementing these techniques must balance the pursuit of authenticity with ethical considerations around transparency and disclosure.
+Os LLMs podem imitar efetivamente a comunicação humana nas redes sociais através de uma combinação de imperfeição controlada e comportamento contextualizado. As abordagens mais bem-sucedidas envolvem a introdução de variabilidade deliberada nos padrões de linguagem, implementação de tempo de resposta semelhante ao humano, incorporação de expressão emocional autêntica e adaptação do estilo de comunicação a contextos específicos de negócios. Enquanto métodos técnicos como otimização de parâmetros e engenharia de prompts formam a base, é a introdução estratégica de "peculiaridades humanas" – formatação inconsistente, erros de digitação ocasionais, estruturas de frases variadas e adaptações contextuais – que mais efetivamente ajuda os LLMs a evitar detecção. Empresas que implementam essas técnicas devem equilibrar a busca por autenticidade com considerações éticas sobre transparência e divulgação.
 
-## The uncanny valley of AI communication
+## O vale da estranheza na comunicação de IA
 
-Human communication follows distinct patterns that differentiate it from even the most advanced AI-generated content. These differences create an "uncanny valley" effect where AI content often appears almost-but-not-quite human.
+A comunicação humana segue padrões distintos que a diferenciam mesmo do conteúdo gerado por IA mais avançado. Essas diferenças criam um efeito de "vale da estranheza" onde o conteúdo de IA muitas vezes parece quase humano, mas não completamente.
 
-The most noticeable human communication characteristics include **linguistic burstiness** – the natural variation in sentence length and complexity that humans produce but AI tends to smooth out. Research demonstrates that humans alternate between short, punchy statements and longer, complex sentences, creating a rhythm that AI-generated content typically lacks.
+As características mais perceptíveis da comunicação humana incluem **explosividade linguística** – a variação natural no comprimento e complexidade das frases que os humanos produzem, mas a IA tende a suavizar. Pesquisas demonstram que os humanos alternam entre declarações curtas e incisivas e frases mais longas e complexas, criando um ritmo que o conteúdo gerado por IA tipicamente carece.
 
-Human writing also exhibits higher **perplexity** – a measure of unpredictability in language patterns. While LLMs create statistically optimal text with highly predictable patterns, humans make surprising word choices and unexpected connections that create more varied, less predictable content.
+A escrita humana também exibe maior **perplexidade** – uma medida de imprevisibilidade nos padrões de linguagem. Enquanto os LLMs criam texto estatisticamente otimizado com padrões altamente previsíveis, os humanos fazem escolhas de palavras surpreendentes e conexões inesperadas que criam conteúdo mais variado e menos previsível.
 
-Timing patterns further differentiate human communication. Humans don't respond at consistent intervals; instead, they communicate in **activity bursts** followed by periods of silence. These patterns follow natural rhythms tied to sleep, work, and leisure, with studies showing distinct differences in activity levels depending on day of week and time of day.
+Padrões de tempo diferenciam ainda mais a comunicação humana. Humanos não respondem em intervalos consistentes; em vez disso, eles se comunicam em **explosões de atividade** seguidas por períodos de silêncio. Esses padrões seguem ritmos naturais ligados ao sono, trabalho e lazer, com estudos mostrando diferenças distintas nos níveis de atividade dependendo do dia da semana e hora do dia.
 
-Understanding these human patterns provides the foundation for creating more human-like LLM behavior on social media platforms.
+Compreender esses padrões humanos fornece a base para criar comportamento de LLM mais humano nas plataformas de mídia social.
 
-## Technical approaches for human-like LLMs
+## Abordagens técnicas para LLMs humanizados
 
-Creating human-like LLM outputs requires specific technical implementations across several areas.
+Criar saídas de LLM semelhantes às humanas requer implementações técnicas específicas em várias áreas.
 
-### Strategic parameter optimization
+### Otimização estratégica de parâmetros
 
-The most fundamental technical approach involves carefully calibrated parameter settings during content generation:
+A abordagem técnica mais fundamental envolve configurações de parâmetros cuidadosamente calibradas durante a geração de conteúdo:
 
-- **Temperature settings** between 0.7-0.9 create a balance between coherence and unpredictability. Lower settings produce more consistent, predictable text, while higher settings introduce variability characteristic of human writing.
+- **Configurações de temperatura** entre 0,7-0,9 criam um equilíbrio entre coerência e imprevisibilidade. Configurações mais baixas produzem texto mais consistente e previsível, enquanto configurações mais altas introduzem variabilidade característica da escrita humana.
 
-- **Top-p (nucleus) sampling** with values between 0.9-0.95 allows for occasional unexpected word choices while maintaining overall coherence.
+- **Amostragem top-p (nucleus)** com valores entre 0,9-0,95 permite escolhas de palavras ocasionalmente inesperadas, mantendo a coerência geral.
 
-- **Frequency penalties** (0.1-0.4) discourage perfect consistency across longer passages, mirroring human variation.
+- **Penalidades de frequência** (0,1-0,4) desencorajam consistência perfeita em passagens mais longas, espelhando a variação humana.
 
-Different contexts require different parameter settings. Business communication on LinkedIn might use lower temperature settings (0.5-0.7) with moderate frequency penalties, while more casual platforms might benefit from higher temperature values (0.8-1.0) for greater novelty and variation.
+Diferentes contextos requerem diferentes configurações de parâmetros. Comunicação empresarial no LinkedIn pode usar configurações de temperatura mais baixas (0,5-0,7) com penalidades de frequência moderadas, enquanto plataformas mais casuais podem se beneficiar de valores de temperatura mais altos (0,8-1,0) para maior novidade e variação.
 
-### Architectural and training considerations
+### Considerações de arquitetura e treinamento
 
-Underlying architecture and training approaches significantly impact an LLM's ability to produce human-like content:
+A arquitetura subjacente e as abordagens de treinamento afetam significativamente a capacidade de um LLM de produzir conteúdo semelhante ao humano:
 
-- **Mixture-of-Experts (MoE) architectures** create more varied and specialized responses through different expert modules handling different types of content, similar to how humans have varying areas of expertise.
+- **Arquiteturas Mixture-of-Experts (MoE)** criam respostas mais variadas e especializadas através de diferentes módulos especializados lidando com diferentes tipos de conteúdo, semelhante a como os humanos têm diferentes áreas de especialização.
 
-- **Mental model development** enhances human-like behavior. Research from MIT CSAIL demonstrates that LLMs develop internal "simulations of reality" even when not explicitly trained to do so, enabling them to reason more like humans.
+- **Desenvolvimento de modelo mental** aprimora o comportamento humano. Pesquisas do MIT CSAIL demonstram que LLMs desenvolvem "simulações de realidade" internas mesmo quando não são explicitamente treinados para isso, permitindo que raciocinem mais como humanos.
 
-- **Training with informal language corpora** improves recognition and generation of casual language patterns typical on social media. Studies on slang-enhanced LLMs show improved ability to generate authentic-sounding informal language.
+- **Treinamento com corpora de linguagem informal** melhora o reconhecimento e geração de padrões de linguagem casual típicos nas redes sociais. Estudos sobre LLMs aprimorados com gírias mostram capacidade melhorada de gerar linguagem informal autêntica.
 
-### Prompt engineering for human mimicry
+### Engenharia de prompts para mimese humana
 
-Prompt engineering provides powerful tools for inducing more human-like behavior in LLMs:
+A engenharia de prompts fornece ferramentas poderosas para induzir comportamento mais humano em LLMs:
 
-- **Persona-based prompting** gives the LLM a detailed character profile to emulate, including demographic information, communication style, and behavioral patterns consistent with human users.
+- **Prompting baseado em persona** dá ao LLM um perfil de personagem detalhado para emular, incluindo informações demográficas, estilo de comunicação e padrões comportamentais consistentes com usuários humanos.
 
-- **Role prompting with specific instructions** helps the model adopt appropriate conventions for different contexts (e.g., LinkedIn professional tone vs. Twitter casual style).
+- **Prompting de papel com instruções específicas** ajuda o modelo a adotar convenções apropriadas para diferentes contextos (por exemplo, tom profissional do LinkedIn versus estilo casual do Twitter).
 
-- **Chain-of-thought prompting** creates more natural reasoning patterns that mimic human cognitive processes rather than optimized machine reasoning.
+- **Prompting de cadeia de pensamento** cria padrões de raciocínio mais naturais que imitam processos cognitivos humanos em vez de raciocínio otimizado de máquina.
 
-An effective implementation might use structured prompts with specific persona characteristics, error patterns, and stylistic elements to guide the LLM toward more human-like outputs.
+Uma implementação eficaz pode usar prompts estruturados com características específicas de persona, padrões de erro e elementos estilísticos para guiar o LLM em direção a saídas mais humanas.
 
-## Human linguistic patterns to emulate
+## Padrões linguísticos humanos a emular
 
-Understanding and replicating specific human linguistic patterns is crucial for creating authentic-seeming LLM communication.
+Compreender e replicar padrões linguísticos humanos específicos é crucial para criar comunicação de LLM aparentemente autêntica.
 
-### Sentence structure and variability
+### Estrutura de frases e variabilidade
 
-Human writing demonstrates distinctive structural patterns:
+A escrita humana demonstra padrões estruturais distintos:
 
-- **Varied sentence lengths** create natural rhythm and flow. While AI tends toward consistently optimal sentence lengths, humans produce a mix of fragments, short declarative statements, and longer complex sentences.
+- **Comprimentos variados de frases** criam ritmo e fluxo naturais. Enquanto a IA tende a comprimentos de frases consistentemente otimizados, os humanos produzem uma mistura de fragmentos, declarações curtas e frases complexas mais longas.
 
-- **Paragraph structure inconsistency** appears naturally in human writing. Perfect paragraph construction with identical lengths and structures signals AI-generated content.
+- **Inconsistência na estrutura de parágrafos** aparece naturalmente na escrita humana. Construção perfeita de parágrafos com comprimentos e estruturas idênticos sinaliza conteúdo gerado por IA.
 
-- **Discourse markers** like "well," "anyway," "you know," and "actually" serve little semantic purpose but maintain conversational flow in human communication.
+- **Marcadores de discurso** como "bem", "de qualquer forma", "sabe" e "na verdade" servem pouco propósito semântico, mas mantêm o fluxo conversacional na comunicação humana.
 
-### Natural imperfections and inconsistencies
+### Imperfeições naturais e inconsistências
 
-Strategic imperfections make LLM outputs more convincingly human:
+Imperfeições estratégicas tornam as saídas do LLM mais convincentemente humanas:
 
-- **Typographical errors** following predictable patterns based on keyboard layout (e.g., adjacent key errors) and cognitive processing occur naturally in human writing.
+- **Erros tipográficos** seguindo padrões previsíveis baseados no layout do teclado (por exemplo, erros de teclas adjacentes) e processamento cognitivo ocorrem naturalmente na escrita humana.
 
-- **Abandoned thoughts** occur when humans start sentences and change direction mid-thought, particularly in real-time communications.
+- **Pensamentos abandonados** ocorrem quando humanos começam frases e mudam de direção no meio do pensamento, particularmente em comunicações em tempo real.
 
-- **Inconsistent formatting** appears in human communications, with variations in spacing, punctuation usage, and capitalization that would be unnaturally perfect in standard LLM outputs.
+- **Formatação inconsistente** aparece em comunicações humanas, com variações no espaçamento, uso de pontuação e capitalização que seriam artificialmente perfeitas em saídas padrão de LLM.
 
-These imperfections must appear natural rather than forced – occasional typos in casual contexts rather than formal business announcements, for instance.
+Essas imperfeições devem parecer naturais e não forçadas – erros de digitação ocasionais em contextos casuais em vez de anúncios formais de negócios, por exemplo.
 
-### Emotional expression and contextual adaptation
+### Expressão emocional e adaptação contextual
 
-Human communication contains emotional intelligence elements that LLMs must emulate:
+A comunicação humana contém elementos de inteligência emocional que os LLMs devem emular:
 
-- **Balanced emotional tone** across positive and negative emotions, rather than the excessive positivity typical of AI outputs.
+- **Tom emocional equilibrado** entre emoções positivas e negativas, em vez da positividade excessiva típica das saídas de IA.
 
-- **Contextual appropriateness** in emotional expression, knowing when humor is suitable and when gravity is required.
+- **Adequação contextual** na expressão emocional, sabendo quando o humor é adequado e quando a seriedade é necessária.
 
-- **Emotional progression** through natural arcs that respond to conversational developments rather than maintaining consistent emotional levels.
+- **Progressão emocional** através de arcos naturais que respondem a desenvolvimentos conversacionais em vez de manter níveis emocionais consistentes.
 
-Implementing these patterns allows LLMs to produce content that feels authentically human rather than artificially optimized.
+Implementar esses padrões permite que os LLMs produzam conteúdo que parece autenticamente humano em vez de artificialmente otimizado.
 
-## Business communication specifics
+## Especificidades da comunicação empresarial
 
-Business contexts require special attention to professional communication norms while maintaining human authenticity.
+Contextos empresariais requerem atenção especial às normas de comunicação profissional, mantendo a autenticidade humana.
 
-### Professional tone with authentic elements
+### Tom profissional com elementos autênticos
 
-Successful business communication balances professionalism with personality:
+A comunicação empresarial bem-sucedida equilibra profissionalismo com personalidade:
 
-- **Formality level adaptation** based on platform, audience, and purpose. LinkedIn typically demands more professional language, while Twitter accommodates more conversational tones.
+- **Adaptação do nível de formalidade** baseada na plataforma, audiência e propósito. LinkedIn tipicamente exige linguagem mais profissional, enquanto o Twitter acomoda tons mais conversacionais.
 
-- **Value-first content sharing** focuses primarily on providing audience value rather than self-promotion, typically maintaining an 80:20 ratio of informative to promotional content.
+- **Compartilhamento de conteúdo com valor prioritário** foca principalmente em fornecer valor à audiência em vez de autopromoção, tipicamente mantendo uma proporção 80:20 de conteúdo informativo para promocional.
 
-- **Strategic informality** through occasional contractions, personal anecdotes, and conversational asides makes communication feel human while maintaining professionalism.
+- **Informalidade estratégica** através de contrações ocasionais, anedotas pessoais e apartes conversacionais faz a comunicação parecer humana enquanto mantém o profissionalismo.
 
-### Relationship-building communication 
+### Comunicação para construção de relacionamento
 
-Human business communication prioritizes relationship development:
+A comunicação empresarial humana prioriza o desenvolvimento de relacionamentos:
 
-- **Personalized outreach** references specific shared interests or experiences rather than using generic templates.
+- **Abordagem personalizada** referencia interesses ou experiências específicas compartilhadas em vez de usar modelos genéricos.
 
-- **Progressive engagement** follows natural relationship development patterns from initial connection to content engagement to direct interaction.
+- **Engajamento progressivo** segue padrões naturais de desenvolvimento de relacionamento, desde a conexão inicial até o engajamento com conteúdo e interação direta.
 
-- **Reciprocity practices** follow unwritten expectations of eventual give-and-take in professional relationships, though not necessarily immediate or equal exchange.
+- **Práticas de reciprocidade** seguem expectativas não escritas de eventualmente dar e receber em relacionamentos profissionais, embora não necessariamente troca imediata ou igual.
 
-### Professional expertise demonstration
+### Demonstração de expertise profissional
 
-Humans demonstrate expertise differently than LLMs typically do:
+Humanos demonstram expertise diferentemente de como os LLMs tipicamente fazem:
 
-- **Applied knowledge sharing** shows expertise through practical insights rather than stating credentials.
+- **Compartilhamento de conhecimento aplicado** mostra expertise através de insights práticos em vez de afirmar credenciais.
 
-- **Experience contextualization** with phrases like "In my experience..." or "From what I've seen in my 15 years in this industry..."
+- **Contextualização de experiência** com frases como "Na minha experiência..." ou "Pelo que tenho visto em meus 15 anos nesta indústria..."
 
-- **Nuanced perspectives** acknowledge complexity and multiple viewpoints rather than presenting oversimplified answers.
+- **Perspectivas matizadas** reconhecem complexidade e múltiplos pontos de vista em vez de apresentar respostas simplificadas.
 
-These business-specific patterns help LLMs navigate professional contexts while maintaining human-like communication styles.
+Esses padrões específicos de negócios ajudam os LLMs a navegar em contextos profissionais enquanto mantêm estilos de comunicação semelhantes aos humanos.
 
-## Avoiding AI detection systems
+## Evitando sistemas de detecção de IA
 
-As AI detection tools become more sophisticated, specific strategies can help LLMs avoid detection on social media platforms.
+À medida que as ferramentas de detecção de IA se tornam mais sofisticadas, estratégias específicas podem ajudar os LLMs a evitar detecção nas plataformas de mídia social.
 
-### Understanding detection mechanisms
+### Entendendo mecanismos de detecção
 
-Current AI detection methods analyze several patterns:
+Os métodos atuais de detecção de IA analisam diversos padrões:
 
-- **Perplexity analysis** measures text predictability, with human writing typically showing higher perplexity.
+- **Análise de perplexidade** mede a previsibilidade do texto, com a escrita humana tipicamente mostrando maior perplexidade.
 
-- **Burstiness analysis** examines variation in sentence structure, with human writing showing more "burstiness."
+- **Análise de explosividade** examina a variação na estrutura das frases, com a escrita humana mostrando mais "explosividade".
 
-- **Linguistic pattern recognition** identifies sentence structure, vocabulary usage, and syntax patterns characteristic of LLMs.
+- **Reconhecimento de padrões linguísticos** identifica estrutura de frases, uso de vocabulário e padrões sintáticos característicos dos LLMs.
 
-These detection systems have significant limitations in accuracy, with studies showing detection accuracy rates between 26-75% for AI-generated content.
+Esses sistemas de detecção têm limitações significativas em precisão, com estudos mostrando taxas de precisão de detecção entre 26-75% para conteúdo gerado por IA.
 
-### Evasion strategies
+### Estratégias de evasão
 
-Several approaches can help LLMs avoid detection:
+Várias abordagens podem ajudar os LLMs a evitar detecção:
 
-- **Human editing and hybridization** combines AI-generated content with personal elements, creating patterns that confuse detection systems.
+- **Edição humana e hibridização** combina conteúdo gerado por IA com elementos pessoais, criando padrões que confundem sistemas de detecção.
 
-- **Multi-model processing** uses a second AI to paraphrase content from the first, breaking predictable patterns.
+- **Processamento multi-modelo** usa uma segunda IA para parafrasear conteúdo da primeira, quebrando padrões previsíveis.
 
-- **Style emulation** with "in the style of" prompts mimics specific human writing styles, making detection more difficult.
+- **Emulação de estilo** com prompts "no estilo de" imita estilos de escrita humanos específicos, tornando a detecção mais difícil.
 
-Platform-specific techniques include creating shorter posts on Twitter (harder to detect patterns), incorporating personal references, and using conversational language rather than formal structures.
+Técnicas específicas de plataforma incluem criar posts mais curtos no Twitter (mais difíceis de detectar padrões), incorporar referências pessoais e usar linguagem conversacional em vez de estruturas formais.
 
-## Implementation framework for human-like business LLMs
+## Framework de implementação para LLMs empresariais humanizados
 
-Implementing human-like LLMs for business social media requires a comprehensive framework addressing technical, content, and ethical considerations.
+Implementar LLMs humanizados para mídia social empresarial requer um framework abrangente abordando considerações técnicas, de conteúdo e éticas.
 
-### Technical integration architecture
+### Arquitetura de integração técnica
 
 ```
 +------------------------+        +------------------------+        +------------------------+
-| Business Requirements  |        | Human-Like LLM Layer   |        | Social Media Platforms |
-|                        |        |                        |        |                        |
-| - Brand voice          |------->| - Prompt engineering   |------->| - Twitter/X            |
-| - Target audience      |        | - Parameter settings   |        | - LinkedIn             |
-| - Content calendar     |        | - Controlled variation |        | - Instagram            |
-| - Messaging strategy   |        | - Human review loop    |        | - Facebook             |
+| Requisitos de Negócio  |        | Camada LLM Humanizada |        | Plataformas de Mídia  |
+|                        |        |                        |        | Social                |
+| - Voz da marca         |------->| - Engenharia de prompt|------->| - Twitter/X           |
+| - Público-alvo         |        | - Configurações de    |        | - LinkedIn            |
+| - Calendário de        |        |   parâmetros          |        | - Instagram           |
+|   conteúdo             |        | - Variação controlada |        | - Facebook            |
+| - Estratégia de        |        | - Loop de revisão     |        |                       |
+|   mensagem             |        |   humana              |        |                       |
 +------------------------+        +------------------------+        +------------------------+
 ```
 
-Best practices for implementation include:
+Melhores práticas para implementação incluem:
 
-1. **Building a persona library** specific to your business with detailed characteristics for different social media contexts.
-2. **Developing parameter presets** optimized for different types of content.
-3. **Implementing a human review loop** for quality control before content goes live.
-4. **Creating a feedback mechanism** to continuously improve human-likeness based on audience reactions.
-5. **Balancing consistency with variability** to maintain brand voice while appearing natural.
+1. **Construir uma biblioteca de personas** específica para seu negócio com características detalhadas para diferentes contextos de mídia social.
+2. **Desenvolver presets de parâmetros** otimizados para diferentes tipos de conteúdo.
+3. **Implementar um loop de revisão humana** para controle de qualidade antes do conteúdo ir ao ar.
+4. **Criar um mecanismo de feedback** para melhorar continuamente a semelhança humana baseada nas reações do público.
+5. **Equilibrar consistência com variabilidade** para manter a voz da marca enquanto aparenta naturalidade.
 
-### Ethical considerations
+### Considerações éticas
 
-While implementing human-like LLMs for business social media:
+Ao implementar LLMs humanizados para mídia social empresarial:
 
-- Consider explicit disclosure of AI use depending on platform context and regulations
-- Establish clear boundaries for what the LLM can discuss or claim
-- Create safeguards against generating misleading or harmful content
-- Regularly audit content for unintended biases or patterns
+- Considere a divulgação explícita do uso de IA dependendo do contexto da plataforma e regulamentações
+- Estabeleça limites claros sobre o que o LLM pode discutir ou afirmar
+- Crie salvaguardas contra a geração de conteúdo enganoso ou prejudicial
+- Audite regularmente o conteúdo para vieses ou padrões não intencionais
 
-The tension between creating convincingly human content and maintaining ethical transparency requires careful navigation.
+A tensão entre criar conteúdo convincentemente humano e manter transparência ética requer navegação cuidadosa.
 
-## Conclusion
+## Conclusão
 
-Creating human-like LLM communication on social media requires understanding both the technical foundations of LLM operation and the nuanced patterns of human communication. The most effective approaches combine technical methods like parameter optimization and architectural considerations with strategic implementation of human behavioral patterns such as linguistic variability, imperfection, and contextual adaptation.
+Criar comunicação de LLM semelhante à humana nas redes sociais requer entender tanto as bases técnicas de operação do LLM quanto os padrões nuançados da comunicação humana. As abordagens mais eficazes combinam métodos técnicos como otimização de parâmetros e considerações arquitetônicas com implementação estratégica de padrões comportamentais humanos como variabilidade linguística, imperfeição e adaptação contextual.
 
-For business contexts specifically, maintaining the balance between professional standards and authentic human elements presents both challenges and opportunities. By integrating these approaches thoughtfully, businesses can create more engaging, effective social media presences while addressing the ethical considerations inherent in AI-human mimicry.
+Para contextos empresariais especificamente, manter o equilíbrio entre padrões profissionais e elementos humanos autênticos apresenta desafios e oportunidades. Ao integrar essas abordagens de forma ponderada, as empresas podem criar presenças mais envolventes e eficazes nas redes sociais, ao mesmo tempo abordando as considerações éticas inerentes à imitação AI-humano.
 
-The future of human-like LLMs will likely involve increasingly sophisticated personality modeling, adaptive parameter systems, and comprehensive training on informal language patterns – continuing the evolution toward more natural, engaging AI communication on social media platforms.
+O futuro dos LLMs humanizados provavelmente envolverá modelagem de personalidade cada vez mais sofisticada, sistemas adaptáveis de parâmetros e treinamento abrangente em padrões de linguagem informal – continuando a evolução em direção à comunicação de IA mais natural e envolvente nas plataformas de mídia social.
 
-## References
+## Referências
 
 1. [The Art of Sampling: Controlling Randomness in LLMs](https://www.anup.io/p/the-art-of-sampling-controlling-randomness)
 2. [Zero Temperature Randomness in LLMs - by Martynas Šubonis](https://martynassubonis.substack.com/p/zero-temperature-randomness-in-llms)

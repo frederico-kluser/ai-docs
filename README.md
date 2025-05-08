@@ -30,6 +30,7 @@ referência.
 - [🖥️ Assistentes de Terminal com Poderes Web](./terminal_ai_agents_web_powers_free_byok.md) - Comparativo de
   CLIs com AI que permitem navegação web usando suas próprias chaves de API.
 - [🧑‍💻 Ferramentas de linha de comando para geração de código por IA](./terminal_ai_coding_assistants_comparison.md) - Comparativo detalhado entre Aider, Cline, Continue, Codex CLI e Goose para assistência de codificação via terminal.
+- ✨**NEW** [🔍 A Ciência dos Prompts Perfeitos para Pesquisa Avançada](./ciencia_prompts_pesquisa_avancada_claude_openai.md) - Estratégias e frameworks para otimizar consultas em ferramentas de pesquisa avançada como Claude Research e OpenAI Deep Research.
 - ✨**NEW** [🤝 Aider: Guia do Assistente de Pair Programming com IA no Terminal](./aider_terminal_ia_pair_programming_guide.md) - Tutorial completo para usar o Aider, uma ferramenta de pair programming com IA que funciona direto no terminal.
 - ✨**NEW** [🧑‍💻 Humanizando LLMs: Técnicas para Comunicação Autêntica em Redes Sociais](./human_like_llm_communication_social_media.md) - Estratégias para fazer LLMs produzirem conteúdo mais humano e autêntico em plataformas sociais.
 - [🚀 Falcon 180B: Guia para Soluções Offline e na Nuvem](./falcon_180b_guia_completo_offline_nuvem.md) - Como
