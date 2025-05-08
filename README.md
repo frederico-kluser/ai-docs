@@ -50,6 +50,7 @@ referência.
 
 ### 👨‍💻 Desenvolvimento e Programação Assistida por IA
 
+- ✨**NEW** [🛠️ Ferramentas para Colaboração de Agentes de IA em Código sem Conflitos](./ferramentas_colaboracao_agentes_ia_codigo_2025.md) - Análise das tecnologias de 2025 que permitem múltiplos agentes de IA trabalharem simultaneamente no mesmo código sem conflitos, incluindo sistemas de arquivos virtuais, sandboxes e controle de versão avançado.
 - [🔄 Execução Paralela de Agentes de IA em um Mesmo Repositório](./execucao_paralela_agentes_ai_mesmo_repositorio.md) - Técnicas para isolar múltiplos agentes de IA trabalhando simultaneamente em um único repositório, incluindo Git Worktrees, OverlayFS e contêineres.
 - [🤖 Orquestração Multi-LLM para Codificação Paralela em Git](./orquestracao_multi_llm_codificacao_paralela_git.md) - Arquitetura completa para múltiplas LLMs trabalhando simultaneamente em branches Git isoladas com resolução automática de conflitos.
 - [📋 Checklist Essencial: Perguntas que IAs Devem Fazer Antes de Escrever Código](./essential_checklist_ai_coding_questions.md) - Conjunto abrangente de perguntas em 8 categorias fundamentais que modelos de IA devem considerar para gerar código robusto.
