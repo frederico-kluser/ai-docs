@@ -6,6 +6,12 @@ referência.
 
 ## 📑 Documentos Disponíveis
 
+### ✨ Documentos Novos
+
+- [🧠 Paralelismo Inteligente em Node.js: Controlando Instâncias do Claude Code](./paralelismo_inteligente_nodejs_claude_code.md) - Implementações com PM2 e soluções customizadas para executar múltiplas instâncias do Claude Code via Node.js com controle adaptativo de recursos.
+- [🤖 Técnicas de Prompt Engineering para Elicitação de Informações em IAs Conversacionais](./tecnicas_prompt_engineering_elicitacao_ia_conversacional.md) - Frameworks e técnicas avançadas baseadas em pesquisas recentes para melhorar a capacidade de IAs solicitarem informações críticas faltantes.
+- [⌨️ Claude Code: A Ferramenta de IA que Revoluciona o Desenvolvimento Direto no Terminal](./claude_code_ferramenta_terminal_revolucao_desenvolvimento.md) - Guia completo para o Claude Code, ferramenta de codificação assistida por IA que opera diretamente no terminal.
+
 ### 📄 Arquivos de Configuração e Guias VIBE
 
 - [🔧 CLAUDE.md para Novos Projetos VIBE](./claude_md_new_vibe.md) - Template para guiar o Claude Code quando
