@@ -6,12 +6,6 @@ referência.
 
 ## 📑 Documentos Disponíveis
 
-### ✨ Documentos Novos
-
-- [🧠 Paralelismo Inteligente em Node.js: Controlando Instâncias do Claude Code](./paralelismo_inteligente_nodejs_claude_code.md) - Implementações com PM2 e soluções customizadas para executar múltiplas instâncias do Claude Code via Node.js com controle adaptativo de recursos.
-- [🤖 Técnicas de Prompt Engineering para Elicitação de Informações em IAs Conversacionais](./tecnicas_prompt_engineering_elicitacao_ia_conversacional.md) - Frameworks e técnicas avançadas baseadas em pesquisas recentes para melhorar a capacidade de IAs solicitarem informações críticas faltantes.
-- [⌨️ Claude Code: A Ferramenta de IA que Revoluciona o Desenvolvimento Direto no Terminal](./claude_code_ferramenta_terminal_revolucao_desenvolvimento.md) - Guia completo para o Claude Code, ferramenta de codificação assistida por IA que opera diretamente no terminal.
-
 ### 📄 Arquivos de Configuração e Guias VIBE
 
 - [🔧 CLAUDE.md para Novos Projetos VIBE](./claude_md_new_vibe.md) - Template para guiar o Claude Code quando
@@ -36,12 +30,12 @@ referência.
 - [🖥️ Assistentes de Terminal com Poderes Web](./terminal_ai_agents_web_powers_free_byok.md) - Comparativo de
   CLIs com AI que permitem navegação web usando suas próprias chaves de API.
 - [🧑‍💻 Ferramentas de linha de comando para geração de código por IA](./terminal_ai_coding_assistants_comparison.md) - Comparativo detalhado entre Aider, Cline, Continue, Codex CLI e Goose para assistência de codificação via terminal.
-- ✨**NEW** [📚 LLMs com Conhecimento Total: Implementação em Node.js](./llms_conhecimento_total_nodejs.md) - Técnicas avançadas para implementar LLMs com conhecimento completo do projeto em aplicações Node.js, incluindo embedding, chunking, e orquestração multi-agente.
-- ✨**NEW** [🔐 Criptografia AES-256 para Código-fonte em Node.js](./criptografia_aes256_codigo_fonte_nodejs.md) - Sistema completo para criptografar e descriptografar código-fonte usando AES-256 em projetos Node.js com integração Git.
-- ✨**NEW** [🏗️ Arquitetura Minimalista para Node.js com TypeScript](./arquitetura_minimalista_nodejs_typescript.md) - Abordagem feature-based com programação funcional para manter baixa complexidade ciclomática e alta manutenibilidade em projetos Node.js.
-- ✨**NEW** [🔍 A Ciência dos Prompts Perfeitos para Pesquisa Avançada](./ciencia_prompts_pesquisa_avancada_claude_openai.md) - Estratégias e frameworks para otimizar consultas em ferramentas de pesquisa avançada como Claude Research e OpenAI Deep Research.
-- ✨**NEW** [🤝 Aider: Guia do Assistente de Pair Programming com IA no Terminal](./aider_terminal_ia_pair_programming_guide.md) - Tutorial completo para usar o Aider, uma ferramenta de pair programming com IA que funciona direto no terminal.
-- ✨**NEW** [🧑‍💻 Humanizando LLMs: Técnicas para Comunicação Autêntica em Redes Sociais](./human_like_llm_communication_social_media.md) - Estratégias para fazer LLMs produzirem conteúdo mais humano e autêntico em plataformas sociais.
+- [📚 LLMs com Conhecimento Total: Implementação em Node.js](./llms_conhecimento_total_nodejs.md) - Técnicas avançadas para implementar LLMs com conhecimento completo do projeto em aplicações Node.js, incluindo embedding, chunking, e orquestração multi-agente.
+- [🔐 Criptografia AES-256 para Código-fonte em Node.js](./criptografia_aes256_codigo_fonte_nodejs.md) - Sistema completo para criptografar e descriptografar código-fonte usando AES-256 em projetos Node.js com integração Git.
+- [🏗️ Arquitetura Minimalista para Node.js com TypeScript](./arquitetura_minimalista_nodejs_typescript.md) - Abordagem feature-based com programação funcional para manter baixa complexidade ciclomática e alta manutenibilidade em projetos Node.js.
+- [🔍 A Ciência dos Prompts Perfeitos para Pesquisa Avançada](./ciencia_prompts_pesquisa_avancada_claude_openai.md) - Estratégias e frameworks para otimizar consultas em ferramentas de pesquisa avançada como Claude Research e OpenAI Deep Research.
+- [🤝 Aider: Guia do Assistente de Pair Programming com IA no Terminal](./aider_terminal_ia_pair_programming_guide.md) - Tutorial completo para usar o Aider, uma ferramenta de pair programming com IA que funciona direto no terminal.
+- [🧑‍💻 Humanizando LLMs: Técnicas para Comunicação Autêntica em Redes Sociais](./human_like_llm_communication_social_media.md) - Estratégias para fazer LLMs produzirem conteúdo mais humano e autêntico em plataformas sociais.
 - [🚀 Falcon 180B: Guia para Soluções Offline e na Nuvem](./falcon_180b_guia_completo_offline_nuvem.md) - Como
   executar o Falcon 180B em hardware NVIDIA e Google Cloud com orçamento limitado.
 - [📊 LLMs Open Source com LangChain](./open_source_llm_performance.md) - Análise do desempenho de LLMs
@@ -59,8 +53,9 @@ referência.
 
 ### 👨‍💻 Desenvolvimento e Programação Assistida por IA
 
-- ✨**NEW** [🛠️ Ferramentas para Colaboração de Agentes de IA em Código sem Conflitos](./ferramentas_colaboracao_agentes_ia_codigo_2025.md) - Análise das tecnologias de 2025 que permitem múltiplos agentes de IA trabalharem simultaneamente no mesmo código sem conflitos, incluindo sistemas de arquivos virtuais, sandboxes e controle de versão avançado.
-- ✨**NEW** [🔍 Monitoramento de RAM em Node.js](./node_js_ram_monitoring_guide.md) - Guia definitivo para performance e estabilidade com técnicas avançadas de monitoramento, detecção de anomalias e otimização de memória em aplicações Node.js.
+- ✨**NEW** [⚙️ Guia Completo do Claude Code: Controle, Integração e Configuração](./claude_code_guia_completo_controle_integracao_configuracao.md) - Guia abrangente sobre execução via Node.js, captura de dados em tempo real, flags disponíveis e técnicas avançadas para o Claude Code.
+- [🛠️ Ferramentas para Colaboração de Agentes de IA em Código sem Conflitos](./ferramentas_colaboracao_agentes_ia_codigo_2025.md) - Análise das tecnologias de 2025 que permitem múltiplos agentes de IA trabalharem simultaneamente no mesmo código sem conflitos, incluindo sistemas de arquivos virtuais, sandboxes e controle de versão avançado.
+- [🔍 Monitoramento de RAM em Node.js](./node_js_ram_monitoring_guide.md) - Guia definitivo para performance e estabilidade com técnicas avançadas de monitoramento, detecção de anomalias e otimização de memória em aplicações Node.js.
 - [🔄 Execução Paralela de Agentes de IA em um Mesmo Repositório](./execucao_paralela_agentes_ai_mesmo_repositorio.md) - Técnicas para isolar múltiplos agentes de IA trabalhando simultaneamente em um único repositório, incluindo Git Worktrees, OverlayFS e contêineres.
 - [🤖 Orquestração Multi-LLM para Codificação Paralela em Git](./orquestracao_multi_llm_codificacao_paralela_git.md) - Arquitetura completa para múltiplas LLMs trabalhando simultaneamente em branches Git isoladas com resolução automática de conflitos.
 - [📋 Checklist Essencial: Perguntas que IAs Devem Fazer Antes de Escrever Código](./essential_checklist_ai_coding_questions.md) - Conjunto abrangente de perguntas em 8 categorias fundamentais que modelos de IA devem considerar para gerar código robusto.
