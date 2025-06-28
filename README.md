@@ -109,20 +109,21 @@ referência.
 
 ### 🎬 Automação de Mídia
 
-- [🎬 Editores de Vídeo com Controle Programático](./programmatic-opensource-video-editors.md) -
-  Ferramentas para automação de edição de vídeo.
+- [🎬 Editores de Vídeo com Controle Programático](./programmatic-opensource-video-editors.md) - Ferramentas para automação de edição de vídeo.
+
+### 💻 Node.js e Performance
+
+- [🔍 Monitoramento de RAM em Node.js](./nodejs-ram-monitoring-performance-guide.md) - Guia definitivo para performance e estabilidade com técnicas avançadas de monitoramento.
+- [⚡ Paralelismo Inteligente em Node.js](./nodejs-parallel-processing-guide.md) - Técnicas avançadas de processamento paralelo e otimização de performance.
 
 ### 🔒 Cibersegurança e Penetration Testing
 
-- [🛡️ Guia de Penetration Testing](./cybersecurity-penetration-testing-guide.md) - Guia completo de
-  técnicas de penetration testing.
+- [🛡️ Guia de Penetration Testing](./cybersecurity-penetration-testing-guide.md) - Guia completo de técnicas de penetration testing.
 
 ## 🔄 Atualização
 
-Esta documentação é atualizada regularmente com novos insights, ferramentas e metodologias. Sinta-se à vontade para
-contribuir ou sugerir novos tópicos de pesquisa.
+Esta documentação é atualizada regularmente com novos insights, ferramentas e metodologias. Sinta-se à vontade para contribuir ou sugerir novos tópicos de pesquisa.
 
 ## 📝 Notas
 
-Estes documentos são resultados de pesquisas técnicas e podem conter métodos não oficiais ou experimentais. Use as
-informações com discernimento e sempre verifique as políticas oficiais de cada plataforma ou tecnologia.
+Estes documentos são resultados de pesquisas técnicas e podem conter métodos não oficiais ou experimentais. Use as informações com discernimento e sempre verifique as políticas oficiais de cada plataforma ou tecnologia.
