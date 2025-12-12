@@ -22,21 +22,29 @@ referência.
 ### 🔒 Desenvolvimento Seguro e Privacidade
 
 ### 🤖 Inteligência Artificial e LLMs
-- ✨**NEW** [🔍 Guia Completo da Ferramenta de Busca Web da Anthropic](./anthropic-web-search-guide-completo-pt.md) - Documentação abrangente sobre a Ferramenta de Busca na Web da Anthropic, recursos, API, casos de uso e implementação.
+- ✨**NEW** [📊 Guia Definitivo dos Modelos OpenAI API - Dezembro 2025](./openai-api-modelos-2025.md) - Consolidação completa dos modelos da OpenAI API com preços, contextos, ferramentas e recomendações para escolha de modelos.
+- ✨**NEW** [🔍 Guia Completo da Ferramenta de Busca Web da Anthropic](./anthropic-web-search-guide-pt.md) - Documentação abrangente sobre a Ferramenta de Busca na Web da Anthropic, recursos, API, casos de uso e implementação.
 - [💰 Comparativo de APIs LLM: Limites e Preços em 2025](./llm-api-pricing-limits-comparison-2025.md) - Análise detalhada dos custos e limites entre Anthropic, OpenAI, Google Gemini e outros.
 - [📚 LLMs com Conhecimento Total: Implementação em Node.js](./nodejs-project-aware-llm-implementation.md) - Técnicas avançadas para implementar LLMs com conhecimento completo do projeto em aplicações Node.js, incluindo embedding, chunking, e orquestração multi-agente.
 - [🔐 Criptografia AES-256 para Código-fonte em Node.js](./nodejs-source-code-aes256-encryption.md) - Sistema completo para criptografar e descriptografar código-fonte usando AES-256 em projetos Node.js com integração Git.
 - [🔍 A Ciência dos Prompts Perfeitos para Pesquisa Avançada](./advanced-research-prompt-science-claude-openai.md) - Estratégias e frameworks para otimizar consultas em ferramentas de pesquisa avançada como Claude Research e OpenAI Deep Research.
 - [🧑‍💻 Humanizando LLMs: Técnicas para Comunicação Autêntica em Redes Sociais](./human-like-llm-social-media-communication.md) - Estratégias para fazer LLMs produzirem conteúdo mais humano e autêntico em plataformas sociais.
-- [🚀 Falcon 180B: Guia para Soluções Offline e na Nuvem](./falcon-180b-offline-cloud-deployment-guide.md) - Como
+- [🚀 Falcon 180B: Guia para Soluções Offline e na Nuvem](./falcon-180b-deployment-guide.md) - Como
   executar o Falcon 180B em hardware NVIDIA e Google Cloud com orçamento limitado.
-- [☁️ Rodando Modelos LLM no Google Cloud](./ollama-google-cloud-llm-setup-guide.md) - Tutorial para configurar Ollama com
+- [☁️ Rodando Modelos LLM no Google Cloud](./ollama-google-cloud-setup.md) - Tutorial para configurar Ollama com
   Falcon-180B e LLaMA 4 em GPUs A100.
+- ✨**NEW** [✍️ A Ciência da Escrita Eficaz de Prompts para IA](./llm-prompt-composition-science.md) - Descobertas científicas sobre técnicas de composição textual de prompts, incluindo estruturas gramaticais, negações e adaptações linguísticas.
+- ✨**NEW** [🧠 Técnicas de Memória/Contexto para Agentes LLM de Código](./llm-code-agents-memory-techniques.md) - Técnicas além da RAG para memória persistente, arquiteturas híbridas e agentes especializados em geração de código.
+- ✨**NEW** [💬 Técnicas de Elicitação para IAs Conversacionais](./conversational-ai-techniques.md) - Frameworks de prompt engineering para elicitação de informações, incluindo Padrão Verificador Cognitivo e Chain-of-Thought.
 
 ### 👨‍💻 Desenvolvimento e Programação Assistida por IA
 
-- ✨**NEW** [⚙️ Guia Completo do Claude Code: Controle, Integração e Configuração](./claude-code-complete-integration-configuration-guide.md) - Guia abrangente sobre execução via Node.js, captura de dados em tempo real, flags disponíveis e técnicas avançadas para o Claude Code.
-- ✨**NEW** [🚩 Guia Completo das Flags do Claude Code CLI](./claude-code-cli-flags-detailed-guide.md) - Documentação detalhada sobre todas as flags disponíveis no Claude Code CLI, exemplos práticos, casos de uso e cenários de aplicação.
+- ✨**NEW** [🆓 GitHub Copilot Chat se Torna Open Source](./github-copilot-open-source.md) - Análise do anúncio da Microsoft tornando o GitHub Copilot Chat open source sob licença MIT e suas implicações.
+- ✨**NEW** [🖥️ Agentes de IA para Codificação no Terminal](./terminal-ai-coding-assistants-comparison.md) - Comparativo de 9 agentes de IA (Aider, Cline, Claude Code, etc.) que transformam o desenvolvimento via linha de comando.
+- ✨**NEW** [🤖 Claude Code: Desenvolvimento via Terminal](./claude-code-terminal-development.md) - Guia completo sobre o Claude Code, ferramenta de codificação agêntica da Anthropic que opera diretamente no terminal.
+- ✨**NEW** [⚛️ Automação de React via Chrome DevTools](./automacao-react-devtools.md) - Técnicas avançadas para automação de aplicações React através do Chrome DevTools Console, contornando limitações do Virtual DOM.
+- [⚙️ Guia Completo do Claude Code: Controle, Integração e Configuração](./claude-code-integration-guide.md) - Guia abrangente sobre execução via Node.js, captura de dados em tempo real, flags disponíveis e técnicas avançadas para o Claude Code.
+- [🚩 Guia Completo das Flags do Claude Code CLI](./claude-code-cli-flags-guide.md) - Documentação detalhada sobre todas as flags disponíveis no Claude Code CLI, exemplos práticos, casos de uso e cenários de aplicação.
 - [🛠️ Ferramentas para Colaboração de Agentes de IA em Código sem Conflitos](./ai-agents-code-collaboration-tools-2025.md) - Análise das tecnologias de 2025 que permitem múltiplos agentes de IA trabalharem simultaneamente no mesmo código sem conflitos, incluindo sistemas de arquivos virtuais, sandboxes e controle de versão avançado.
 - [🔍 Monitoramento de RAM em Node.js](./nodejs-ram-monitoring-performance-guide.md) - Guia definitivo para performance e estabilidade com técnicas avançadas de monitoramento, detecção de anomalias e otimização de memória em aplicações Node.js.
 - [🤖 Orquestração Multi-LLM para Codificação Paralela em Git](./multi-llm-orchestration-git-parallel-coding.md) - Arquitetura completa para múltiplas LLMs trabalhando simultaneamente em branches Git isoladas com resolução automática de conflitos.
