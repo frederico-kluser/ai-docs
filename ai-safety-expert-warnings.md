@@ -2,6 +2,13 @@
 
 Os últimos dois anos testemunharam um aumento sem precedentes nos alertas públicos sobre os riscos da IA por parte das figuras mais respeitadas da área. Desde o início de 2023, pesquisadores e especialistas em ética de IA proeminentes têm entregado mensagens cada vez mais urgentes sobre os perigos imediatos e existenciais apresentados pelos sistemas de IA que avançam rapidamente. Seus alertas variam desde preocupações com viés e desinformação até potenciais cenários que ameaçam o fim da civilização, com muitos especialistas intensificando sua retórica à medida que as capacidades da IA aceleram além das previsões anteriores. Essas declarações públicas representam uma mudança dramática em relação ao tom previamente otimista que dominava o discurso sobre IA, indicando um alarme genuíno dentro da comunidade de pesquisa sobre nossa capacidade de controlar sistemas avançados de IA.
 
+## Novos alertas em 2025
+
+- **Relatório Internacional de Segurança da IA (jan/2025):** 96 especialistas liderados por Yoshua Bengio publicaram o primeiro relatório global sobre segurança de IA avançada, concluindo que o espectro de resultados vai de altamente benéfico a catastrófico e recomendando cooperação internacional imediata, transparência das big techs e monitoramento independente ([Fonte](https://arxiv.org/abs/2501.17805) | [Resumo](https://cybernews.com/ai-news/first-international-ai-safety-report-ai-godfather-yoshua-bengio/)).
+- **Advertência sobre IA agente (fev/2025):** Em entrevista à CNBC, Bengio e Max Tegmark classificaram o desenvolvimento de sistemas "agentic" como "uma aposta perigosa", alertando que agentes autônomos podem buscar autopreservação e tomar decisões fora do controle humano ([Fonte](https://www.cnbc.com/2025/02/07/dangerous-proposition-top-scientists-warn-of-out-of-control-ai.html)).
+- **AI Safety Index – Inverno 2025:** Hinton, Bengio e outros avaliaram cinco laboratórios de fronteira e deram notas C/C+ para Anthropic, OpenAI e Google DeepMind, apontando ausência de planos concretos para controlar modelos superinteligentes e pedindo supervisão independente ([Fonte](https://futureoflife.org/ai-safety-index-winter-2025/) | [Cobertura NBC](https://www.nbcnews.com/tech/tech-news/top-ai-companies-safety-practices-fall-short-says-new-report-rcna246143)).
+- **Reafirmação do alerta de extinção (2025):** Os signatários do Center for AI Safety reiteraram o comunicado de 22 palavras equiparando o risco de extinção por IA a pandemias e armas nucleares, reforçando que a mitigação deve ser prioridade global ([Fonte](https://aistatement.com/) | [Detalhes](https://safe.ai/work/press-release-ai-risk/)).
+
 ## Tristan Harris: Correndo para proteger a sociedade
 
 ### Apresentação "O Dilema da IA" - 9 de março de 2023
