@@ -110,6 +110,8 @@ referência.
 
 - [🤖 Claude Code: Desenvolvimento via Terminal](./docs/claude-code-terminal-development.md) _(Atualizado: 12 Mai 2025)_ - Guia completo sobre o Claude
   Code, ferramenta de codificação agêntica da Anthropic que opera diretamente no terminal.
+- [🧠 Prompt Engineering para Claude Code Opus 4.5](./docs/claude-code-prompt-engineering-guide.md) _(Atualizado: 01 Jan 2026)_ - Guia definitivo
+  com arquitetura agêntica, workflow Explore → Plan → Code → Commit e padrões Build/Debug/Refine/Learn para orquestrar sessões longas.
 ### 🔊 Áudio, Voz e Interfaces Conversacionais
 
 - [📲 Roadmap: App iOS React Native para Áudio](./docs/ios-react-native-audio-roadmap.md) _(Atualizado: 12 Mai 2025)_ - Desenvolvimento
@@ -188,6 +190,10 @@ referência.
 
 - [🎬 Editores de Vídeo com Controle Programático](./docs/programmatic-opensource-video-editors.md) _(Atualizado: 12 Mai 2025)_ - Ferramentas para
   automação de edição de vídeo.
+- [🎨 Motion AI Tutorial em Português](./docs/motion-ai-ptbr-tutorial.md) _(Atualizado: 01 Jan 2026)_ - Tutorial completo sobre Motion AI,
+  cobrindo MCP Server, integrações Vibe Coding e fluxos IA para gerar animações rápidas.
+- [⚙️ Motion+ Guia Definitivo](./docs/motion-plus-complete-guide.md) _(Atualizado: 01 Jan 2026)_ - Referência total do Motion+, incluindo
+  componentes premium, LazyMotion, gestos e práticas de otimização para projetos React.
 ### 💻 Node.js e Performance
 
 - [⚡ Paralelismo Inteligente em Node.js](./docs/nodejs-parallel-processing-guide.md) _(Atualizado: 12 Mai 2025)_ - Técnicas avançadas de processamento
