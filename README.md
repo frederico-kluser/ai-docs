@@ -1,4 +1,4 @@
-# 📚 huu-docs: Centro de Documentação e Pesquisa Técnica
+# 📚 ai-docs: Centro de Documentação e Pesquisa Técnica
 
 Este repositório é uma coleção de documentação e pesquisas técnicas sobre diversos temas em tecnologia, desenvolvimento,
 finanças e hardware. Cada documento contém informações detalhadas, guias, comparativos e análises técnicas para
