@@ -6,6 +6,7 @@ referência.
 
 ## ✨ Novos Documentos
 
+- ✨**NEW** [☁️ Cloudflare Tunnel + GoDaddy no macOS](./docs/cloudflare-tunnel-godaddy-macos.md) _(Atualizado: 03 Jan 2026)_ - Tutorial completo para expor APIs FastAPI via Cloudflare Tunnel com domínios GoDaddy no macOS.
 - ✨**NEW** [⏸️ Claude Code CLI Plan Mode: Documentação Técnica Completa](./docs/claude-code-plan-mode-guide.md) _(Atualizado: 03 Jan 2026)_ - Guia completo sobre ativação, fluxo Plan → Code e salvaguardas de segurança do Plan Mode.
 - ✨**NEW** [💻 Microsoft Copilot CLI: Guia Técnico Completo e Definitivo](./docs/github-copilot-cli-complete-guide.md) _(Atualizado: 03 Jan 2026)_ - Instalação multiplataforma, autenticação, comandos, MCP e troubleshooting detalhado do Copilot CLI.
 - ✨**NEW** [🎙️ Tutorial: Integrando Whisper e GPT-5 (modo XHIGH)](./docs/whisper-gpt5-integration-guide.md) _(Atualizado: 03 Jan 2026)_ - Pipeline de captura de áudio, transcrição com Whisper e geração com GPT-5 via /v1/responses.
