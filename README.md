@@ -4,6 +4,18 @@ Este repositório é uma coleção de documentação e pesquisas técnicas sobre
 finanças e hardware. Cada documento contém informações detalhadas, guias, comparativos e análises técnicas para
 referência.
 
+## ✨ Novos Documentos
+
+- ✨**NEW** [⏸️ Claude Code CLI Plan Mode: Documentação Técnica Completa](./docs/claude-code-plan-mode-guide.md) _(Atualizado: 03 Jan 2026)_ - Guia completo sobre ativação, fluxo Plan → Code e salvaguardas de segurança do Plan Mode.
+- ✨**NEW** [💻 Microsoft Copilot CLI: Guia Técnico Completo e Definitivo](./docs/github-copilot-cli-complete-guide.md) _(Atualizado: 03 Jan 2026)_ - Instalação multiplataforma, autenticação, comandos, MCP e troubleshooting detalhado do Copilot CLI.
+- ✨**NEW** [🎙️ Tutorial: Integrando Whisper e GPT-5 (modo XHIGH)](./docs/whisper-gpt5-integration-guide.md) _(Atualizado: 03 Jan 2026)_ - Pipeline de captura de áudio, transcrição com Whisper e geração com GPT-5 via /v1/responses.
+- ✨**NEW** [🧠 Prompt Engineering para Claude Code Opus 4.5](./docs/claude-code-prompt-engineering-guide.md) _(Atualizado: 01 Jan 2026)_ - Guia definitivo com arquitetura agêntica, workflow Explore → Plan → Code → Commit e padrões Build/Debug/Refine/Learn.
+- ✨**NEW** [🎥 Wan 2.2 Remix no Runpod (Tutorial em Português)](./docs/tutorial-wan-22-runpod-portugues.md) _(Atualizado: 01 Jan 2026)_ - Passo a passo para configurar Runpod, otimizar GPUs e gerar vídeos com Wan 2.2 Remix no ComfyUI.
+- ✨**NEW** [🎨 Motion AI Tutorial em Português](./docs/motion-ai-ptbr-tutorial.md) _(Atualizado: 01 Jan 2026)_ - Tutorial completo sobre Motion AI, cobrindo MCP Server, integrações Vibe Coding e fluxos IA para animações.
+- ✨**NEW** [⚙️ Motion+ Guia Definitivo](./docs/motion-plus-complete-guide.md) _(Atualizado: 01 Jan 2026)_ - Referência total do Motion+, incluindo componentes premium, LazyMotion, gestos e práticas de otimização.
+- ✨**NEW** [📊 Guia Definitivo para configurar zeroGPU no HuggingFace - Dezembro 2025](./docs/huggingface-configuration-zero-gpu.md) _(Atualizado: 14 Dez 2025)_ - Guia completo para configurar zeroGPU no HuggingFace para execução eficiente de modelos LLM.
+- ✨**NEW** [📊 Guia Definitivo dos Modelos OpenAI API - Dezembro 2025](./docs/openai-api-modelos-2025.md) _(Atualizado: 12 Dez 2025)_ - Consolidação completa dos modelos da OpenAI API com preços, contextos, ferramentas e recomendações.
+
 ## 📑 Documentos Disponíveis
 
 ### 📄 Arquivos de Configuração e Guias VIBE
@@ -27,11 +39,9 @@ referência.
 
 ### 🤖 Inteligência Artificial e LLMs
 
-- ✨**NEW**
-  [📊 Guia Definitivo para configurar zeroGPU no HuggingFace - Dezembro 2025](./docs/huggingface-configuration-zero-gpu.md) _(Atualizado: 14 Dez 2025)_ -
-  Guia completo para configurar zeroGPU no HuggingFace para execução eficiente de modelos LLM.
+- [📊 Guia Definitivo para configurar zeroGPU no HuggingFace - Dezembro 2025](./docs/huggingface-configuration-zero-gpu.md) _(Atualizado: 14 Dez 2025)_ - Guia completo para configurar zeroGPU no HuggingFace para execução eficiente de modelos LLM.
 
-- ✨**NEW** [📊 Guia Definitivo dos Modelos OpenAI API - Dezembro 2025](./docs/openai-api-modelos-2025.md) _(Atualizado: 12 Dez 2025)_ - Consolidação
+- [📊 Guia Definitivo dos Modelos OpenAI API - Dezembro 2025](./docs/openai-api-modelos-2025.md) _(Atualizado: 12 Dez 2025)_ - Consolidação
   completa dos modelos da OpenAI API com preços, contextos, ferramentas e recomendações para escolha de modelos.
 
 - [✍️ A Ciência da Escrita Eficaz de Prompts para IA](./docs/llm-prompt-composition-science.md) _(Atualizado: 13 Jul 2025)_ - Descobertas científicas
@@ -76,6 +86,12 @@ referência.
 - [🆓 GitHub Copilot Chat se Torna Open Source](./docs/github-copilot-open-source.md) _(Atualizado: 22 Mai 2025)_ - Análise do anúncio da Microsoft
   tornando o GitHub Copilot Chat open source sob licença MIT e suas implicações.
 
+- [⏸️ Claude Code CLI Plan Mode: Documentação Técnica Completa](./docs/claude-code-plan-mode-guide.md) _(Atualizado: 03 Jan 2026)_ - Documentação completa sobre
+  modos de permissão, fluxo Plan → Code e integrações com subagentes do Claude Code.
+
+- [💻 Microsoft Copilot CLI: Guia Técnico Completo e Definitivo](./docs/github-copilot-cli-complete-guide.md) _(Atualizado: 03 Jan 2026)_ - Guia abrangente cobrindo
+  instalação multiplataforma, autenticação, comandos slash, MCP e troubleshooting do Copilot CLI agêntico.
+
 - [🚩 Guia Completo das Flags do Claude Code CLI](./docs/claude-code-cli-flags-guide.md) _(Atualizado: 12 Mai 2025)_ - Documentação detalhada sobre todas
   as flags disponíveis no Claude Code CLI, exemplos práticos, casos de uso e cenários de aplicação.
 
@@ -110,7 +126,7 @@ referência.
 
 - [🤖 Claude Code: Desenvolvimento via Terminal](./docs/claude-code-terminal-development.md) _(Atualizado: 12 Mai 2025)_ - Guia completo sobre o Claude
   Code, ferramenta de codificação agêntica da Anthropic que opera diretamente no terminal.
-- ✨**NEW** [🧠 Prompt Engineering para Claude Code Opus 4.5](./docs/claude-code-prompt-engineering-guide.md) _(Atualizado: 01 Jan 2026)_ - Guia definitivo
+- [🧠 Prompt Engineering para Claude Code Opus 4.5](./docs/claude-code-prompt-engineering-guide.md) _(Atualizado: 01 Jan 2026)_ - Guia definitivo
   com arquitetura agêntica, workflow Explore → Plan → Code → Commit e padrões Build/Debug/Refine/Learn para orquestrar sessões longas.
 ### 🔊 Áudio, Voz e Interfaces Conversacionais
 
@@ -125,6 +141,9 @@ referência.
 
 - [🎙️ APIs de Diarização e Reconhecimento de Falantes](./docs/voice-recognition-apis-comparison.md) _(Atualizado: 12 Mai 2025)_ - Comparativo
   de APIs para processamento de voz.
+
+- [🎙️ Tutorial: Integrando Whisper e GPT-5 (modo XHIGH)](./docs/whisper-gpt5-integration-guide.md) _(Atualizado: 03 Jan 2026)_ - Implementação completa de
+  captura com MediaRecorder, transcrição via gpt-4o-mini-transcribe e geração de conteúdo com GPT-5 no modo XHIGH.
 
 - [🎧 Ciência do Som: Áudio para Hiperfoco em Programadores com Bipolaridade](./docs/audio-hyperfocus-productivity-guide.md) _(Atualizado: 12 Mai 2025)_ -
   Análise científica para otimização de ambientes sonoros para programadores com bipolaridade e alto QI.
@@ -190,11 +209,11 @@ referência.
 
 - [🎬 Editores de Vídeo com Controle Programático](./docs/programmatic-opensource-video-editors.md) _(Atualizado: 12 Mai 2025)_ - Ferramentas para
   automação de edição de vídeo.
-- ✨**NEW** [🎥 Wan 2.2 Remix no Runpod (Tutorial em Português)](./docs/tutorial-wan-22-runpod-portugues.md) _(Atualizado: 01 Jan 2026)_ - Passo a passo
+- [🎥 Wan 2.2 Remix no Runpod (Tutorial em Português)](./docs/tutorial-wan-22-runpod-portugues.md) _(Atualizado: 01 Jan 2026)_ - Passo a passo
   para configurar o Runpod, otimizar uso de GPUs e gerar vídeos com o fluxo Wan 2.2 Remix no ComfyUI.
-- ✨**NEW** [🎨 Motion AI Tutorial em Português](./docs/motion-ai-ptbr-tutorial.md) _(Atualizado: 01 Jan 2026)_ - Tutorial completo sobre Motion AI,
+- [🎨 Motion AI Tutorial em Português](./docs/motion-ai-ptbr-tutorial.md) _(Atualizado: 01 Jan 2026)_ - Tutorial completo sobre Motion AI,
   cobrindo MCP Server, integrações Vibe Coding e fluxos IA para gerar animações rápidas.
-- ✨**NEW** [⚙️ Motion+ Guia Definitivo](./docs/motion-plus-complete-guide.md) _(Atualizado: 01 Jan 2026)_ - Referência total do Motion+, incluindo
+- [⚙️ Motion+ Guia Definitivo](./docs/motion-plus-complete-guide.md) _(Atualizado: 01 Jan 2026)_ - Referência total do Motion+, incluindo
   componentes premium, LazyMotion, gestos e práticas de otimização para projetos React.
 ### 💻 Node.js e Performance
 
