@@ -6,7 +6,8 @@
 - [🕹️ A Arte de Quebrar a Quarta Parede: O Design Meta-Ficcional de Daniel Mullins](./docs/design-meta-ficcional-daniel-mullins.md) _(Novo: 13 Jan 2026)_ - Análise das técnicas de Daniel Mullins (Pony Island, Inscryption) para design meta-ficcional, quebra da quarta parede e imersão narrativa.
 - [🧑‍💻 Guia de Prompting para GPT-5.1-Codex-Max](./docs/gpt5-codex-max-prompting-guide.md) _(Novo: 13 Jan 2026)_ - Guia oficial e prático para prompts eficientes, paralelização, padrões e armadilhas do modelo Codex-Max.
 ### 🤖 Inteligência Artificial e LLMs
-
+  
+- [🗣️ Guia: Como Tornar Conversas LLM Indistinguíveis de Humanos](./docs/guia-conversas-llm-humanas.md) _(Novo: 13 Jan 2026)_ - Guia prático e científico para tornar conversas de LLMs indistinguíveis de humanos, com técnicas, prompts, parâmetros e benchmarks.
 - [📚 Documentação Técnica do TensorFlow.js (PT-BR)](./docs/tensorflowjs-complete-guide-ptbr.md) _(Novo: 13 Jan 2026)_ - Guia completo de instalação, uso, APIs, exemplos e melhores práticas para ML no navegador e Node.js.
 ### 🤖 Inteligência Artificial e LLMs
 
