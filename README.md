@@ -1,11 +1,13 @@
-
 ### 🎲 Design de Jogos e RPG
 
 
+  - [🌌 Outer Wilds: Conhecimento como Progressão](./docs/outer-wilds-conhecimento-progresso.md) _(Novo: 13 Jan 2026)_ - Como Outer Wilds revolucionou o design de progressão, usando conhecimento como chave, Ship Log, curiosidade e estrutura de mistério em vez de upgrades tradicionais.
   - [🧩 Framework MDA: Mecânicas, Dinâmicas e Estéticas em Jogos](./docs/framework-mda-design-jogos.md) _(Novo: 13 Jan 2026)_ - Análise detalhada do framework MDA aplicado a puzzles de programação, simuladores e jogos educacionais como Zachtronics, The Sims e while True: learn().
+
 ### 🌐 Web, Internet e Mock APIs
 
 - [🟠 Guia Completo do json-server: Mock API REST em 30s](./docs/json-server-guia-completo.md) _(Novo: 13 Jan 2026)_ - Instalação, exemplos, endpoints, dicas e limitações do json-server para prototipagem e testes frontend.
+- [💬 Tutorial completo do configurador Giscus.app](./docs/tutorial-configurador-giscus-app.md) _(Novo: 13 Jan 2026)_ - Guia detalhado sobre cada etapa do configurador giscus.app para adicionar comentários via GitHub Discussions em sites estáticos.
 
 - [🟠 Guia Completo do json-server: Mock API REST em 30s](./docs/json-server-complete-guide.md) _(Novo: 13 Jan 2026)_ - Instalação, exemplos, endpoints, dicas e limitações do json-server para prototipagem e testes frontend.
 ### 🤖 Inteligência Artificial e LLMs
@@ -25,6 +27,7 @@
 
 - [🍏 Guia Completo: Integração Apple Intelligence/ML em React Native](./docs/react-native-apple-ml-integration-guide.md) _(Novo: 13 Jan 2026)_ - Bibliotecas, arquitetura, Turbo Modules, exemplos e melhores práticas para ML/LLM da Apple em apps React Native.
 - [⚛️ Guia Completo: Capacidades Nativas do iPhone com React Native CLI](./docs/guia-completo-react-native-ios.md) _(Novo: 13 Jan 2026)_ - Todas as APIs nativas acessíveis via React Native CLI (bare workflow): device, sensores, HealthKit, Bluetooth, automação, widgets, mapas, pagamentos, biometria, exemplos e limitações.
+- [🤖 Tutorial Completo: llama.cpp iOS POC](./docs/llama-cpp-ios-tutorial.md) _(Novo: 13 Jan 2026)_ - Guia prático para rodar LLMs localmente no iPhone com llama.cpp, Metal GPU e SwiftUI, incluindo código completo e dicas de performance.
 ### 🎮 Filosofia e Design de Jogos
 
 - [🗃️ Narrativa de Banco de Dados: Técnicas de Sam Barlow](./docs/sam-barlow-database-narrative-design.md) _(Novo: 13 Jan 2026)_ - Técnicas de narrativa não-linear, design de interface diegética e psicologia do jogador em thrillers de desktop.
