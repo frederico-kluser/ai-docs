@@ -1,4 +1,8 @@
 # Guia Completo: Speech-to-Text nativo no iOS (Apple Speech Framework)
+
+Apple's Speech framework provides **production-ready speech recognition** since iOS 10, with on-device processing available from iOS 13. The framework centers on `SFSpeechRecognizer`, which delivers real-time transcription through either server-based or on-device recognition. For privacy-sensitive applications, on-device recognition eliminates data transmission to Apple servers entirely, though with slightly reduced accuracy and limited language support (**~22 languages on-device vs. 50+ server-based**).
+
+... (continua)# Guia Completo: Speech-to-Text nativo no iOS (Apple Speech Framework)
 <!-- Arquivo renomeado para: guia-completo-speech-to-text-ios.md -->
 
 Apple's Speech framework provides **production-ready speech recognition** since iOS 10, with on-device processing available from iOS 13. The framework centers on `SFSpeechRecognizer`, which delivers real-time transcription through either server-based or on-device recognition. For privacy-sensitive applications, on-device recognition eliminates data transmission to Apple servers entirely, though with slightly reduced accuracy and limited language support (**~22 languages on-device vs. 50+ server-based**).
