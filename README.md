@@ -1,3 +1,6 @@
+### 📝 Tutoriais de Integração LLM
+
+- [📝 Tutorial GPT-5.1-Codex-Max com LangChain.js e Zod](./docs/tutorial-gpt5-codex-langchain-zod.md) _(Novo: 13 Jan 2026)_ - Guia completo para integração do GPT-5.1-Codex-Max com LangChain.js, Node.js 24+ e schemas Zod para outputs estruturados.
 # 📚 ai-docs: Centro de Documentação e Pesquisa Técnica
 
 Este repositório é uma coleção de documentação e pesquisas técnicas sobre diversos temas em tecnologia, desenvolvimento,
