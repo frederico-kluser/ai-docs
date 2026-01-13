@@ -15,12 +15,17 @@
 - [🍏 Guia Completo: Integração Apple Intelligence/ML em React Native](./docs/react-native-apple-ml-integration-guide.md) _(Novo: 13 Jan 2026)_ - Bibliotecas, arquitetura, Turbo Modules, exemplos e melhores práticas para ML/LLM da Apple em apps React Native.
 ### 🎮 Filosofia e Design de Jogos
 
-- [🎮 Mestres das Mecânicas: História dos Designers de Jogos](./docs/masters-game-mechanics-history.md) _(Novo: 13 Jan 2026)_ - Linha do tempo dos principais inovadores, mecânicas fundacionais, gêneros e sistemas que moldaram o design de jogos moderno.
-### 🤖 Inteligência Artificial e LLMs
-
 - [🛠️ Guia Técnico da Arquitetura do Aider CLI](./docs/aider-cli-architecture-guide.md) _(Novo: 13 Jan 2026)_ - Análise da arquitetura, padrões e fluxo do Aider CLI, referência para criação de assistentes de código baseados em IA.
 ### 🎮 Filosofia e Design de Jogos
+### 🎮 Filosofia e Design de Jogos
 
+- [🧩 Will Wright: Filosofia de Design para Simulação e Programação](./docs/will-wright-design-filosofia-simulacao.md) _(Novo: 13 Jan 2026)_ - Guia sobre software toys, possibility space, feedback, falha e sistemas emergentes para jogos de simulação e puzzles.
+- [🎲 Sid Meier: Decisões Interessantes em Jogos de Programação](./docs/sid-meier-decisoes-interessantes-jogos.md) _(Novo: 13 Jan 2026)_ - Trade-offs, feedback e design estratégico em puzzles e jogos de programação, inspirado em Civilization e Zachtronics.
+- [🎮 Will Wright: Filosofia de Design de Simulação](./docs/will-wright-filosofia-design-simulacao.md) _(Novo: 13 Jan 2026)_ - Guia sobre design de jogos de simulação, software toys, espaço de possibilidades e sistemas emergentes.
+- [🗃️ Narrativa de Banco de Dados: Técnicas de Sam Barlow](./docs/sam-barlow-narrativa-banco-dados.md) _(Novo: 13 Jan 2026)_ - Técnicas de narrativa não-linear, design de interface diegética e psicologia do jogador em thrillers de desktop.
+### 🤖 Inteligência Artificial e LLMs
+
+- [🧑‍💻 Guia Definitivo de Prompting para GPT-5.1-Codex-Max](./docs/guia-prompting-gpt5-codex-max.md) _(Novo: 13 Jan 2026)_ - Estratégias, exemplos e melhores práticas para automação com o modelo Codex-Max.
 - [🧩 Will Wright: Filosofia de Design para Simulação e Programação](./docs/will-wright-design-filosofia-simulacao.md) _(Novo: 13 Jan 2026)_ - Guia sobre software toys, possibility space, feedback, falha e sistemas emergentes para jogos de simulação e puzzles.
 ### 🎮 Filosofia e Design de Jogos
 
