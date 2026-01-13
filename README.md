@@ -1,3 +1,7 @@
+### 🎮 Filosofia e Design de Jogos
+
+- [🎮 Will Wright: Complete Game Design Philosophy & Methodology](./docs/will-wright-game-design-philosophy.md) _(Novo: 13 Jan 2026)_ - Compilação definitiva dos princípios, métodos e insights de Will Wright sobre design de jogos, criatividade, possibility space e narrativa emergente.
+- [🕹️ Daniel Mullins: Meta Game Design e Quebra da Quarta Parede](./docs/daniel-mullins-meta-game-design.md) _(Novo: 13 Jan 2026)_ - Análise das técnicas de design meta-ficcional, glitches narrativos e camadas de realidade em Pony Island, The Hex e Inscryption.
 ### 🌐 Web, Internet e Comunicação
 
 - [💬 Tutorial completo do configurador Giscus.app](./docs/tutorial-configurador-giscus-app.md) _(Novo: 13 Jan 2026)_ - Guia detalhado sobre cada etapa do configurador giscus.app para adicionar comentários via GitHub Discussions em sites estáticos.
