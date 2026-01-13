@@ -19,6 +19,8 @@
 - [🍏 Guia Completo: Integração Apple Intelligence/ML em React Native](./docs/react-native-apple-ml-integration-guide.md) _(Novo: 13 Jan 2026)_ - Bibliotecas, arquitetura, Turbo Modules, exemplos e melhores práticas para ML/LLM da Apple em apps React Native.
 ### 🎮 Filosofia e Design de Jogos
 
+- [🗃️ Narrativa de Banco de Dados: Técnicas de Sam Barlow](./docs/sam-barlow-database-narrative-design.md) _(Novo: 13 Jan 2026)_ - Técnicas de narrativa não-linear, design de interface diegética e psicologia do jogador em thrillers de desktop.
+
 - [🛠️ Guia Técnico da Arquitetura do Aider CLI](./docs/aider-cli-architecture-guide.md) _(Novo: 13 Jan 2026)_ - Análise da arquitetura, padrões e fluxo do Aider CLI, referência para criação de assistentes de código baseados em IA.
 ### 🎮 Filosofia e Design de Jogos
 ### 🎮 Filosofia e Design de Jogos
