@@ -1,3 +1,6 @@
+### 🌐 Web, Internet e Mock APIs
+
+- [🟠 Guia Completo do json-server: Mock API REST em 30s](./docs/json-server-complete-guide.md) _(Novo: 13 Jan 2026)_ - Instalação, exemplos, endpoints, dicas e limitações do json-server para prototipagem e testes frontend.
 ### 🤖 Inteligência Artificial e LLMs
 
 - [📱 Guia de Inferência Local do Qwen3 4B em Dispositivos Móveis](./docs/qwen3-4b-mobile-inference-guide.md) _(Novo: 13 Jan 2026)_ - Requisitos, benchmarks, quantização e frameworks para rodar Qwen3 4B em iOS e Android com desempenho prático.
