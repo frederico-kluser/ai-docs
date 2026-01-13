@@ -212,7 +212,8 @@ referência.
   evitando detecção.
 
 ### 🎓 Educação e Pesquisa Acadêmica
-
+  
+- [🧮 Simulador Visual de Aritmética Manual: Soluções e Implementação](./docs/simulador-visual-aritmetica-manual.md) _(Novo: 13 Jan 2026)_ - Guia sobre a ausência de bibliotecas JS para visualização de operações aritméticas passo a passo, arquitetura recomendada, algoritmos e integração com SVG, Rough.js e React.
 - [🧑‍🎨 Guia Completo de Arquétipos de Personagens](./docs/character-archetypes-complete-guide.md) _(Novo: 13 Jan 2026)_ - Guia avançado sobre arquétipos de personagens, frameworks de Jung, Vogler, Pearson, técnicas de subversão e construção profunda para narrativas e jogos.
 
 - [🎬 Guia Completo para Criação de Vídeos Educacionais](./docs/educational-videos-complete-guide.md) _(Novo: 13 Jan 2026)_ - Framework baseado em ciência cognitiva, design instrucional e engajamento para vídeos educacionais de alta qualidade.
