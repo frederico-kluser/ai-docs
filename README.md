@@ -1,5 +1,8 @@
 ### 🤖 Inteligência Artificial e LLMs
 
+- [📚 Documentação Técnica do TensorFlow.js (PT-BR)](./docs/tensorflowjs-complete-guide-ptbr.md) _(Novo: 13 Jan 2026)_ - Guia completo de instalação, uso, APIs, exemplos e melhores práticas para ML no navegador e Node.js.
+### 🤖 Inteligência Artificial e LLMs
+
 - [🗣️ Guia para Conversas LLM Indistinguíveis de Humanos](./docs/llm-human-like-conversation-guide.md) _(Novo: 13 Jan 2026)_ - Técnicas baseadas em psicologia, parâmetros e prompting para tornar diálogos de LLMs mais naturais e convincentes.
 ### 🎮 Filosofia e Design de Jogos
 
@@ -242,7 +245,8 @@ referência.
   
 - [🧮 Simulador Visual de Aritmética Manual: Soluções e Implementação](./docs/simulador-visual-aritmetica-manual.md) _(Novo: 13 Jan 2026)_ - Guia sobre a ausência de bibliotecas JS para visualização de operações aritméticas passo a passo, arquitetura recomendada, algoritmos e integração com SVG, Rough.js e React.
 - [🧑‍🎨 Guia Completo de Arquétipos de Personagens](./docs/character-archetypes-complete-guide.md) _(Novo: 13 Jan 2026)_ - Guia avançado sobre arquétipos de personagens, frameworks de Jung, Vogler, Pearson, técnicas de subversão e construção profunda para narrativas e jogos.
-
+  
+- [🎮 Filosofia e Metodologia de Design de Will Wright](./docs/filosofia-design-will-wright.md) _(Novo: 13 Jan 2026)_ - Compilação definitiva dos princípios, métodos e lições de Will Wright (SimCity, The Sims, Spore) sobre design de jogos, criatividade, sistemas e carreira.
 - [🎬 Guia Completo para Criação de Vídeos Educacionais](./docs/educational-videos-complete-guide.md) _(Novo: 13 Jan 2026)_ - Framework baseado em ciência cognitiva, design instrucional e engajamento para vídeos educacionais de alta qualidade.
 
 - [📚 Serviços de Acesso a Artigos Científicos](./docs/scientific-papers-access-services.md) _(Atualizado: 12 Mai 2025)_ - Serviços para acesso a artigos
