@@ -1,5 +1,7 @@
 ### 🎲 Design de Jogos e RPG
 
+- [📚 Guia Completo: História das Mecânicas de Jogos por Mestres](./docs/masters-game-mechanics-history.md) _(Novo: 13 Jan 2026)_ - Linha do tempo, pioneiros, sistemas, estúdios e melhores práticas para design de CRPGs e JRPGs.
+
 - [🎲 Guia Definitivo de Mecânicas de RPG em Jogos de Computador](./docs/rpg-mechanics-design-reference-guide.md) _(Novo: 13 Jan 2026)_ - Linha do tempo, pioneiros, sistemas, estúdios e melhores práticas para design de CRPGs e JRPGs.
 ### 🌐 Web, Internet e Mock APIs
 
