@@ -138,6 +138,9 @@ referência.
   com arquitetura agêntica, workflow Explore → Plan → Code → Commit e padrões Build/Debug/Refine/Learn para orquestrar sessões longas.
 ### 🔊 Áudio, Voz e Interfaces Conversacionais
 
+  - [🍏 Guia Completo: Speech-to-Text nativo no iOS (Apple Speech Framework)](./docs/guia-completo-speech-to-text-ios.md) _(Novo: 13 Jan 2026)_ - Guia definitivo sobre reconhecimento de fala nativo no iOS, arquitetura, código Swift, privacidade, limites e melhores práticas para apps de produção.
+  
+- [🗣️ Guia Completo: Speech-to-Text nativo no iOS (Apple Speech Framework)](./docs/guia-completo-speech-to-text-ios.md) _(Novo: 13 Jan 2026)_ - Guia completo sobre reconhecimento de fala nativo no iOS, arquitetura, código Swift, privacidade, limites e melhores práticas para apps de voz.
 - [📲 Roadmap: App iOS React Native para Áudio](./docs/ios-react-native-audio-roadmap.md) _(Atualizado: 12 Mai 2025)_ - Desenvolvimento
   de app iOS para processamento de áudio em tempo real e integração com LLM.
 
