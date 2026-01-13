@@ -1,6 +1,8 @@
+
 ### 🎲 Design de Jogos e RPG
 
 - [📚 Guia Completo: História das Mecânicas de Jogos por Mestres](./docs/masters-game-mechanics-history.md) _(Novo: 13 Jan 2026)_ - Linha do tempo, pioneiros, sistemas, estúdios e melhores práticas para design de CRPGs e JRPGs.
+- [🧩 Framework MDA: Design, Emoção e Jogos](./docs/mda-framework-design-emocao-jogos.md) _(Novo: 13 Jan 2026)_ - Estrutura formal para conectar mecânicas, dinâmicas e estéticas em jogos de simulação, puzzles e programação, com exemplos de Zachtronics, The Sims e while True: learn().
 
 - [🎲 Guia Definitivo de Mecânicas de RPG em Jogos de Computador](./docs/rpg-mechanics-design-reference-guide.md) _(Novo: 13 Jan 2026)_ - Linha do tempo, pioneiros, sistemas, estúdios e melhores práticas para design de CRPGs e JRPGs.
 ### 🌐 Web, Internet e Mock APIs
@@ -14,9 +16,11 @@
 ### 💻 Node.js e Ferramentas CLI
 
 - [🟢 Guia Completo do nve: Execução Multi-Versão do Node.js](./docs/nve-node-multiversion-cli-guide.md) _(Novo: 13 Jan 2026)_ - Referência prática para rodar comandos em múltiplas versões do Node.js, sintaxe, exemplos e limitações do utilitário nve.
+
 ### 📱 Mobile, React Native e IA
 
 - [🍏 Guia Completo: Integração Apple Intelligence/ML em React Native](./docs/react-native-apple-ml-integration-guide.md) _(Novo: 13 Jan 2026)_ - Bibliotecas, arquitetura, Turbo Modules, exemplos e melhores práticas para ML/LLM da Apple em apps React Native.
+- [⚛️ Guia Completo: Capacidades Nativas do iPhone com React Native CLI](./docs/guia-completo-react-native-ios.md) _(Novo: 13 Jan 2026)_ - Todas as APIs nativas acessíveis via React Native CLI (bare workflow): device, sensores, HealthKit, Bluetooth, automação, widgets, mapas, pagamentos, biometria, exemplos e limitações.
 ### 🎮 Filosofia e Design de Jogos
 
 - [🗃️ Narrativa de Banco de Dados: Técnicas de Sam Barlow](./docs/sam-barlow-database-narrative-design.md) _(Novo: 13 Jan 2026)_ - Técnicas de narrativa não-linear, design de interface diegética e psicologia do jogador em thrillers de desktop.
