@@ -62,6 +62,9 @@ finanças e hardware. Cada documento contém informações detalhadas, guias, co
 referência.
 
 ## UNCLASSIFIED
+ - [🏦 Guia Completo de Automação B3](./docs/guia-completo-automacao-b3.md) _(Novo: 13 Jan 2026)_ - Estratégias, ferramentas e exemplos para automação de operações na B3 (bolsa brasileira), APIs, integração e melhores práticas.
+ - [🧪 Guia de Frameworks de Automação de Browser](./docs/guia-browser-automation-frameworks.md) _(Novo: 13 Jan 2026)_ - Comparativo prático de frameworks de automação de browser, prós, contras, exemplos e recomendações para scraping e testes.
+ - [🎧 Guia de Áudio para Produtividade e Foco](./docs/guia-audio-hyperfocus-produtividade.md) _(Novo: 13 Jan 2026)_ - Técnicas, playlists, apps e ciência do uso de áudio para foco, produtividade e estados de hyperfocus.
 
 - [☁️ Cloudflare Tunnel + GoDaddy no macOS](./docs/cloudflare-tunnel-godaddy-macos.md) _(Atualizado: 03 Jan 2026)_ - Tutorial completo para expor APIs FastAPI via Cloudflare Tunnel com domínios GoDaddy no macOS.
 - [⏸️ Claude Code CLI Plan Mode: Documentação Técnica Completa](./docs/claude-code-plan-mode-guide.md) _(Atualizado: 03 Jan 2026)_ - Guia completo sobre ativação, fluxo Plan → Code e salvaguardas de segurança do Plan Mode.
