@@ -44,6 +44,10 @@ referência.
 
 - [🧮 Simulador visual de aritmética manual: soluções e implementação](./docs/simulador-visual-aritmetica-manual.md) _(Novo: 13 Jan 2026)_ - Guia sobre a ausência de bibliotecas JS para visualização de aritmética manual, análise de alternativas e proposta de solução SVG + Rough.js + GSAP.
 
+### 💡 Estratégia e Valor em Software
+
+- [💡 Estratégias de entrega de valor em software com LLM offline](./docs/estrategias-valor-software-llm-offline.md) _(Novo: 13 Jan 2026)_ - Frameworks de valor, Jobs-to-be-Done, métricas de retenção e oportunidades para produtos com LLM local e sistemas inteligentes iterativos.
+
 ### 🤖 Inteligência Artificial e LLMs
   
 - [🦾 Estratégias de Valor em Software com LLM Offline](./docs/estrategias-valor-software-llm-offline.md) _(Novo: 13 Jan 2026)_ - Relatório estratégico sobre entrega de valor, arquitetura técnica, oportunidades de produto e frameworks para desenvolvedores independentes usando LLMs locais.
