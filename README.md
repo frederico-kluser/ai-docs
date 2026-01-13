@@ -1,3 +1,6 @@
+### 🎲 Design de Jogos e RPG
+
+- [🎲 Guia Definitivo de Mecânicas de RPG em Jogos de Computador](./docs/rpg-mechanics-design-reference-guide.md) _(Novo: 13 Jan 2026)_ - Linha do tempo, pioneiros, sistemas, estúdios e melhores práticas para design de CRPGs e JRPGs.
 ### 🌐 Web, Internet e Mock APIs
 
 - [🟠 Guia Completo do json-server: Mock API REST em 30s](./docs/json-server-complete-guide.md) _(Novo: 13 Jan 2026)_ - Instalação, exemplos, endpoints, dicas e limitações do json-server para prototipagem e testes frontend.
