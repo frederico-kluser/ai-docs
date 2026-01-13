@@ -1,5 +1,8 @@
 ### 🎮 Filosofia e Design de Jogos
 
+- [🧩 Will Wright: Filosofia de Design para Simulação e Programação](./docs/will-wright-design-filosofia-simulacao.md) _(Novo: 13 Jan 2026)_ - Guia sobre software toys, possibility space, feedback, falha e sistemas emergentes para jogos de simulação e puzzles.
+### 🎮 Filosofia e Design de Jogos
+
 - [🎲 Sid Meier: Decisões Interessantes em Jogos](./docs/sid-meier-decisao-interessante-jogos.md) _(Novo: 13 Jan 2026)_ - Guia sobre trade-offs, feedback, flow e design estratégico em puzzles e jogos de programação, inspirado em Civilization e Zachtronics.
 ### 🤖 Inteligência Artificial e LLMs
   
