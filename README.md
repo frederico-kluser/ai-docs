@@ -1,3 +1,13 @@
+# 📚 Guias e Referências Técnicas
+
+- [Masterclass de Técnicas Narrativas de Alan Moore para Escritores](./docs/alan_moore_narrative_techniques.md) — Técnicas, filosofia e exemplos práticos do mestre dos quadrinhos para escritores de qualquer gênero.
+- [Guia Completo: Nano Banana Pro para Criação de Cenas de Jogos 16-bit](./docs/banana-pro.md) — Como usar IA para gerar pixel art e assets de jogos no estilo 16-bit.
+- [Tornando Conversas de LLM Indistinguíveis de Humanos](./docs/conversas-llm-humanas-pesquisa.md) — Pesquisa, técnicas e benchmarks para criar diálogos de IA naturais.
+- [Crafting cyberpunk mythology: A methodology for myths-within-stories](./docs/cyberpunk_mythology_methodology.md) — Metodologia para criar mitologias internas em universos cyberpunk.
+- [How spaces tell stories without words](./docs/environmental_storytelling_guide.md) — Guia de storytelling ambiental para games, arquitetura e experiências imersivas.
+- [Guia completo de estruturas narrativas para games](./docs/estruturas_narrativas_games.md) — Estruturas clássicas e alternativas para narrativa interativa.
+- [Framework para Construção de Civilizações Complexas em Worldbuilding](./docs/framework_civilizacoes_complexas.md) — Ferramentas para criar culturas e sociedades profundas em ficção.
+- [Requisitos de Inferência Local do Qwen3 4B para Dispositivos Móveis](./docs/guia-audio-hyperfocus-produtividade.md) — Especificações, frameworks e dicas para rodar LLMs em smartphones.
 ### 🎲 Design de Jogos e RPG
 
 
