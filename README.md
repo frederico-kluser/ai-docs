@@ -10,8 +10,14 @@
 - [🟠 Guia Completo do json-server: Mock API REST em 30s](./docs/json-server-complete-guide.md) _(Novo: 13 Jan 2026)_ - Instalação, exemplos, endpoints, dicas e limitações do json-server para prototipagem e testes frontend.
 ### 🤖 Inteligência Artificial e LLMs
 
+- [🧮 Redes Neurais Feedforward: Teoria Completa e Implementação em TypeScript](./docs/feedforward-neural-networks-typescript.md) _(Novo: 13 Jan 2026)_ - Teoria matemática e implementação prática de redes neurais feedforward em TypeScript puro para Node.js.
+
+- [📚 Documentação Técnica Definitiva do TensorFlow.js](./docs/tensorflowjs-complete-guide-ptbr.md) _(Novo: 13 Jan 2026)_ - Guia completo sobre TensorFlow.js, cobrindo conceitos, exemplos e melhores práticas para desenvolvimento com a biblioteca.
+
 - [📱 Guia de Inferência Local do Qwen3 4B em Dispositivos Móveis](./docs/qwen3-4b-mobile-inference-guide.md) _(Novo: 13 Jan 2026)_ - Requisitos, benchmarks, quantização e frameworks para rodar Qwen3 4B em iOS e Android com desempenho prático.
 ### 💻 Node.js e Ferramentas CLI
+
+- [🧹 Guia Definitivo do npkill: Limpeza de node_modules](./docs/npkill-guia-definitivo.md) _(Novo: 13 Jan 2026)_ - Como usar o npkill para liberar espaço em disco, exemplos, dicas e automação para projetos Node.js.
 
 - [🟢 Guia Completo do nve: Execução Multi-Versão do Node.js](./docs/nve-node-multiversion-cli-guide.md) _(Novo: 13 Jan 2026)_ - Referência prática para rodar comandos em múltiplas versões do Node.js, sintaxe, exemplos e limitações do utilitário nve.
 
