@@ -38,7 +38,11 @@ referência.
   Comparativo detalhado entre Crawlee, Playwright, Node-Crawler e X-Ray para extração de dados.
 ### 🔒 Desenvolvimento Seguro e Privacidade
 
+
 ### 🤖 Inteligência Artificial e LLMs
+
+- [🎬 Prompt Engineering para Google VEO 3.1: Guia Completo](./docs/google-veo-3.1-prompt-engineering-guide.md) _(Novo: 13 Jan 2026)_ - Guia definitivo de prompt engineering para geração de vídeo com Google VEO 3.1, técnicas POV, chromakey e templates avançados.
+- [🖼️ Geração de Imagens com GPT-Image-1.5 e Node.js: Tutorial Completo](./docs/gpt-image-1.5-nodejs-complete-guide.md) _(Novo: 13 Jan 2026)_ - Tutorial completo para integração do modelo gpt-image-1.5 da OpenAI em Node.js, exemplos de código, produção, custos e melhores práticas.
 
 - [🧠 Gerenciamento de Memória para LLMs Sem RAG: Estratégias e Ferramentas](./docs/llm-memory-strategies-no-rag.md) _(Novo: 13 Jan 2026)_ - Guia completo de estratégias para memória persistente em LLMs sem RAG, incluindo sumarização, buffers, memória estruturada e frameworks de produção.
 - [⚡ Executando LLMs Locais em Electron.js: Guia de Arquitetura e Deploy](./docs/llm-electron-architecture-guide.md) _(Novo: 13 Jan 2026)_ - Arquitetura de produção para rodar LLMs locais em Electron com node-llama-cpp, UtilityProcess, empacotamento de modelos e benchmarks.
@@ -203,7 +207,10 @@ referência.
 
 - [🔍 Anti-Detecção em Automação Web](./docs/browser-automation-frameworks.md) _(Atualizado: 12 Mai 2025)_ - Ferramentas para automação web
   evitando detecção.
+
 ### 🎓 Educação e Pesquisa Acadêmica
+
+- [🧑‍🎨 Guia Completo de Arquétipos de Personagens](./docs/character-archetypes-complete-guide.md) _(Novo: 13 Jan 2026)_ - Guia avançado sobre arquétipos de personagens, frameworks de Jung, Vogler, Pearson, técnicas de subversão e construção profunda para narrativas e jogos.
 
 - [🎬 Guia Completo para Criação de Vídeos Educacionais](./docs/educational-videos-complete-guide.md) _(Novo: 13 Jan 2026)_ - Framework baseado em ciência cognitiva, design instrucional e engajamento para vídeos educacionais de alta qualidade.
 
