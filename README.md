@@ -75,6 +75,7 @@ referência.
   componentes premium, LazyMotion, gestos e práticas de otimização para projetos React.
 ### UNCLASSIFIED
 
+- [💬 Tutorial completo do configurador Giscus.app](./docs/tutorial-configurador-giscus-app.md) _(Novo: 13 Jan 2026)_ - Guia detalhado sobre cada etapa do configurador giscus.app para adicionar comentários via GitHub Discussions em sites estáticos.
 - [🤖 Tutorial Completo: GPT-5.1-Codex-Max com LangChain.js e Zod](./docs/tutorial-gpt5-codex-langchain-zod.md) _(Novo: 13 Jan 2026)_ - Guia prático de integração do GPT-5.1-Codex-Max com LangChain.js, Node.js 24+ e schemas Zod, incluindo exemplos, troubleshooting e melhores práticas para outputs estruturados.
 - [🎮 Will Wright: Complete Game Design Philosophy & Methodology](./docs/will-wright-game-design-philosophy.md) _(Novo: 13 Jan 2026)_ - Compilação definitiva dos princípios, métodos e insights de Will Wright sobre design de jogos, criatividade, possibility space e narrativa emergente.
 - [🧠 Como Disco Elysium transformou texto em mecânica de jogo](./docs/disco-elysium-design-psicologico.md) _(Novo: 13 Jan 2026)_ - Análise do design psicológico, mecânicas de diálogo e sistemas internos de Disco Elysium.
