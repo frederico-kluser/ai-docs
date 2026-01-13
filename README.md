@@ -1,3 +1,6 @@
+### 🤖 Inteligência Artificial e LLMs
+
+- [📱 Guia de Inferência Local do Qwen3 4B em Dispositivos Móveis](./docs/qwen3-4b-mobile-inference-guide.md) _(Novo: 13 Jan 2026)_ - Requisitos, benchmarks, quantização e frameworks para rodar Qwen3 4B em iOS e Android com desempenho prático.
 ### 💻 Node.js e Ferramentas CLI
 
 - [🟢 Guia Completo do nve: Execução Multi-Versão do Node.js](./docs/nve-node-multiversion-cli-guide.md) _(Novo: 13 Jan 2026)_ - Referência prática para rodar comandos em múltiplas versões do Node.js, sintaxe, exemplos e limitações do utilitário nve.
