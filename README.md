@@ -1,5 +1,9 @@
-### 🤖 Inteligência Artificial e LLMs
+### 🎮 Filosofia e Design de Jogos
 
+- [🎲 Sid Meier: Decisões Interessantes em Jogos](./docs/sid-meier-decisao-interessante-jogos.md) _(Novo: 13 Jan 2026)_ - Guia sobre trade-offs, feedback, flow e design estratégico em puzzles e jogos de programação, inspirado em Civilization e Zachtronics.
+### 🤖 Inteligência Artificial e LLMs
+  
+- [🕹️ A Arte de Quebrar a Quarta Parede: O Design Meta-Ficcional de Daniel Mullins](./docs/design-meta-ficcional-daniel-mullins.md) _(Novo: 13 Jan 2026)_ - Análise das técnicas de Daniel Mullins (Pony Island, Inscryption) para design meta-ficcional, quebra da quarta parede e imersão narrativa.
 - [🧑‍💻 Guia de Prompting para GPT-5.1-Codex-Max](./docs/gpt5-codex-max-prompting-guide.md) _(Novo: 13 Jan 2026)_ - Guia oficial e prático para prompts eficientes, paralelização, padrões e armadilhas do modelo Codex-Max.
 ### 🤖 Inteligência Artificial e LLMs
 
