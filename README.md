@@ -1,3 +1,6 @@
+### 📱 Mobile, React Native e IA
+
+- [🍏 Guia Completo: Integração Apple Intelligence/ML em React Native](./docs/react-native-apple-ml-integration-guide.md) _(Novo: 13 Jan 2026)_ - Bibliotecas, arquitetura, Turbo Modules, exemplos e melhores práticas para ML/LLM da Apple em apps React Native.
 ### 🎮 Filosofia e Design de Jogos
 
 - [🎮 Mestres das Mecânicas: História dos Designers de Jogos](./docs/masters-game-mechanics-history.md) _(Novo: 13 Jan 2026)_ - Linha do tempo dos principais inovadores, mecânicas fundacionais, gêneros e sistemas que moldaram o design de jogos moderno.
@@ -17,7 +20,7 @@
 ### 🤖 Inteligência Artificial e LLMs
   
 - [🗣️ Guia: Como Tornar Conversas LLM Indistinguíveis de Humanos](./docs/guia-conversas-llm-humanas.md) _(Novo: 13 Jan 2026)_ - Guia prático e científico para tornar conversas de LLMs indistinguíveis de humanos, com técnicas, prompts, parâmetros e benchmarks.
-- [📚 Documentação Técnica do TensorFlow.js (PT-BR)](./docs/tensorflowjs-complete-guide-ptbr.md) _(Novo: 13 Jan 2026)_ - Guia completo de instalação, uso, APIs, exemplos e melhores práticas para ML no navegador e Node.js.
+- [📚 Documentação Técnica Definitiva do TensorFlow.js](./docs/documentacao-tensorflowjs-completa.md) _(Novo: 13 Jan 2026)_ - Guia completo sobre TensorFlow.js, cobrindo conceitos, exemplos e melhores práticas para desenvolvimento com a biblioteca.
 ### 🤖 Inteligência Artificial e LLMs
 
 - [🗣️ Guia para Conversas LLM Indistinguíveis de Humanos](./docs/llm-human-like-conversation-guide.md) _(Novo: 13 Jan 2026)_ - Técnicas baseadas em psicologia, parâmetros e prompting para tornar diálogos de LLMs mais naturais e convincentes.
@@ -59,3 +62,8 @@ referência.
 - [🎮 Will Wright: Complete Game Design Philosophy & Methodology](./docs/will-wright-game-design-philosophy.md) _(Novo: 13 Jan 2026)_ - Compilação definitiva dos princípios, métodos e insights de Will Wright sobre design de jogos, criatividade, possibility space e narrativa emergente.
 - [🧠 Como Disco Elysium transformou texto em mecânica de jogo](./docs/disco-elysium-design-psicologico.md) _(Novo: 13 Jan 2026)_ - Análise do design psicológico, mecânicas de diálogo e sistemas internos de Disco Elysium.
 - [🎤 Assistente de Voz IA com React Native e Apple Watch](./docs/assistente-voz-ia-react-native.md) _(Novo: 13 Jan 2026)_ - Guia de arquitetura híbrida, integração de áudio, Siri e OpenAI para apps de voz multiplataforma.
+- [🍏 Apple Intelligence developer capabilities: A complete technical reference](./docs/apple-intelligence-developer-reference.md) _(Novo: 13 Jan 2026)_ - Referência técnica completa para desenvolvedores sobre Apple Intelligence, Foundation Models, Core ML, Vision, Natural Language e limitações do watchOS.
+- [⚛️ React Native meets Apple Intelligence: A complete integration guide](./docs/react-native-apple-intelligence-integration.md) _(Novo: 13 Jan 2026)_ - Guia de integração de Apple Intelligence, Foundation Models e ML frameworks no React Native, incluindo bibliotecas, Turbo Modules e melhores práticas.
+- [🛠️ Aider CLI Architecture: A Builder's Technical Reference](./docs/aider-cli-architecture-guide.md) _(Novo: 13 Jan 2026)_ - Guia técnico da arquitetura do Aider CLI, padrões de design, fluxo de dados e estratégias para assistentes de código baseados em IA.
+- [🗣️ Apple Speech-to-Text in React Native: The Complete Implementation Guide](./docs/speech-to-text-react-native-complete-guide.md) _(Novo: 13 Jan 2026)_ - Guia completo de reconhecimento de fala no React Native, incluindo bridges, bibliotecas, módulos nativos e exemplos Swift.
+- [🧮 Redes Neurais Feedforward: Teoria Completa e Implementação em TypeScript](./docs/feedforward-neural-networks-typescript.md) _(Novo: 13 Jan 2026)_ - Teoria matemática e implementação prática de redes neurais feedforward em TypeScript puro para Node.js.
