@@ -1,3 +1,6 @@
+### 🤖 Inteligência Artificial e LLMs
+
+- [🗣️ Guia para Conversas LLM Indistinguíveis de Humanos](./docs/llm-human-like-conversation-guide.md) _(Novo: 13 Jan 2026)_ - Técnicas baseadas em psicologia, parâmetros e prompting para tornar diálogos de LLMs mais naturais e convincentes.
 ### 🎮 Filosofia e Design de Jogos
 
 - [🎮 Will Wright: Complete Game Design Philosophy & Methodology](./docs/will-wright-game-design-philosophy.md) _(Novo: 13 Jan 2026)_ - Compilação definitiva dos princípios, métodos e insights de Will Wright sobre design de jogos, criatividade, possibility space e narrativa emergente.
