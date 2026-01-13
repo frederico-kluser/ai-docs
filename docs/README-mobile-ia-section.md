@@ -1,0 +1,1 @@
+- [🤖 Tutorial Completo: llama.cpp iOS POC](./docs/llama-cpp-ios-tutorial.md) _(Novo: 13 Jan 2026)_ - Guia prático para rodar LLMs localmente no iPhone com llama.cpp, Metal GPU e SwiftUI, incluindo código completo e dicas de performance.
