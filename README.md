@@ -1,3 +1,6 @@
+### 💻 Node.js e Ferramentas CLI
+
+- [🟢 Guia Completo do nve: Execução Multi-Versão do Node.js](./docs/nve-node-multiversion-cli-guide.md) _(Novo: 13 Jan 2026)_ - Referência prática para rodar comandos em múltiplas versões do Node.js, sintaxe, exemplos e limitações do utilitário nve.
 ### 📱 Mobile, React Native e IA
 
 - [🍏 Guia Completo: Integração Apple Intelligence/ML em React Native](./docs/react-native-apple-ml-integration-guide.md) _(Novo: 13 Jan 2026)_ - Bibliotecas, arquitetura, Turbo Modules, exemplos e melhores práticas para ML/LLM da Apple em apps React Native.
