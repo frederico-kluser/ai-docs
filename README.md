@@ -39,6 +39,11 @@ referência.
 ### 🔒 Desenvolvimento Seguro e Privacidade
 
 
+
+### 🧮 Visualização de Aritmética Manual
+
+- [🧮 Simulador visual de aritmética manual: soluções e implementação](./docs/simulador-visual-aritmetica-manual.md) _(Novo: 13 Jan 2026)_ - Guia sobre a ausência de bibliotecas JS para visualização de aritmética manual, análise de alternativas e proposta de solução SVG + Rough.js + GSAP.
+
 ### 🤖 Inteligência Artificial e LLMs
 
 - [🎬 Prompt Engineering para Google VEO 3.1: Guia Completo](./docs/google-veo-3.1-prompt-engineering-guide.md) _(Novo: 13 Jan 2026)_ - Guia definitivo de prompt engineering para geração de vídeo com Google VEO 3.1, técnicas POV, chromakey e templates avançados.

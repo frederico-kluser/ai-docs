@@ -1,4 +1,84 @@
+---
 # Simulador visual de aritmética manual: soluções e implementação
+
+**Não existe uma biblioteca JavaScript pronta** que visualize operações aritméticas passo a passo como humanos fazem no papel, incluindo carry e borrow animados. Esta lacuna representa uma oportunidade para criar algo valioso. A melhor abordagem é construir uma solução customizada usando **SVG + Rough.js + GSAP**, combinando aparência de papel com animações sequenciais controladas por um motor de cálculo separado.
+
+---
+
+## O cenário atual de soluções existentes
+
+Após pesquisa exaustiva em GitHub, NPM, CodePen e plataformas educacionais, **nenhuma biblioteca JavaScript oferece visualização completa de aritmética manual**. Os projetos encontrados cobrem aspectos parciais:
+
+| Projeto | Operações | Carry/Borrow | Animação | Tecnologia |
+|---------|-----------|--------------|----------|------------|
+| NTProductions/simple-long-division | Divisão apenas | ❌ | ❌ | JS puro |
+| pkra/mathjax-extension-longdiv | Divisão (estático) | ❌ | ❌ | MathJax |
+| Khan/perseus | Framework de exercícios | ❌ | ❌ | React |
+| Mathigon libraries | Parser de expressões | ❌ | ✅ | TypeScript |
+| PhET SceneryStack | Framework de simulações | ❌ | ✅ | TypeScript |
+
+O **Graspable Math** (integrado ao GeoGebra) é a referência mais próxima do conceito, oferecendo manipulação dinâmica de notação algébrica com gestos. No entanto, é focado em álgebra, não aritmética básica, e não é open source.
+
+---
+
+## Bibliotecas recomendadas para construção customizada
+
+### Aparência de papel: Rough.js é essencial
+
+**Rough.js** (roughjs.com) cria gráficos com aparência desenhada à mão em **menos de 9KB**. Funciona com Canvas e SVG, perfeito para simular escrita no papel.
+
+```javascript
+import rough from 'roughjs';
+const rc = rough.svg(svgElement);
+// Linha horizontal separadora da operação
+rc.line(10, 100, 200, 100, { strokeWidth: 2, roughness: 0.8 });
+// Retângulo destacando o carry
+rc.rectangle(50, 10, 20, 20, { fill: 'yellow', fillStyle: 'hachure' });
+```
+
+O algoritmo interno randomiza endpoints e adiciona curvatura sutil, criando traços orgânicos. Configurações de `roughness` entre **0.5-1.5** produzem efeito natural sem exagero.
+
+### Animação sequencial: GSAP ou Anime.js
+
+**GSAP** (gsap.com) oferece o melhor controle de timeline para sequenciar passos aritméticos:
+
+```javascript
+gsap.timeline()
+  .to('.digit-6', { opacity: 1, duration: 0.3 })
+  .to('.digit-7', { opacity: 1, duration: 0.3 }, "+=0.2")
+  .to('.carry-indicator', { scale: 1.2, color: 'red', duration: 0.5 })
+  .to('.result-digit', { y: 0, opacity: 1, duration: 0.4 });
+```
+
+**Anime.js** é alternativa mais leve (~6KB) com sintaxe similar. Ambos integram bem com React via refs.
+
+### Framework educacional completo: p5.js + p5.teach.js
+
+Para quem prefere uma abordagem mais estruturada, **p5.teach.js** foi criado especificamente para animações matemáticas educacionais:
+
+- Suporte nativo a TeX/KaTeX para notação matemática
+- Inspirado no Manim (3Blue1Brown)
+- Desenvolvido no Google Summer of Code 2021
+- URL: https://two-ticks.github.io/p5.teach.js/
+
+---
+
+## A escolha técnica: por que SVG supera Canvas aqui
+
+Para visualização de aritmética com **menos de 100 elementos** (dígitos, linhas, símbolos), **SVG é a escolha superior**:
+
+| Fator | SVG ✅ | Canvas |
+|-------|--------|--------|
+| Acessibilidade | Nativa (DOM-based) | Requer ARIA manual |
+| Qualidade de texto | Sempre nítido | Pode ficar fuzzy |
+| Eventos de interação | Built-in por elemento | Cálculo manual de hit-testing |
+| Integração React | Elementos como JSX | Requer refs e useEffect |
+| Debug | Inspecionável no DevTools | Opaco |
+| Animação | CSS transitions funcionam | requestAnimationFrame obrigatório |
+
+Canvas seria preferível apenas para **milhares de partículas** ou efeitos de desenho em tempo real. Rough.js suporta ambos, então a migração é trivial se necessário.
+
+---# Simulador visual de aritmética manual: soluções e implementação
 <!-- Arquivo renomeado para: simulador-visual-aritmetica-manual.md -->
 
 **Não existe uma biblioteca JavaScript pronta** que visualize operações aritméticas passo a passo como humanos fazem no papel, incluindo carry e borrow animados. Esta lacuna representa uma oportunidade para criar algo valioso. A melhor abordagem é construir uma solução customizada usando **SVG + Rough.js + GSAP**, combinando aparência de papel com animações sequenciais controladas por um motor de cálculo separado.
