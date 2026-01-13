@@ -1,10 +1,8 @@
 
 ### 🎲 Design de Jogos e RPG
 
-- [📚 Guia Completo: História das Mecânicas de Jogos por Mestres](./docs/masters-game-mechanics-history.md) _(Novo: 13 Jan 2026)_ - Linha do tempo, pioneiros, sistemas, estúdios e melhores práticas para design de CRPGs e JRPGs.
-- [🧩 Framework MDA: Design, Emoção e Jogos](./docs/mda-framework-design-emocao-jogos.md) _(Novo: 13 Jan 2026)_ - Estrutura formal para conectar mecânicas, dinâmicas e estéticas em jogos de simulação, puzzles e programação, com exemplos de Zachtronics, The Sims e while True: learn().
 
-- [🎲 Guia Definitivo de Mecânicas de RPG em Jogos de Computador](./docs/rpg-mechanics-design-reference-guide.md) _(Novo: 13 Jan 2026)_ - Linha do tempo, pioneiros, sistemas, estúdios e melhores práticas para design de CRPGs e JRPGs.
+  - [🧩 Framework MDA: Mecânicas, Dinâmicas e Estéticas em Jogos](./docs/framework-mda-design-jogos.md) _(Novo: 13 Jan 2026)_ - Análise detalhada do framework MDA aplicado a puzzles de programação, simuladores e jogos educacionais como Zachtronics, The Sims e while True: learn().
 ### 🌐 Web, Internet e Mock APIs
 
 - [🟠 Guia Completo do json-server: Mock API REST em 30s](./docs/json-server-guia-completo.md) _(Novo: 13 Jan 2026)_ - Instalação, exemplos, endpoints, dicas e limitações do json-server para prototipagem e testes frontend.
