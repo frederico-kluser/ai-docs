@@ -59,7 +59,8 @@ referência.
 - [🦾 Estratégias de Valor em Software com LLM Offline](./docs/estrategias-valor-software-llm-offline.md) _(Novo: 13 Jan 2026)_ - Relatório estratégico sobre entrega de valor, arquitetura técnica, oportunidades de produto e frameworks para desenvolvedores independentes usando LLMs locais.
 - [🎬 Prompt Engineering para Google VEO 3.1: Guia Completo](./docs/google-veo-3.1-prompt-engineering-guide.md) _(Novo: 13 Jan 2026)_ - Guia definitivo de prompt engineering para geração de vídeo com Google VEO 3.1, técnicas POV, chromakey e templates avançados.
 - [🖼️ Geração de Imagens com GPT-Image-1.5 e Node.js: Tutorial Completo](./docs/gpt-image-1.5-nodejs-complete-guide.md) _(Novo: 13 Jan 2026)_ - Tutorial completo para integração do modelo gpt-image-1.5 da OpenAI em Node.js, exemplos de código, produção, custos e melhores práticas.
-
+  
+- [🤖 Tutorial Completo: GPT-5.1-Codex-Max com LangChain.js e Zod](./docs/tutorial-gpt5-codex-langchain-zod.md) _(Novo: 13 Jan 2026)_ - Guia prático de integração do GPT-5.1-Codex-Max com LangChain.js, Node.js 24+ e schemas Zod, incluindo exemplos, troubleshooting e melhores práticas para outputs estruturados.
 - [🧠 Gerenciamento de Memória para LLMs Sem RAG: Estratégias e Ferramentas](./docs/llm-memory-strategies-no-rag.md) _(Novo: 13 Jan 2026)_ - Guia completo de estratégias para memória persistente em LLMs sem RAG, incluindo sumarização, buffers, memória estruturada e frameworks de produção.
 - [⚡ Executando LLMs Locais em Electron.js: Guia de Arquitetura e Deploy](./docs/llm-electron-architecture-guide.md) _(Novo: 13 Jan 2026)_ - Arquitetura de produção para rodar LLMs locais em Electron com node-llama-cpp, UtilityProcess, empacotamento de modelos e benchmarks.
 
