@@ -1,3 +1,6 @@
+### 🎮 Filosofia e Design de Jogos
+
+- [🎮 Will Wright: Complete Game Design Philosophy & Methodology](./docs/will-wright-game-design-philosophy.md) _(Novo: 13 Jan 2026)_ - Compilação definitiva dos princípios, métodos e insights de Will Wright sobre design de jogos, criatividade, possibility space e narrativa emergente.
 ### 📝 Tutoriais de Integração LLM
 
 - [📝 Tutorial GPT-5.1-Codex-Max com LangChain.js e Zod](./docs/tutorial-gpt5-codex-langchain-zod.md) _(Novo: 13 Jan 2026)_ - Guia completo para integração do GPT-5.1-Codex-Max com LangChain.js, Node.js 24+ e schemas Zod para outputs estruturados.
