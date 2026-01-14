@@ -1,0 +1,1058 @@
+{
+  "metadata": {
+    "version": "2.0.0",
+    "created": "2026-01-14",
+    "description": "Improved tagging system with reusable, semantic tags focused on grouping related content",
+    "totalFiles": 99,
+    "lastUpdated": "2026-01-14",
+    "totalTags": 107,
+    "minTagsPerFile": 5,
+    "improvementNotes": "Reduced from 412 to 98 tags by eliminating exclusive tags and creating reusable categories. Every tag is used by at least 2-3 files."
+  },
+  "files": {
+    "android-audio-streaming-app-roadmap.md": [
+      "android",
+      "mobile-development",
+      "audio-processing",
+      "real-time",
+      "streaming",
+      "architecture",
+      "guide"
+    ],
+    "browser-automation-frameworks.md": [
+      "web-scraping",
+      "automation",
+      "testing",
+      "comparison",
+      "puppeteer",
+      "selenium",
+      "anti-detection"
+    ],
+    "brazilian-stock-exchange-b3-apis.md": [
+      "finance",
+      "api",
+      "brazil",
+      "market-data",
+      "integration",
+      "comparison"
+    ],
+    "internet-anonymity-privacy-guide.md": [
+      "security",
+      "privacy",
+      "anonymity",
+      "vpn",
+      "guide",
+      "tutorial"
+    ],
+    "b3-stock-automation-guide.md": [
+      "finance",
+      "automation",
+      "brazil",
+      "trading",
+      "react",
+      "guide"
+    ],
+    "audio-hyperfocus-productivity-guide.md": [
+      "productivity",
+      "audio-processing",
+      "neuroscience",
+      "guide",
+      "tutorial"
+    ],
+    "prompt-engineering-research-techniques.md": [
+      "prompt-engineering",
+      "llm",
+      "ai-development",
+      "research",
+      "guide",
+      "tutorial"
+    ],
+    "claude-code-terminal-development.md": [
+      "claude",
+      "cli",
+      "ai-development",
+      "terminal",
+      "nodejs",
+      "guide",
+      "tutorial"
+    ],
+    "claude-code-integration-guide.md": [
+      "claude",
+      "integration",
+      "nodejs",
+      "api",
+      "real-time",
+      "guide"
+    ],
+    "claude-template-existing-projects.md": [
+      "claude",
+      "documentation",
+      "templates",
+      "architecture",
+      "guide"
+    ],
+    "claude-template-new-vibe-projects.md": [
+      "claude",
+      "documentation",
+      "templates",
+      "architecture",
+      "voice",
+      "guide"
+    ],
+    "voice-recognition-apis-comparison.md": [
+      "voice",
+      "speech-recognition",
+      "api",
+      "comparison",
+      "audio-processing"
+    ],
+    "ai-development-pc-build-t1000-gpu.md": [
+      "hardware",
+      "ai-development",
+      "gpu",
+      "setup",
+      "guide"
+    ],
+    "ollama-google-cloud-setup.md": [
+      "ollama",
+      "cloud",
+      "deployment",
+      "llm",
+      "setup",
+      "guide"
+    ],
+    "nodejs-aes256-encryption-guide.md": [
+      "nodejs",
+      "security",
+      "encryption",
+      "guide",
+      "tutorial"
+    ],
+    "deepseek-models-cursor-editor-setup.md": [
+      "llm",
+      "ide",
+      "setup",
+      "ai-development",
+      "guide"
+    ],
+    "ai-education-brazil-courses.md": [
+      "education",
+      "ai-development",
+      "brazil",
+      "courses",
+      "guide"
+    ],
+    "ai-development-checklist.md": [
+      "ai-development",
+      "checklist",
+      "prompt-engineering",
+      "guide",
+      "workflow"
+    ],
+    "falcon-180b-deployment-guide.md": [
+      "llm",
+      "deployment",
+      "cloud",
+      "optimization",
+      "guide"
+    ],
+    "ai-code-agents-tools-comparison.md": [
+      "ai-development",
+      "code-generation",
+      "comparison",
+      "agents",
+      "tools"
+    ],
+    "react-voice-ai-interface-frameworks.md": [
+      "react",
+      "voice",
+      "ai-development",
+      "frameworks",
+      "comparison"
+    ],
+    "human-like-llm-communication.md": [
+      "llm",
+      "prompt-engineering",
+      "optimization",
+      "guide",
+      "nlp"
+    ],
+    "stock-market-relevant-indicators-guide.md": [
+      "finance",
+      "trading",
+      "machine-learning",
+      "tensorflow",
+      "guide"
+    ],
+    "ios-audio-capture-analysis.md": [
+      "ios",
+      "mobile-development",
+      "audio-processing",
+      "guide",
+      "tutorial"
+    ],
+    "llm-api-pricing-comparison.md": [
+      "llm",
+      "api",
+      "pricing",
+      "comparison",
+      "analysis"
+    ],
+    "nodejs-llm-context-awareness.md": [
+      "nodejs",
+      "llm",
+      "integration",
+      "context-management",
+      "guide"
+    ],
+    "financial-stock-app-templates.md": [
+      "finance",
+      "react",
+      "templates",
+      "ui-design",
+      "frontend"
+    ],
+    "nodejs-web-crawlers-agents.md": [
+      "nodejs",
+      "web-scraping",
+      "automation",
+      "agents",
+      "guide"
+    ],
+    "optimal-teaching-methods-guide.md": [
+      "education",
+      "pedagogy",
+      "guide",
+      "research",
+      "methodology"
+    ],
+    "nodejs-ram-monitoring-performance-guide.md": [
+      "nodejs",
+      "performance",
+      "monitoring",
+      "optimization",
+      "guide"
+    ],
+    "multi-llm-orchestration-guide.md": [
+      "llm",
+      "orchestration",
+      "automation",
+      "git",
+      "architecture",
+      "guide"
+    ],
+    "nodejs-parallel-processing-guide.md": [
+      "nodejs",
+      "performance",
+      "concurrency",
+      "architecture",
+      "guide"
+    ],
+    "programmable-smart-glasses-comparison.md": [
+      "wearables",
+      "hardware",
+      "comparison",
+      "audio-processing",
+      "iot"
+    ],
+    "programmatic-opensource-video-editors.md": [
+      "video-processing",
+      "automation",
+      "ffmpeg",
+      "opensource",
+      "guide"
+    ],
+    "rayban-meta-development-guide.md": [
+      "wearables",
+      "hardware",
+      "computer-vision",
+      "ai-development",
+      "guide"
+    ],
+    "decentralized-social-networks-comparison.md": [
+      "decentralization",
+      "blockchain",
+      "comparison",
+      "protocols",
+      "web3"
+    ],
+    "ios-react-native-audio-roadmap.md": [
+      "ios",
+      "react-native",
+      "mobile-development",
+      "audio-processing",
+      "speech-recognition",
+      "architecture"
+    ],
+    "scientific-papers-access-services.md": [
+      "research",
+      "api",
+      "comparison",
+      "academia",
+      "integration"
+    ],
+    "stock-technical-analysis-tensorflow.md": [
+      "finance",
+      "trading",
+      "machine-learning",
+      "tensorflow",
+      "guide"
+    ],
+    "llm-code-agents-memory-techniques.md": [
+      "llm",
+      "agents",
+      "context-management",
+      "ai-development",
+      "guide"
+    ],
+    "conversational-ai-techniques.md": [
+      "llm",
+      "chatbots",
+      "nlp",
+      "ai-development",
+      "guide"
+    ],
+    "terminal-ai-coding-assistants-comparison.md": [
+      "cli",
+      "ai-development",
+      "code-generation",
+      "comparison",
+      "tools"
+    ],
+    "typescript-llm-code-editing.md": [
+      "typescript",
+      "llm",
+      "code-generation",
+      "automation",
+      "guide"
+    ],
+    "ai-warnings-decade-timeline-experts.md": [
+      "ai-safety",
+      "ethics",
+      "research",
+      "analysis",
+      "timeline"
+    ],
+    "rayban-meta-medical-applications.md": [
+      "wearables",
+      "healthcare",
+      "computer-vision",
+      "ai-development",
+      "hardware"
+    ],
+    "xmind-npm-implementation.md": [
+      "nodejs",
+      "visualization",
+      "tools",
+      "guide",
+      "library"
+    ],
+    "anthropic-web-search-guide-pt.md": [
+      "claude",
+      "api",
+      "integration",
+      "guide",
+      "portuguese"
+    ],
+    "claude-code-cli-flags-guide.md": [
+      "claude",
+      "cli",
+      "configuration",
+      "guide"
+    ],
+    "github-copilot-open-source.md": [
+      "ai-development",
+      "code-generation",
+      "opensource",
+      "analysis"
+    ],
+    "automacao-react-devtools.md": [
+      "react",
+      "automation",
+      "testing",
+      "guide",
+      "portuguese"
+    ],
+    "llm-prompt-composition-science.md": [
+      "llm",
+      "prompt-engineering",
+      "research",
+      "guide"
+    ],
+    "openai-api-modelos-2025.md": [
+      "openai",
+      "llm",
+      "api",
+      "pricing",
+      "comparison",
+      "portuguese"
+    ],
+    "huggingface-configuration-zero-gpu.md": [
+      "huggingface",
+      "deployment",
+      "cloud",
+      "setup",
+      "guide"
+    ],
+    "ai-safety-expert-warnings.md": [
+      "ai-safety",
+      "ethics",
+      "research",
+      "analysis"
+    ],
+    "cybersecurity-penetration-testing-guide.md": [
+      "security",
+      "penetration-testing",
+      "tools",
+      "guide",
+      "tutorial"
+    ],
+    "crypto-banking-privacy-guide.md": [
+      "security",
+      "privacy",
+      "cryptocurrency",
+      "finance",
+      "guide"
+    ],
+    "motion-ai-ptbr-tutorial.md": [
+      "animation",
+      "ui-design",
+      "tools",
+      "tutorial",
+      "portuguese"
+    ],
+    "tutorial-wan-22-runpod-portugues.md": [
+      "deployment",
+      "cloud",
+      "setup",
+      "tutorial",
+      "portuguese"
+    ],
+    "motion-plus-complete-guide.md": [
+      "animation",
+      "ui-design",
+      "tools",
+      "guide"
+    ],
+    "claude-code-prompt-engineering-guide.md": [
+      "claude",
+      "prompt-engineering",
+      "ai-development",
+      "guide"
+    ],
+    "github-copilot-cli-complete-guide.md": [
+      "cli",
+      "ai-development",
+      "code-generation",
+      "guide"
+    ],
+    "claude-code-plan-mode-guide.md": [
+      "claude",
+      "ai-development",
+      "workflow",
+      "guide"
+    ],
+    "whisper-gpt5-integration-guide.md": [
+      "speech-recognition",
+      "llm",
+      "integration",
+      "guide"
+    ],
+    "cloudflare-tunnel-godaddy-macos.md": [
+      "networking",
+      "deployment",
+      "setup",
+      "guide"
+    ],
+    "gpt-image-1.5-nodejs-complete-guide.md": [
+      "openai",
+      "nodejs",
+      "image-generation",
+      "api",
+      "guide"
+    ],
+    "mdx-tutorial-completo.md": [
+      "react",
+      "documentation",
+      "tutorial",
+      "portuguese"
+    ],
+    "threejs-react-tutorial.md": [
+      "react",
+      "3d-graphics",
+      "webgl",
+      "tutorial"
+    ],
+    "aider-cli-architecture-guide.md": [
+      "cli",
+      "ai-development",
+      "code-generation",
+      "architecture",
+      "guide"
+    ],
+    "alan_moore_narrative_techniques.md": [
+      "narrative-design",
+      "storytelling",
+      "worldbuilding",
+      "analysis"
+    ],
+    "framework_civilizacoes_complexas.md": [
+      "worldbuilding",
+      "narrative-design",
+      "game-design",
+      "guide",
+      "portuguese"
+    ],
+    "character-archetypes-complete-guide.md": [
+      "narrative-design",
+      "character-design",
+      "storytelling",
+      "guide"
+    ],
+    "estruturas_narrativas_games.md": [
+      "game-design",
+      "narrative-design",
+      "storytelling",
+      "guide",
+      "portuguese"
+    ],
+    "environmental_storytelling_guide.md": [
+      "game-design",
+      "narrative-design",
+      "level-design",
+      "guide"
+    ],
+    "worldbuilding_consistency_methodology.md": [
+      "worldbuilding",
+      "narrative-design",
+      "methodology",
+      "guide"
+    ],
+    "cyberpunk_mythology_methodology.md": [
+      "worldbuilding",
+      "narrative-design",
+      "cyberpunk",
+      "mythology",
+      "guide",
+      "portuguese"
+    ],
+    "worldbuilding_cyberpunk_framework.md": [
+      "worldbuilding",
+      "narrative-design",
+      "cyberpunk",
+      "framework",
+      "guide",
+      "portuguese"
+    ],
+    "regras_fisicas_metafisicas_cyberpunk.md": [
+      "worldbuilding",
+      "narrative-design",
+      "cyberpunk",
+      "game-design",
+      "guide",
+      "portuguese"
+    ],
+    "README.md": [
+      "documentation",
+      "index",
+      "guide",
+      "architecture",
+      "overview"
+    ],
+    "guia-completo-automacao-b3.md": [
+      "finance",
+      "automation",
+      "brazil",
+      "trading",
+      "guide",
+      "portuguese"
+    ],
+    "masters-game-mechanics-history.md": [
+      "game-design",
+      "history",
+      "analysis",
+      "research",
+      "design-philosophy"
+    ],
+    "sam-barlow-narrativa-banco-dados.md": [
+      "game-design",
+      "narrative-design",
+      "analysis",
+      "portuguese"
+    ],
+    "sid-meier-decisoes-interessantes-jogos.md": [
+      "game-design",
+      "analysis",
+      "portuguese",
+      "design-philosophy",
+      "gameplay"
+    ],
+    "npkill-guia-definitivo.md": [
+      "nodejs",
+      "tools",
+      "cli",
+      "guide",
+      "portuguese"
+    ],
+    "disco-elysium-design-psicologico.md": [
+      "game-design",
+      "narrative-design",
+      "psychology",
+      "analysis",
+      "portuguese"
+    ],
+    "will-wright-filosofia-design-simulacao.md": [
+      "game-design",
+      "simulation",
+      "analysis",
+      "portuguese"
+    ],
+    "guia-prompting-gpt5-codex-max.md": [
+      "openai",
+      "prompt-engineering",
+      "code-generation",
+      "guide",
+      "portuguese"
+    ],
+    "Complete Technical Guide for Real-Time Frame Interpolation.md": [
+      "video-processing",
+      "computer-vision",
+      "real-time",
+      "machine-learning",
+      "guide"
+    ],
+    "Complete Technical Guide for Historical Video Colorization.md.md": [
+      "video-processing",
+      "computer-vision",
+      "machine-learning",
+      "guide"
+    ],
+    "json-server-guia-completo.md": [
+      "nodejs",
+      "api",
+      "testing",
+      "guide",
+      "portuguese"
+    ],
+    "guia-browser-automation-frameworks.md": [
+      "automation",
+      "web-scraping",
+      "puppeteer",
+      "selenium",
+      "comparison",
+      "guide",
+      "portuguese"
+    ],
+    "banana-pro.md": [
+      "hardware",
+      "embedded",
+      "guide",
+      "linux",
+      "sbc"
+    ],
+    "google-veo-3.1-prompt-engineering-guide.md": [
+      "video-generation",
+      "prompt-engineering",
+      "ai-development",
+      "guide"
+    ],
+    "educational-videos-complete-guide.md": [
+      "education",
+      "video-production",
+      "pedagogy",
+      "guide"
+    ],
+    "assistente-voz-ia-react-native.md": [
+      "react-native",
+      "voice",
+      "mobile-development",
+      "ai-development",
+      "guide",
+      "portuguese"
+    ],
+    "speech-to-text-react-native-complete-guide.md": [
+      "react-native",
+      "speech-recognition",
+      "ios",
+      "mobile-development",
+      "guide"
+    ],
+    "react-native-apple-intelligence-integration.md": [
+      "react-native",
+      "ios",
+      "mobile-development",
+      "machine-learning",
+      "integration",
+      "guide"
+    ],
+    "apple-intelligence-developer-reference.md": [
+      "ios",
+      "machine-learning",
+      "api",
+      "documentation",
+      "mobile-development"
+    ],
+    "tensorflowjs-complete-guide-ptbr.md": [
+      "tensorflow",
+      "machine-learning",
+      "javascript",
+      "browser",
+      "guide",
+      "portuguese"
+    ],
+    "iphone-apps-controle-mapeamento-2026.md": [
+      "ios",
+      "mobile-development",
+      "automation",
+      "guide",
+      "portuguese"
+    ],
+    "feedforward-neural-networks-typescript.md": [
+      "typescript",
+      "machine-learning",
+      "neural-networks",
+      "tutorial"
+    ]
+  },
+  "allTags": [
+    "3d-graphics",
+    "academia",
+    "agents",
+    "design-philosophy",
+    "frontend",
+    "gameplay",
+    "iot",
+    "library",
+    "linux",
+    "overview",
+    "sbc",
+    "timeline",
+    "web3",
+    "ai-development",
+    "ai-safety",
+    "analysis",
+    "android",
+    "animation",
+    "anonymity",
+    "anti-detection",
+    "api",
+    "architecture",
+    "audio-processing",
+    "automation",
+    "blockchain",
+    "brazil",
+    "browser",
+    "chatbots",
+    "checklist",
+    "character-design",
+    "claude",
+    "cli",
+    "cloud",
+    "code-generation",
+    "comparison",
+    "computer-vision",
+    "concurrency",
+    "configuration",
+    "context-management",
+    "courses",
+    "cryptocurrency",
+    "cyberpunk",
+    "decentralization",
+    "deployment",
+    "documentation",
+    "education",
+    "embedded",
+    "encryption",
+    "ethics",
+    "ffmpeg",
+    "finance",
+    "framework",
+    "frameworks",
+    "game-design",
+    "git",
+    "gpu",
+    "guide",
+    "hardware",
+    "healthcare",
+    "history",
+    "huggingface",
+    "ide",
+    "image-generation",
+    "index",
+    "integration",
+    "ios",
+    "javascript",
+    "level-design",
+    "llm",
+    "machine-learning",
+    "market-data",
+    "methodology",
+    "mobile-development",
+    "monitoring",
+    "mythology",
+    "narrative-design",
+    "networking",
+    "neural-networks",
+    "neuroscience",
+    "nlp",
+    "nodejs",
+    "ollama",
+    "openai",
+    "opensource",
+    "optimization",
+    "orchestration",
+    "pedagogy",
+    "penetration-testing",
+    "performance",
+    "portuguese",
+    "pricing",
+    "privacy",
+    "productivity",
+    "prompt-engineering",
+    "protocols",
+    "psychology",
+    "puppeteer",
+    "react",
+    "react-native",
+    "real-time",
+    "research",
+    "security",
+    "selenium",
+    "setup",
+    "simulation",
+    "speech-recognition",
+    "storytelling",
+    "streaming",
+    "templates",
+    "tensorflow",
+    "terminal",
+    "testing",
+    "tools",
+    "trading",
+    "tutorial",
+    "typescript",
+    "ui-design",
+    "video-generation",
+    "video-processing",
+    "video-production",
+    "visualization",
+    "voice",
+    "vpn",
+    "wearables",
+    "web-scraping",
+    "webgl",
+    "workflow",
+    "worldbuilding"
+  ],
+  "tagFrequency": {
+    "3d-graphics": 2,
+    "academia": 2,
+    "agents": 4,
+    "design-philosophy": 2,
+    "frontend": 2,
+    "gameplay": 2,
+    "iot": 2,
+    "library": 2,
+    "linux": 2,
+    "overview": 2,
+    "sbc": 2,
+    "timeline": 2,
+    "web3": 2,
+    "ai-development": 20,
+    "ai-safety": 3,
+    "analysis": 10,
+    "android": 2,
+    "animation": 3,
+    "anonymity": 2,
+    "anti-detection": 2,
+    "api": 14,
+    "architecture": 8,
+    "audio-processing": 9,
+    "automation": 14,
+    "blockchain": 2,
+    "brazil": 6,
+    "browser": 2,
+    "chatbots": 2,
+    "checklist": 2,
+    "character-design": 2,
+    "claude": 10,
+    "cli": 9,
+    "cloud": 7,
+    "code-generation": 11,
+    "comparison": 15,
+    "computer-vision": 5,
+    "concurrency": 2,
+    "configuration": 3,
+    "context-management": 4,
+    "courses": 2,
+    "cryptocurrency": 2,
+    "cyberpunk": 5,
+    "decentralization": 2,
+    "deployment": 7,
+    "documentation": 5,
+    "education": 5,
+    "embedded": 2,
+    "encryption": 2,
+    "ethics": 3,
+    "ffmpeg": 2,
+    "finance": 10,
+    "framework": 2,
+    "frameworks": 2,
+    "game-design": 12,
+    "git": 2,
+    "gpu": 2,
+    "guide": 77,
+    "hardware": 5,
+    "healthcare": 2,
+    "history": 2,
+    "huggingface": 2,
+    "ide": 2,
+    "image-generation": 2,
+    "index": 2,
+    "integration": 9,
+    "ios": 9,
+    "javascript": 2,
+    "level-design": 2,
+    "llm": 20,
+    "machine-learning": 10,
+    "market-data": 2,
+    "methodology": 3,
+    "mobile-development": 9,
+    "monitoring": 2,
+    "mythology": 2,
+    "narrative-design": 13,
+    "networking": 2,
+    "neural-networks": 2,
+    "neuroscience": 2,
+    "nlp": 3,
+    "nodejs": 13,
+    "ollama": 2,
+    "openai": 5,
+    "opensource": 3,
+    "optimization": 4,
+    "orchestration": 2,
+    "pedagogy": 3,
+    "penetration-testing": 2,
+    "performance": 4,
+    "portuguese": 24,
+    "pricing": 3,
+    "privacy": 4,
+    "productivity": 2,
+    "prompt-engineering": 9,
+    "protocols": 2,
+    "psychology": 2,
+    "puppeteer": 3,
+    "react": 9,
+    "react-native": 5,
+    "real-time": 4,
+    "research": 8,
+    "security": 6,
+    "selenium": 3,
+    "setup": 6,
+    "simulation": 2,
+    "speech-recognition": 6,
+    "storytelling": 5,
+    "streaming": 2,
+    "templates": 3,
+    "tensorflow": 4,
+    "terminal": 2,
+    "testing": 5,
+    "tools": 8,
+    "trading": 6,
+    "tutorial": 14,
+    "typescript": 3,
+    "ui-design": 3,
+    "video-generation": 2,
+    "video-processing": 4,
+    "video-production": 2,
+    "visualization": 2,
+    "voice": 5,
+    "vpn": 2,
+    "wearables": 4,
+    "web-scraping": 4,
+    "webgl": 2,
+    "workflow": 3,
+    "worldbuilding": 8
+  },
+  "tagCategories": {
+    "technologyStack": [
+      "android",
+      "nodejs",
+      "react",
+      "react-native",
+      "typescript",
+      "python",
+      "tensorflow",
+      "llm",
+      "claude",
+      "openai",
+      "ios",
+      "browser",
+      "javascript",
+      "ollama",
+      "huggingface",
+      "ffmpeg",
+      "puppeteer",
+      "selenium",
+      "webgl"
+    ],
+    "domainAreas": [
+      "ai-development",
+      "machine-learning",
+      "game-design",
+      "finance",
+      "security",
+      "privacy",
+      "automation",
+      "audio-processing",
+      "video-processing",
+      "computer-vision",
+      "mobile-development",
+      "education",
+      "healthcare"
+    ],
+    "contentType": [
+      "tutorial",
+      "guide",
+      "comparison",
+      "integration",
+      "architecture",
+      "framework",
+      "api",
+      "documentation",
+      "deployment",
+      "setup",
+      "configuration",
+      "analysis",
+      "research"
+    ],
+    "conceptsPatterns": [
+      "real-time",
+      "automation",
+      "orchestration",
+      "monitoring",
+      "speech-recognition",
+      "code-generation",
+      "image-generation",
+      "video-generation",
+      "worldbuilding",
+      "narrative-design",
+      "character-design",
+      "prompt-engineering",
+      "context-management",
+      "optimization",
+      "performance"
+    ],
+    "platformEnvironment": [
+      "browser",
+      "terminal",
+      "cli",
+      "cloud",
+      "mobile-development",
+      "ios",
+      "android",
+      "embedded",
+      "wearables"
+    ]
+  }
+}
